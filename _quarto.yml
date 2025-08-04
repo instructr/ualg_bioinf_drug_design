@@ -35,7 +35,7 @@ website:
     left: "Copyright 2025, Isabel Duarte" 
     right: 
       - icon: github
-        href: https://github.com/instructr/ualg.bioin.drug.design
+        href: https://github.com/instructr/ualg_bioinf_drug_design
     background: light
 
 format:
