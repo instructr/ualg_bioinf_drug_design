@@ -1,0 +1,9 @@
+---
+title: "Calendar"
+format: html
+editor: source
+---
+
+The scheduled classes for this curse in 2025 are: 
+
+<iframe src="https://calendar.google.com/calendar/embed?src=af6b6c14ea47c04d518c34e9268bc239cef29f98f38e9d5afc36d5290fda42f9%40group.calendar.google.com&ctz=Europe%2FLisbon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
