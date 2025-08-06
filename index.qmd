@@ -11,9 +11,10 @@ output: html_document
 This 7-week module introduces bioinformatics concepts and tools relevant for pharmaceutical sciences. Students will gain hands-on experience with public databases and online tools to retrieve, analyse, and interpret genomic, proteomic, and transcriptomic data.
 
 **Format**:  
-- 1 hour theoretical lecture  
-- 2 hours computer-based theoretical–practical class  
-- 1 class per week
+
+- Weekly: 1-hour theory class + 1.5-hour practical class (repeated for 2 student groups).
+- Each week focuses on one theme, covered in both theory and practical sessions.
+
 
 **Target audience**: Pharmacy students with basic knowledge in molecular biology and genetics.
 
