@@ -39,7 +39,7 @@
     "href": "week1.html",
     "title": "Week 1 | TBA",
     "section": "",
-    "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
+    "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA"
   },
   {
     "objectID": "week2.html",
@@ -89,5 +89,26 @@
     "title": "Contact me",
     "section": "",
     "text": "Feel free to reach out if you need assistance with these training materials, or just to say hi!\n\nLoading…\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "week1.html#primary-databases",
+    "href": "week1.html#primary-databases",
+    "title": "Week 1 | TBA",
+    "section": "Primary Databases",
+    "text": "Primary Databases\n\nStore original and unprocessed data from experiments.\nExamples: GenBank (nucleotide sequences), EMBL-EBI (European Nucleotide Archive), DDBJ (DNA Data Bank of Japan), Protein Data Bank (PDB) (3D protein structures), and GEO (gene expression).\nData is archival and serves as the scientific record, maintaining the integrity of experimental data."
+  },
+  {
+    "objectID": "week1.html#secondary-databases",
+    "href": "week1.html#secondary-databases",
+    "title": "Week 1 | TBA",
+    "section": "Secondary Databases",
+    "text": "Secondary Databases\n\nContain information derived by analyzing, annotating, and curating data from primary databases.\nExamples: UniProt (protein sequences and functional information), Pfam (protein families), PROSITE (protein domains and motifs), InterPro (integrative protein data), and CATH (protein structures).\nData includes interpretations, predictions, and functional annotations which enrich biological context and usability for researchers."
+  },
+  {
+    "objectID": "week1.html#comparison-table",
+    "href": "week1.html#comparison-table",
+    "title": "Week 1 | TBA",
+    "section": "Comparison Table",
+    "text": "Comparison Table\n\n\n\n\n\n\n\n\nCategory\nPrimary Database\nSecondary Database\n\n\n\n\nData\nRaw, experimental\nProcessed, curated, interpreted\n\n\nSource\nDirect experiment/researcher input\nAnalysis of primary database data\n\n\nExamples\nGenBank, PDB, EMBL-EBI, DDBJ\nUniProt, Pfam, PROSITE, InterPro\n\n\nFunction\nArchival record\nAdds annotations and context\n\n\nModification\nData not altered\nData is analyzed, can be modified\n\n\n\nThese two types of databases are fundamental to bioinformatics, working together to organize, preserve, and interpret biological data for research and discovery.\n\n\nReferences\nThis content was adapted from EBI’s “Bioinformatics for the terrified: An introduction to the science of bioinformatics”"
   }
 ]

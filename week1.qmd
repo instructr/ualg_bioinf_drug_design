@@ -10,3 +10,50 @@ title: "Week 1 | TBA"
 
 </br>
 
+# What is bioinformatics
+
+Bioinformatics is the interdisciplinary science of managing and analysing biological data. First coined by Dutch theoretical biologist Paulien Hogeweg and Ben Hesper in the 1970's to describe 'informatic processes in biotic systems', it began with sequence analysis but now also includes modelling, image analysis, and comparison of both linear sequences and 3D structures (Fig. 1).
+
+![Figure 1: Overview of the data types in bioinformatics: originally centered on sequence data, now expanded to include structural, chemical, and systems biology. (From: <https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/>)](figs/biology_data.jpg){width="70%"}
+
+
+
+
+# What are primary and secondary databases in bioinformatics?
+
+**Primary databases** in bioinformatics are repositories that store **raw, unprocessed biological data** generated directly from experimental methods, such as nucleotide sequences, protein sequences, and macromolecular structures. 
+
+**Secondary databases** provide **curated, processed, or interpreted data** that is derived from the analysis, annotation, or combination of diverse sources of primary data, offering functional insights and higher-level biological context.
+
+## Primary Databases
+
+- Store original and unprocessed data from experiments.
+- Examples: **GenBank** (nucleotide sequences), **EMBL-EBI** (European Nucleotide Archive), **DDBJ** (DNA Data Bank of Japan), **Protein Data Bank (PDB)** (3D protein structures), and **GEO** (gene expression).
+- Data is archival and serves as the scientific record, maintaining the integrity of experimental data.
+
+
+## Secondary Databases
+
+- Contain information derived by analyzing, annotating, and curating data from primary databases.
+- Examples: **UniProt** (protein sequences and functional information), **Pfam** (protein families), **PROSITE** (protein domains and motifs), **InterPro** (integrative protein data), and **CATH** (protein structures).
+- Data includes interpretations, predictions, and functional annotations which enrich biological context and usability for researchers.
+
+
+## Comparison Table
+
+| Category | Primary Database | Secondary Database |
+| :-- | :-- | :-- |
+| Data | Raw, experimental | Processed, curated, interpreted |
+| Source | Direct experiment/researcher input | Analysis of primary database data |
+| Examples | GenBank, PDB, EMBL-EBI, DDBJ | UniProt, Pfam, PROSITE, InterPro |
+| Function | Archival record | Adds annotations and context |
+| Modification | Data not altered | Data is analyzed, can be modified |
+
+
+These two types of databases are fundamental to bioinformatics, working together to organize, preserve, and interpret biological data for research and discovery.
+
+----
+
+#### References
+
+This content was adapted from EBI's ["Bioinformatics for the terrified: An introduction to the science of bioinformatics"](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/)
