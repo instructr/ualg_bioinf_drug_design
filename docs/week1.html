@@ -163,13 +163,29 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-bioinformatics" id="toc-what-is-bioinformatics" class="nav-link active" data-scroll-target="#what-is-bioinformatics">What is bioinformatics</a></li>
-  <li><a href="#what-are-primary-and-secondary-databases-in-bioinformatics" id="toc-what-are-primary-and-secondary-databases-in-bioinformatics" class="nav-link" data-scroll-target="#what-are-primary-and-secondary-databases-in-bioinformatics">What are primary and secondary databases in bioinformatics?</a>
+  <li><a href="#what-is-bioinformatics" id="toc-what-is-bioinformatics" class="nav-link active" data-scroll-target="#what-is-bioinformatics">1. What is bioinformatics?</a></li>
+  <li><a href="#who-uses-bioinformatics" id="toc-who-uses-bioinformatics" class="nav-link" data-scroll-target="#who-uses-bioinformatics">2. Who uses bioinformatics?</a>
   <ul class="collapse">
-  <li><a href="#primary-databases" id="toc-primary-databases" class="nav-link" data-scroll-target="#primary-databases">Primary Databases</a></li>
-  <li><a href="#secondary-databases" id="toc-secondary-databases" class="nav-link" data-scroll-target="#secondary-databases">Secondary Databases</a></li>
-  <li><a href="#comparison-table" id="toc-comparison-table" class="nav-link" data-scroll-target="#comparison-table">Comparison Table</a></li>
+  <li><a href="#bioinformatics-in-drug-discovery" id="toc-bioinformatics-in-drug-discovery" class="nav-link" data-scroll-target="#bioinformatics-in-drug-discovery">2.1 Bioinformatics in drug discovery</a></li>
   </ul></li>
+  <li><a href="#the-role-of-public-databases" id="toc-the-role-of-public-databases" class="nav-link" data-scroll-target="#the-role-of-public-databases">3. The role of public databases</a></li>
+  <li><a href="#making-data-useful" id="toc-making-data-useful" class="nav-link" data-scroll-target="#making-data-useful">4. Making data useful</a>
+  <ul class="collapse">
+  <li><a href="#primary-vs-secondary-databases" id="toc-primary-vs-secondary-databases" class="nav-link" data-scroll-target="#primary-vs-secondary-databases">4.1 Primary vs Secondary databases</a></li>
+  <li><a href="#primary-databases" id="toc-primary-databases" class="nav-link" data-scroll-target="#primary-databases">4.2 Primary databases</a></li>
+  <li><a href="#secondary-databases" id="toc-secondary-databases" class="nav-link" data-scroll-target="#secondary-databases">4.3 Secondary databases</a></li>
+  <li><a href="#comparison-table" id="toc-comparison-table" class="nav-link" data-scroll-target="#comparison-table">4.4 Comparison table</a></li>
+  <li><a href="#hybrid-databases" id="toc-hybrid-databases" class="nav-link" data-scroll-target="#hybrid-databases">4.5 Hybrid databases</a></li>
+  <li><a href="#molecular-databases-per-data-type" id="toc-molecular-databases-per-data-type" class="nav-link" data-scroll-target="#molecular-databases-per-data-type">4.6 Molecular databases per data type</a></li>
+  </ul></li>
+  <li><a href="#bioinformatics-as-an-experimental-science" id="toc-bioinformatics-as-an-experimental-science" class="nav-link" data-scroll-target="#bioinformatics-as-an-experimental-science">5. Bioinformatics as an experimental science</a>
+  <ul class="collapse">
+  <li><a href="#searching" id="toc-searching" class="nav-link" data-scroll-target="#searching">5.1 Searching</a></li>
+  <li><a href="#comparing" id="toc-comparing" class="nav-link" data-scroll-target="#comparing">5.2 Comparing</a></li>
+  <li><a href="#modelling" id="toc-modelling" class="nav-link" data-scroll-target="#modelling">5.3 Modelling</a></li>
+  <li><a href="#integrating" id="toc-integrating" class="nav-link" data-scroll-target="#integrating">5.4 Integrating</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -205,49 +221,79 @@ Class Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>📅 <strong>Date:</strong> 2025<br>
-📖 <strong>Synopsis:</strong> TBA</p>
+<p>📅 <strong>Date:</strong> September 2025<br>
+📖 <strong>Synopsis:</strong> Introduction to Bioinformatics and Biological Databases</p>
 </div>
 </div>
 <p><br></p>
 <section id="what-is-bioinformatics" class="level1">
-<h1>What is bioinformatics</h1>
+<h1>1. What is bioinformatics?</h1>
 <p>Bioinformatics is the interdisciplinary science of managing and analysing biological data. First coined by Dutch theoretical biologist Paulien Hogeweg and Ben Hesper in the 1970’s to describe ‘informatic processes in biotic systems’, it began with sequence analysis but now also includes modelling, image analysis, and comparison of both linear sequences and 3D structures (Fig. 1).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="figs/biology_data.jpg" class="img-fluid figure-img" style="width:70.0%"></p>
-<figcaption>Figure 1: Overview of the data types in bioinformatics: originally centered on sequence data, now expanded to include structural, chemical, and systems biology. (From: <a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/" class="uri">https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/</a>)</figcaption>
+<figcaption>Figure 1: Overview of the data types in bioinformatics: originally centered on sequence data, now expanded to include structural, chemical, and systems biology. (From: <a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified" class="uri">https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified</a>)</figcaption>
 </figure>
 </div>
 </section>
-<section id="what-are-primary-and-secondary-databases-in-bioinformatics" class="level1">
-<h1>What are primary and secondary databases in bioinformatics?</h1>
-<p><strong>Primary databases</strong> in bioinformatics are repositories that store <strong>raw, unprocessed biological data</strong> generated directly from experimental methods, such as nucleotide sequences, protein sequences, and macromolecular structures.</p>
-<p><strong>Secondary databases</strong> provide <strong>curated, processed, or interpreted data</strong> that is derived from the analysis, annotation, or combination of diverse sources of primary data, offering functional insights and higher-level biological context.</p>
+<section id="who-uses-bioinformatics" class="level1">
+<h1>2. Who uses bioinformatics?</h1>
+<p>Molecular life sciences are now strongly data-driven and rely on open-access databases in both basic and applied research.</p>
+<p>You do not need to be a bioinformatician to use bioinformatics databases, methods, and tools. However, as large datasets become central to biomedical and pharmaceutical research, it is increasingly important for all molecular life scientists to understand both the possibilities and the limits of bioinformatics, and to collaborate with bioinformatics experts in designing, analysing, and interpreting experiments.</p>
+<section id="bioinformatics-in-drug-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="bioinformatics-in-drug-discovery">2.1 Bioinformatics in drug discovery</h2>
+<p>This is equally true in the <strong>pharmaceutical sciences</strong>, where bioinformatics supports <strong>drug discovery, biomarker development, and precision medicine</strong>.<br>
+For example, bioinformatics is used to:<br>
+- Identify and validate potential <strong>drug targets</strong> by integrating genomic, transcriptomic, and proteomic data.<br>
+- Discover and evaluate <strong>biomarkers</strong> for diagnosis, prognosis, and treatment response.<br>
+- Apply <strong>precision medicine</strong> approaches, matching patients to therapies based on their molecular profiles.<br>
+- Support <strong>drug repurposing</strong> by linking existing compounds to new disease indications.</p>
+</section>
+</section>
+<section id="the-role-of-public-databases" class="level1">
+<h1>3. The role of public databases</h1>
+<p>A few bioinformatics centres of excellence worldwide are responsible for collecting, organising, and providing open access to published biological data. Key centres include:</p>
+<ul>
+<li><a href="https://www.ebi.ac.uk">EMBL-European Bioinformatics Institute</a> (EMBL-EBI)</li>
+<li><a href="http://www.ncbi.nlm.nih.gov">US National Center for Biotechnology Information</a> (NCBI)</li>
+<li><a href="https://www.nig.ac.jp/nig">National Institute of Genetics in Japan</a> (NIG)</li>
+</ul>
+<p>This work began in the early 1980s, when DNA sequence data started to accumulate in scientific publications. To manage this, the <a href="https://www.ebi.ac.uk/ena">ENA - European Nucleotide Archive</a>) was created, as well as the <a href="https://www.ncbi.nlm.nih.gov/genbank">GenBank</a> at NCBI, and <a href="https://www.ddbj.nig.ac.jp">DDBJ</a> at NIG.</p>
+<p><strong>Who owns the data?</strong> From the start, the bioinformatics community has promoted open data sharing and made it a reality through international collaborations, for example:</p>
+<ul>
+<li>For nucleotide sequences: <a href="https://www.insdc.org">International Sequence Database Collaboration</a>;</li>
+<li>For protein sequences: <a href="https://www.uniprot.org">UniProt Consortium</a>;</li>
+<li>For macromulecular structures: <a href="https://www.wwpdb.org">Worldwide Protein Data Bank</a>.</li>
+</ul>
+<p>This openness has allowed researchers to fully benefit from large-scale projects such as the <a href="https://en.wikipedia.org/wiki/Human_Genome_Project">Human Genome Project</a> and <a href="https://www.encodeproject.org">The Encyclopedia of DNA Elements (ENCODE)</a>. Importantly, open sharing is not limited to big collaborations. Increasingly, funding policies reflect the principle that if research is publicly funded, the resulting data should also be made publicly accessible for others to use.</p>
+</section>
+<section id="making-data-useful" class="level1">
+<h1>4. Making data useful</h1>
+<p>Open access is only the first step. For data to be truly useful, it must also be <strong>recorded and organised</strong> in a way that supports consistent interpretation and reuse. This is where the distinction between primary and secondary databases becomes important.</p>
+<section id="primary-vs-secondary-databases" class="level2">
+<h2 class="anchored" data-anchor-id="primary-vs-secondary-databases">4.1 Primary vs Secondary databases</h2>
+<p><strong>Primary databases</strong> in bioinformatics are repositories that store <strong>raw, unprocessed biological data</strong> generated directly from experimental methods, such as nucleotide sequences, protein sequences, and macromolecular structures. Once given a database accession number, the data in primary databases are never changed: they form part of the scientific record.</p>
+<p><strong>Secondary databases</strong> comprise data derived from the results of analysing primary data. They provide <strong>curated, processed, or interpreted data</strong> that is derived from the combination of diverse sources of primary data, offering functional insights and higher-level biological context, to derive new knowledge from the public record of science. <em>Secondary databases have become the molecular biologist’s reference library</em>, offering extensive information on nearly every studied gene or gene product. Although often overwhelming, these resources hold enormous potential for discovery through data mining.</p>
+</section>
 <section id="primary-databases" class="level2">
-<h2 class="anchored" data-anchor-id="primary-databases">Primary Databases</h2>
+<h2 class="anchored" data-anchor-id="primary-databases">4.2 Primary databases</h2>
 <ul>
 <li>Store original and unprocessed data from experiments.</li>
-<li>Examples: <strong>GenBank</strong> (nucleotide sequences), <strong>EMBL-EBI</strong> (European Nucleotide Archive), <strong>DDBJ</strong> (DNA Data Bank of Japan), <strong>Protein Data Bank (PDB)</strong> (3D protein structures), and <strong>GEO</strong> (gene expression).</li>
+<li>Examples: <strong>ENA</strong> (European Nucleotide Archive), <strong>GenBank</strong> (nucleotide sequences), <strong>Protein Data Bank (PDB)</strong> (3D protein structures), <strong>ArrayExpress</strong> (gene expression).</li>
 <li>Data is archival and serves as the scientific record, maintaining the integrity of experimental data.</li>
 </ul>
 </section>
 <section id="secondary-databases" class="level2">
-<h2 class="anchored" data-anchor-id="secondary-databases">Secondary Databases</h2>
+<h2 class="anchored" data-anchor-id="secondary-databases">4.3 Secondary databases</h2>
 <ul>
 <li>Contain information derived by analyzing, annotating, and curating data from primary databases.</li>
-<li>Examples: <strong>UniProt</strong> (protein sequences and functional information), <strong>Pfam</strong> (protein families), <strong>PROSITE</strong> (protein domains and motifs), <strong>InterPro</strong> (integrative protein data), and <strong>CATH</strong> (protein structures).</li>
+<li>Examples: <strong>InterPro</strong> (protein families, integrative protein data), <strong>UniProt</strong> (protein sequences and functional information).</li>
 <li>Data includes interpretations, predictions, and functional annotations which enrich biological context and usability for researchers.</li>
 </ul>
 </section>
 <section id="comparison-table" class="level2">
-<h2 class="anchored" data-anchor-id="comparison-table">Comparison Table</h2>
+<h2 class="anchored" data-anchor-id="comparison-table">4.4 Comparison table</h2>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Category</th>
@@ -268,8 +314,8 @@ Class Details
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Examples</td>
-<td style="text-align: left;">GenBank, PDB, EMBL-EBI, DDBJ</td>
-<td style="text-align: left;">UniProt, Pfam, PROSITE, InterPro</td>
+<td style="text-align: left;"><a href="https://www.ebi.ac.uk/ena">ENA</a>, <a href="https://www.ncbi.nlm.nih.gov/genbank/">GenBank</a> and <a href="https://www.ddbj.nig.ac.jp">DDBJ</a> (nucleotide sequence); <a href="https://www.ebi.ac.uk/biostudies/arrayexpress">ArrayExpress</a> and <a href="https://www.ncbi.nlm.nih.gov/geo">GEO</a> (functional genomics data); <a href="https://www.ebi.ac.uk/pdbe">PDB</a> (3D macromolecular structures)</td>
+<td style="text-align: left;"><a href="https://www.uniprot.org">UniProt</a> (sequence and functional information on proteins); <a href="https://www.ensembl.org">Ensembl</a> (variation, function, regulation and more layered onto whole genome sequences); <a href="https://www.ebi.ac.uk/interpro">InterPro</a> (protein families, motifs and domains)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Function</td>
@@ -283,15 +329,113 @@ Class Details
 </tr>
 </tbody>
 </table>
-<p>These two types of databases are fundamental to bioinformatics, working together to organize, preserve, and interpret biological data for research and discovery.</p>
+<p>These two types of databases are fundamental to bioinformatics, working together to <strong>organize, preserve, and interpret biological data</strong> for research and discovery.</p>
+</section>
+<section id="hybrid-databases" class="level2">
+<h2 class="anchored" data-anchor-id="hybrid-databases">4.5 Hybrid databases</h2>
+<p>Some databases combine both primary and secondary features. For example, <a href="https://www.uniprot.org">UniProt</a> holds experimental peptide sequences but also infers sequences and adds extensive automated (TrEMBL) and manual (SwissProt) annotations. Others separate the two functions into different branches, such as <a href="https://www.ebi.ac.uk/biostudies/arrayexpress">ArrayExpress</a> (raw functional genomics data) and the <a href="https://www.ebi.ac.uk/gxa/home">Expression Atlas</a> (derived expression patterns).</p>
+</section>
+<section id="molecular-databases-per-data-type" class="level2">
+<h2 class="anchored" data-anchor-id="molecular-databases-per-data-type">4.6 Molecular databases per data type</h2>
+<p>Bioinformatics spans many different types of biological data, each with its own uses:<br>
+- <strong>Genomic data</strong>: DNA sequences, variants, and structural alterations.<br>
+- <strong>Transcriptomic data</strong>: RNA expression and splicing patterns.<br>
+- <strong>Proteomic data</strong>: protein expression, modifications, and interactions.<br>
+- <strong>Metabolomic data</strong>: metabolites and metabolic pathways.<br>
+- <strong>Structural data</strong>: 3D structures of proteins and other macromolecules.<br>
+- <strong>Phenotypic and clinical data</strong>: patient traits, disease states, and treatment outcomes.</p>
+<p>Together, these diverse datasets provide complementary perspectives and, when integrated, can generate powerful insights into biology and disease.</p>
+<p>Figure 2 shows an overview of molecular biology data resources: genomic (DNA &amp; genes), transcriptomic (RNA expression), proteomic (proteins &amp; structures), pathway/integrated knowledge, and chemical/drug databases, highlighting the some of the main open-access repositories that support research and drug discovery.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/molecular_databases_wide.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 2: Overview of bioinformatics online public resources.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="bioinformatics-as-an-experimental-science" class="level1">
+<h1>5. Bioinformatics as an experimental science</h1>
+<p>Bioinformatics goes beyond data storage to include experiments on data. Simple searches retrieve information, but drawing conclusions (such as finding protein homologues) requires the same rigour as lab experiments, including appropriate methods and controls. Core databases serve as gateways to structured knowledge, enabling systematic exploration of the literature.</p>
+<p>Bioinformatics experiments can be grouped into four types: <strong>searching</strong>, <strong>comparing</strong>, <strong>modelling</strong>, and <strong>integrating</strong>.</p>
+<section id="searching" class="level2">
+<h2 class="anchored" data-anchor-id="searching">5.1 Searching</h2>
+<p>The simplest type of bioinformatics experiment is to search a public database for information on a specific gene or protein. For example, with <em>EBI Search</em> (Figure 3), you can search across a large number of public databases simultaneously, without restricting beforehand the database to be searched (see bellow at the <a href="#integrating">Integrating</a> section).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/ebi_search_data_screenshot.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 3: Data types that can be searched using <a href="https://www.ebi.ac.uk/ebisearch/data-coverage">EBI Search</a> (where you can explore the interactive version of this map).</figcaption>
+</figure>
+</div>
+<section id="controls" class="level4">
+<h4 class="anchored" data-anchor-id="controls">Controls</h4>
+<p>A simple search is not an experiment and does not require controls. But once search results are used to answer a biological question, it becomes an experiment and controls are essential.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Search only</strong></th>
+<th><strong>Experiment + controls</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retrieve information only</td>
+<td>Use search results to answer a biological question</td>
+</tr>
+<tr class="even">
+<td>Example: find all protein sequences with the keyword <em>globin</em></td>
+<td>Example: identify kinases that are in a pathway <em>and</em> upregulated in a disease</td>
+</tr>
+<tr class="odd">
+<td>No controls required</td>
+<td>Controls needed: <br> – Check if terms map to unrelated pathways <br> – Confirm terms are correctly linked to entries <br> – Look for consistency in related records</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="comparing" class="level2">
+<h2 class="anchored" data-anchor-id="comparing">5.2 Comparing</h2>
+<p>The most frequently used type of comparison in bioinformatics is sequence comparison to help reveal relationships in function, evolution, or both. The most common approach is sequence comparison, where nucleotide or protein sequences are aligned to database entries. Alignments account for insertions, deletions, and substitutions that may have occurred since divergence from a common ancestor. Matches can suggest evolutionary or functional relationships.</p>
+<p>Alignments may be pairwise or multiple, with different tools suited to different contexts: for example, <strong>BLAST</strong> is designed for finding regions of local similarity between sequences across large databases with high sensitivity, while <strong>BLAT</strong> is optimized for quickly aligning nearly identical sequences to a reference genome with lower sensitivity but much greater speed.</p>
+<section id="controls-1" class="level4">
+<h4 class="anchored" data-anchor-id="controls-1">Controls</h4>
+<p>The key challenge is judging whether an alignment is significant, not just producing it. Significance is measured by the expectation score (e-value): the lower the e-value, the less likely it is that the match is random, and therefore, the more likely it reflects true homology. Controls include comparing random sequences and checking scores for unrelated sequences. Tool choice also matters, as tools differ in speed, accuracy, and suitability for specific applications.</p>
+</section>
+</section>
+<section id="modelling" class="level2">
+<h2 class="anchored" data-anchor-id="modelling">5.3 Modelling</h2>
+<p>Structural modelling helps generate hypotheses about the 3D structure of macromolecules and their biochemical functions. A major breakthrough came with AlphaFold (Google DeepMind, 2021), which predicts protein structures from sequences. Its impact was recognised with the 2024 Nobel Prize in Chemistry, awarded to Demis Hassabis, John M. Jumper, and David Baker. In collaboration with EMBL-EBI, AlphaFold predictions are freely available in the <a href="https://alphafold.ebi.ac.uk">AlphaFold Protein Structure Database</a>.</p>
+<p>Another widely used option for structural modelling is <a href="https://swissmodel.expasy.org">SWISS-MODEL</a>, a web-based service developed at the Swiss Institute of Bioinformatics (SIB). It provides automated <strong>homology modelling</strong> of protein 3D structures by using known experimental structures as templates. This allows researchers to generate reliable structural models when experimental data are not available, making SWISS-MODEL a valuable complement to resources like AlphaFold.</p>
+<blockquote class="blockquote">
+<p>In the Drug-Design module of this course, you will learn learn more about structural modelling.</p>
+</blockquote>
+<p>Beyond individual molecules, researchers also <em>model biological processes and interactions</em> (<strong>systems biology</strong>). Standardised mathematical models can be accessed from the <a href="https://www.ebi.ac.uk/biomodels">BioModels Database</a>. Systems modelling follows an iterative cycle:</p>
+<ul>
+<li>Build a model based on current knowledge;</li>
+<li>Test it against biological data;</li>
+<li>Refine it;</li>
+<li>Repeat until the model reliably reflects reality.</li>
+</ul>
+</section>
+<section id="integrating" class="level2">
+<h2 class="anchored" data-anchor-id="integrating">5.4 Integrating</h2>
+<p>Data integration has long been a challenge in bioinformatics, yet it is a powerful way to test hypotheses. By combining results, for example from transcriptomics, proteomics, and metabolomics, researchers can gather strong evidence for the involvement of a pathway in disease or drug resistance. Like systems modelling, integration supports hypothesis generation, but experimental validation remains essential.</p>
+<p>The good news is that many resources now handle much of the complex work of linking and integrating data. One example is <a href="https://www.ebi.ac.uk/ebisearch/data-coverage">EBI Search</a>, which maps related entities efficiently (also mentioned above in the <a href="#searching">Searching</a> section).</p>
+<p>Another is <a href="https://platform.opentargets.org">Open Targets</a>, a platform that integrates large volumes of public data to support discovery. Open Targets is specifically designed to help researchers explore and visualise drug targets in the context of disease.</p>
 <hr>
-<section id="references" class="level4">
-<h4 class="anchored" data-anchor-id="references">References</h4>
+<p><br></p>
+</section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
 <p>This content was adapted from EBI’s <a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/">“Bioinformatics for the terrified: An introduction to the science of bioinformatics”</a></p>
 
 
-</section>
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

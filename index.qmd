@@ -35,8 +35,9 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 - Definition and scope of bioinformatics.
 - Bioinformatics in drug discovery.
-- Overview of biological data types.
-- Introduction to primary and secondary databases.
+- Overview of databses per biological data types.
+- Primary and secondary databases.
+- Bioinformatics as an experimental science: search, compare, model, and integrate data.
 
 **Practical Activities**:
 
@@ -83,11 +84,11 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 **Lecture Topics**:
 
 - **Gene Ontology (GO)**: biological process, molecular function, cellular component.
-- Functional annotation via **InterPro**, **Pfam**, **QuickGO**.
+- Functional annotation via **InterPro**, **QuickGO**.
 
 **Practical Activities**:
 
-- Annotate protein domains using **InterPro** and **Pfam**.
+- Annotate protein domains using **InterPro**.
 - Retrieve and explore GO terms with **QuickGO** and **AmiGO**.
 - Analyse UniProt GO annotations.
 
@@ -114,7 +115,7 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 **Lecture Topics**:
 
 - Overview of **omics**: microarray vs. RNA-seq.
-- Data repositories: **GEO**, **ArrayExpress**.
+- Data repositories: **GEO**, **ArrayExpress**, **GTEx**.
 - Tissue-specific and disease-specific expression.
 
 **Practical Activities**:
