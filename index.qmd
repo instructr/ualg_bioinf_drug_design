@@ -39,15 +39,27 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 - Primary and secondary databases.
 - Bioinformatics as an experimental science: search, compare, model, and integrate data.
 
+
+**Practical Activities**:
+
+- What is Data? From Randomness to Bioinformatics Databases.
+- Experience generating raw data from simple systems.
+- Understand the importance of consistent recording and organization.
+- Appreciate how analysis depends on well-structured data.
+- Connect this activity to bioinformatics databases.
+
+---
+
+### Week 2 – Gene and genomics databases
+
 **Practical Activities**:
 
 - Explore **NCBI**, **EMBL-EBI**, and **Ensembl**.
 - Retrieve gene and protein sequences (e.g. *TP53*).
 - Use Ensembl Genome Browser to view gene structure.
 
----
 
-### Week 2 – Protein-Coding Genes and Genome Annotation
+### Week 3 – Protein-Coding Genes and Genome Annotation
 
 **Lecture Topics**:
 
@@ -63,7 +75,7 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 ---
 
-### Week 3 – Sequence Alignment and Similarity Searches
+### Week 4 – Sequence Alignment and Similarity Searches
 
 **Lecture Topics**:
 
@@ -79,7 +91,7 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 ---
 
-### Week 4 – Gene and Protein Function Annotation
+### Week 5 – Gene and Protein Function Annotation
 
 **Lecture Topics**:
 
@@ -94,7 +106,7 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 ---
 
-### Week 5 – Pathways and Systems Biology Resources
+### Week 6 – Pathways and Systems Biology Resources
 
 **Lecture Topics**:
 
@@ -110,7 +122,7 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 ---
 
-### Week 6 – Functional Genomics and Expression Data
+### Week 7 – Functional Genomics and Expression Data
 
 **Lecture Topics**:
 
@@ -126,7 +138,7 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 ---
 
-### Week 7 – Integration and Case Study
+### Week 8 – Integration and Case Study
 
 **Lecture Topics**:
 

@@ -1,5 +1,5 @@
 ---
-title: "Week 1 | TBA"
+title: "Week 1 | Introduction to Bioinformatics"
 ---
 
 ::: {.callout-note}
@@ -10,20 +10,24 @@ title: "Week 1 | TBA"
 
 </br>
 
-# 1. What is bioinformatics?
+::: {.panel-tabset}
+
+# Theory
+
+## 1. What is bioinformatics?
 
 Bioinformatics is the interdisciplinary science of managing and analysing biological data. First coined by Dutch theoretical biologist Paulien Hogeweg and Ben Hesper in the 1970's to describe 'informatic processes in biotic systems', it began with sequence analysis but now also includes modelling, image analysis, and comparison of both linear sequences and 3D structures (Fig. 1).
 
 ![Figure 1: Overview of the data types in bioinformatics: originally centered on sequence data, now expanded to include structural, chemical, and systems biology. (From: <https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified>)](figs/biology_data.jpg){width="70%"}
 
-# 2. Who uses bioinformatics?
+## 2. Who uses bioinformatics?
 
 Molecular life sciences are now strongly data-driven and rely on open-access databases in both basic and applied research.
 
 You do not need to be a bioinformatician to use bioinformatics databases, methods, and tools. However, as large datasets become central to biomedical and pharmaceutical research, it is increasingly important for all molecular life scientists to understand both the possibilities and the limits of bioinformatics, and to collaborate with bioinformatics experts in designing, analysing, and interpreting experiments.
 
 
-## 2.1 Bioinformatics in drug discovery
+### 2.1 Bioinformatics in drug discovery
 
 This is equally true in the **pharmaceutical sciences**, where bioinformatics supports **drug discovery, biomarker development, and precision medicine**.  
 For example, bioinformatics is used to:  
@@ -33,7 +37,7 @@ For example, bioinformatics is used to:
 - Support **drug repurposing** by linking existing compounds to new disease indications.  
 
 
-# 3. The role of public databases
+## 3. The role of public databases
 
 A few bioinformatics centres of excellence worldwide are responsible for collecting, organising, and providing open access to published biological data. Key centres include:
 
@@ -53,12 +57,12 @@ This openness has allowed researchers to fully benefit from large-scale projects
 Importantly, open sharing is not limited to big collaborations. Increasingly, funding policies reflect the principle that if research is publicly funded, the resulting data should also be made publicly accessible for others to use.
 
 
-# 4. Making data useful
+## 4. Making data useful
 
 Open access is only the first step. For data to be truly useful, it must also be **recorded and organised** in a way that supports consistent interpretation and reuse. This is where the distinction between primary and secondary databases becomes important.
 
 
-## 4.1 Primary vs Secondary databases
+### 4.1 Primary vs Secondary databases
 
 **Primary databases** in bioinformatics are repositories that store **raw, unprocessed biological data** generated directly from experimental methods, such as nucleotide sequences, protein sequences, and macromolecular structures. 
 Once given a database accession number, the data in primary databases are never changed: they form part of the scientific record.
@@ -67,21 +71,21 @@ Once given a database accession number, the data in primary databases are never 
 *Secondary databases have become the molecular biologist’s reference library*, offering extensive information on nearly every studied gene or gene product. Although often overwhelming, these resources hold enormous potential for discovery through data mining.
 
 
-## 4.2 Primary databases
+### 4.2 Primary databases
 
 - Store original and unprocessed data from experiments.
 - Examples: **ENA** (European Nucleotide Archive), **GenBank** (nucleotide sequences), **Protein Data Bank (PDB)** (3D protein structures), **ArrayExpress** (gene expression).
 - Data is archival and serves as the scientific record, maintaining the integrity of experimental data.
 
 
-## 4.3 Secondary databases
+### 4.3 Secondary databases
 
 - Contain information derived by analyzing, annotating, and curating data from primary databases.
 - Examples: **InterPro** (protein families, integrative protein data), **UniProt** (protein sequences and functional information).
 - Data includes interpretations, predictions, and functional annotations which enrich biological context and usability for researchers.
 
 
-## 4.4 Comparison table
+### 4.4 Comparison table
 
 | Category | Primary Database | Secondary Database |
 | :-- | :-- | :-- |
@@ -95,13 +99,13 @@ Once given a database accession number, the data in primary databases are never 
 These two types of databases are fundamental to bioinformatics, working together to **organize, preserve, and interpret biological data** for research and discovery.
 
 
-## 4.5 Hybrid databases
+### 4.5 Hybrid databases
 
 Some databases combine both primary and secondary features. For example, [UniProt](https://www.uniprot.org) holds experimental peptide sequences but also infers sequences and adds extensive automated (TrEMBL) and manual (SwissProt) annotations. 
 Others separate the two functions into different branches, such as [ArrayExpress](https://www.ebi.ac.uk/biostudies/arrayexpress) (raw functional genomics data) and the [Expression Atlas](https://www.ebi.ac.uk/gxa/home) (derived expression patterns).
 
 
-## 4.6 Molecular databases per data type 
+### 4.6 Molecular databases per data type 
 
 Bioinformatics spans many different types of biological data, each with its own uses:  
 - **Genomic data**: DNA sequences, variants, and structural alterations.  
@@ -118,14 +122,14 @@ Figure 2 shows an overview of molecular biology data resources: genomic (DNA & g
 ![Figure 2: Overview of bioinformatics online public resources.](figs/molecular_databases_wide.png)
 
 
-# 5. Bioinformatics as an experimental science
+## 5. Bioinformatics as an experimental science
 
 Bioinformatics goes beyond data storage to include experiments on data. Simple searches retrieve information, but drawing conclusions (such as finding protein homologues) requires the same rigour as lab experiments, including appropriate methods and controls. 
 Core databases serve as gateways to structured knowledge, enabling systematic exploration of the literature. 
 
 Bioinformatics experiments can be grouped into four types: **searching**, **comparing**, **modelling**, and **integrating**.
 
-## 5.1 Searching
+### 5.1 Searching
 
 The simplest type of bioinformatics experiment is to search a public database for information on a specific gene or protein. 
 For example, with *EBI Search* (Figure 3), you can search across a large number of public databases simultaneously, without restricting beforehand the database to be searched (see bellow at the [Integrating](#integrating) section). 
@@ -144,7 +148,7 @@ But once search results are used to answer a biological question, it becomes an 
 | No controls required | Controls needed: <br> – Check if terms map to unrelated pathways <br> – Confirm terms are correctly linked to entries <br> – Look for consistency in related records |
 
 
-## 5.2 Comparing
+### 5.2 Comparing
 
 The most frequently used type of comparison in bioinformatics is sequence comparison to help reveal relationships in function, evolution, or both. 
 The most common approach is sequence comparison, where nucleotide or protein sequences are aligned to database entries. 
@@ -159,7 +163,7 @@ The key challenge is judging whether an alignment is significant, not just produ
 Controls include comparing random sequences and checking scores for unrelated sequences. 
 Tool choice also matters, as tools differ in speed, accuracy, and suitability for specific applications.
 
-## 5.3 Modelling
+### 5.3 Modelling
 
 Structural modelling helps generate hypotheses about the 3D structure of macromolecules and their biochemical functions. A major breakthrough came with AlphaFold (Google DeepMind, 2021), which predicts protein structures from sequences. Its impact was recognised with the 2024 Nobel Prize in Chemistry, awarded to Demis Hassabis, John M. Jumper, and David Baker. In collaboration with EMBL-EBI, AlphaFold predictions are freely available in the [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk).
 
@@ -178,7 +182,7 @@ Systems modelling follows an iterative cycle:
   - Refine it;
   - Repeat until the model reliably reflects reality.
 
-## 5.4 Integrating
+### 5.4 Integrating
 
 Data integration has long been a challenge in bioinformatics, yet it is a powerful way to test hypotheses. 
 By combining results, for example from transcriptomics, proteomics, and metabolomics, researchers can gather strong evidence for the involvement of a pathway in disease or drug resistance. 
@@ -192,6 +196,102 @@ Another is [Open Targets](https://platform.opentargets.org), a platform that int
 
 <br>
 
-# References
+## References
 
 This content was adapted from EBI's ["Bioinformatics for the terrified: An introduction to the science of bioinformatics"](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/)
+
+# Practical
+
+**Activity 1:** *What is Data? From Randomness to Bioinformatics Databases*
+
+- **Duration:** \~1.5 hours   
+- **Learning goals:**   
+
+  * Experience generating raw data from simple systems.
+  * Understand the importance of consistent recording and organization.
+  * Appreciate how analysis depends on well-structured data.
+  * Connect classroom activities to bioinformatics databases.
+
+- **Materials:** 
+
+  * Coins (1 per group).
+  * Dice (D6 and D12).
+  * Decks of cards (1 per group).
+  * Paper sheets for data recording.
+  * Worksheets or laptops.
+
+## **0. Introduction (5 min)**
+
+  * Short talk: “In science, everything starts with data.”
+  * Contrasting examples: messy handwritten notes vs. neat tables.
+  * Outline of the activity: *Generate → Organize → Analyse → Reflect → Connect to bioinformatics.*
+
+
+## **1. Generating Data (10 min)**
+
+Students work in groups of 3–4. Each group has coins, dice, or playing cards.
+
+  * **Task A: Coins** (10 min): Flip 20 times → record heads/tails.
+  * **Task B: Dice 6** (10 min): Roll 20 times → record numbers.
+  * **Task C: Dice 12** (10 min): Roll 20 times → record numbers.
+  * **Task D: Cards** (10 min): Draw 20 cards → record suit + value.
+
+**Deliverable:** Each group keeps a raw record in *their own format*, without being told how (to surface differences later).
+
+
+## **2. Organizing Data (15 min)**
+
+  * Groups exchange their notebooks.
+  * Prompt: *“Can you easily understand the other group’s results?”*
+  * Introduce the **table structure** (rows = trials, columns = variables).
+  * Each group rewrites their raw data into a structured table (on paper or in Excel/Google Sheets).
+
+**Discussion point:** Which format is easier to use? Why?
+
+
+## **3. Creating Variables & Metadata (15 min)**
+
+  * From dice rolls: create *even/odd* or *greater than 3*.
+  * From coins: compute streaks of heads.
+  * From cards: reduce to *red/black*.
+
+**Add metadata** (group name, device type, date).
+
+**Learning:** Data gain value when organized and enriched with metadata.
+
+
+## **4. Analysing Data (15 min)**
+
+  * Compute group statistics:
+  
+    * % heads
+    * Dice mean
+    * Card suit frequencies
+  * Write results on the board.
+  * Pool all data into a class dataset.
+  * Compare across groups: any group with “weird” results (biased coin, dice luck)?
+  
+**Discussion:** What happens when data are incomplete or inconsistently recorded?
+
+
+## **5. Connecting to Bioinformatics (15 min)**
+
+Closing remarks: tying classroom data to real bioinformatics examples:
+
+  * **Raw data** → DNA sequence reads.
+  * **Tables** → FASTA, VCF, expression matrices.
+  * **Metadata** → sample ID, tissue, platform.
+  * **Databases** → NCBI, UniProt, GEO (curated, shared versions of our “class dataset”).
+  * **Analysis** → statistics, visualisation, machine learning.
+
+
+## **6. Wrap-up Reflection (15 min)**
+
+Questions:
+
+  * What was hardest: generating, recording, or analysing?
+  * How does this compare to working with real biological data?
+  * Why do we need curated bioinformatics databases?
+
+
+:::
