@@ -84,53 +84,67 @@
     "text": "References\nThis content was adapted from EBI’s “Bioinformatics for the terrified: An introduction to the science of bioinformatics”"
   },
   {
-    "objectID": "week1.html#introduction-5-min",
-    "href": "week1.html#introduction-5-min",
+    "objectID": "week1.html#activity-overview",
+    "href": "week1.html#activity-overview",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "0. Introduction (5 min)",
-    "text": "0. Introduction (5 min)\n\nShort talk: “In science, everything starts with data.”\nContrasting examples: messy handwritten notes vs. neat tables.\nOutline of the activity: Generate → Organize → Analyse → Reflect → Connect to bioinformatics."
+    "section": "Activity overview",
+    "text": "Activity overview\nIn this activity we will create a class dataset using dice. Along the way, you will recognize:\n\nWhy standardisation of data is essential to make data usable.\nHow sample size affects confidence in results, hence the importance of combining datasets.\nWhat tidy data means.\nHow different dice (D4, D6, D8, D10, D12, D20) relate to variables with different possible measurements.\nThe difference between single-variable and multivariate analysis."
   },
   {
-    "objectID": "week1.html#generating-data-10-min",
-    "href": "week1.html#generating-data-10-min",
+    "objectID": "week1.html#step-1.-roll-15-min",
+    "href": "week1.html#step-1.-roll-15-min",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "1. Generating Data (10 min)",
-    "text": "1. Generating Data (10 min)\nStudents work in groups of 3–4. Each group has coins, dice, or playing cards.\n\nTask A: Coins (10 min): Flip 20 times → record heads/tails.\nTask B: Dice 6 (10 min): Roll 20 times → record numbers.\nTask C: Dice 12 (10 min): Roll 20 times → record numbers.\nTask D: Cards (10 min): Draw 20 cards → record suit + value.\n\nDeliverable: Each group keeps a raw record in their own format, without being told how (to surface differences later)."
+    "section": "Step 1. Roll (15 min)",
+    "text": "Step 1. Roll (15 min)\n\nEach group is assigned one die.\nRoll it 10 times.\nRecord your results in any format you like.\n\nHint: Record the data in the way that you find most useful and understandable."
   },
   {
-    "objectID": "week1.html#organizing-data-15-min",
-    "href": "week1.html#organizing-data-15-min",
+    "objectID": "week1.html#step-2.-compare-standardise-15-min",
+    "href": "week1.html#step-2.-compare-standardise-15-min",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "2. Organizing Data (15 min)",
-    "text": "2. Organizing Data (15 min)\n\nGroups exchange their notebooks.\nPrompt: “Can you easily understand the other group’s results?”\nIntroduce the table structure (rows = trials, columns = variables).\nEach group rewrites their raw data into a structured table (on paper or in Excel/Google Sheets).\n\nDiscussion point: Which format is easier to use? Why?"
+    "section": "Step 2. Compare & Standardise (15 min)",
+    "text": "Step 2. Compare & Standardise (15 min)\n\nJoin all groups with the same die type (all D4 groups, all D6 groups…).\nCompare how different groups recorded their results.\nNotice differences and discuss the pros and cons of alternative recordings.\nAgree on one standard format.\n\nLesson: Bioinformatics databases using a standardized data format to allow the pooling together of data from different experiments."
   },
   {
-    "objectID": "week1.html#creating-variables-metadata-15-min",
-    "href": "week1.html#creating-variables-metadata-15-min",
+    "objectID": "week1.html#step-3.-combine-15-min",
+    "href": "week1.html#step-3.-combine-15-min",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "3. Creating Variables & Metadata (15 min)",
-    "text": "3. Creating Variables & Metadata (15 min)\n\nFrom dice rolls: create even/odd or greater than 3.\nFrom coins: compute streaks of heads.\nFrom cards: reduce to red/black.\n\nAdd metadata (group name, device type, date).\nLearning: Data gain value when organized and enriched with metadata."
+    "section": "Step 3. Combine (15 min)",
+    "text": "Step 3. Combine (15 min)\n\nAll groups with the same die pool their results.\nExample: one group’s 10 rolls of a D6 = limited evidence, but 50 rolls across all groups = strong evidence about probabilities.\n\nLesson: Larger sample size = greater confidence in conclusions."
   },
   {
-    "objectID": "week1.html#analysing-data-15-min",
-    "href": "week1.html#analysing-data-15-min",
+    "objectID": "week1.html#step-4.-make-it-tidy-15",
+    "href": "week1.html#step-4.-make-it-tidy-15",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "4. Analysing Data (15 min)",
-    "text": "4. Analysing Data (15 min)\n\nCompute group statistics:\n\n% heads\nDice mean\nCard suit frequencies\n\nWrite results on the board.\nPool all data into a class dataset.\nCompare across groups: any group with “weird” results (biased coin, dice luck)?\n\nDiscussion: What happens when data are incomplete or inconsistently recorded?"
+    "section": "Step 4. Make it Tidy (15)",
+    "text": "Step 4. Make it Tidy (15)\n\nDoes the agreed upon record standard follow the tidy rule?\n\nEach variable = a column\nEach observation = a row\nEach value = a cell\n\n\nLesson: This is the principle behind how most bioinformatics databases are structured."
   },
   {
-    "objectID": "week1.html#connecting-to-bioinformatics-15-min",
-    "href": "week1.html#connecting-to-bioinformatics-15-min",
+    "objectID": "week1.html#step-5.-reflect-on-variables-10-min",
+    "href": "week1.html#step-5.-reflect-on-variables-10-min",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "5. Connecting to Bioinformatics (15 min)",
-    "text": "5. Connecting to Bioinformatics (15 min)\nClosing remarks: tying classroom data to real bioinformatics examples:\n\nRaw data → DNA sequence reads.\nTables → FASTA, VCF, expression matrices.\nMetadata → sample ID, tissue, platform.\nDatabases → NCBI, UniProt, GEO (curated, shared versions of our “class dataset”).\nAnalysis → statistics, visualisation, machine learning."
+    "section": "Step 5. Reflect on Variables (10 min)",
+    "text": "Step 5. Reflect on Variables (10 min)\n\nDifferent dice = different numbers of possible outcomes.\n\nD4 = 4 outcomes\nD20 = 20 outcomes\n\n\nLesson: Biology is similar:\n\nSome variables have few states (genotype with 3 possible states).\nOthers are more complex (gene expression with many possible values)."
   },
   {
-    "objectID": "week1.html#wrap-up-reflection-15-min",
-    "href": "week1.html#wrap-up-reflection-15-min",
+    "objectID": "week1.html#step-6.-single-vs.-multivariate-analysis-10-min",
+    "href": "week1.html#step-6.-single-vs.-multivariate-analysis-10-min",
     "title": "Week 1 | Introduction to Bioinformatics",
-    "section": "6. Wrap-up Reflection (15 min)",
-    "text": "6. Wrap-up Reflection (15 min)\nQuestions:\n\nWhat was hardest: generating, recording, or analysing?\nHow does this compare to working with real biological data?\nWhy do we need curated bioinformatics databases?"
+    "section": "Step 6. Single vs. Multivariate Analysis (10 min)",
+    "text": "Step 6. Single vs. Multivariate Analysis (10 min)\n\nSingle variable: Analyse only one column (e.g. “What is the most common result for D6?”).\nMultivariate: Combine columns (e.g. “When D6 is high, is D20 also high?”).\n\nLesson: Bioinformatics often moves from univariate summaries (each gene/protein separately) to multivariate models (how variables interact)."
+  },
+  {
+    "objectID": "week1.html#step-7.-wrap-up-reflection-5-min",
+    "href": "week1.html#step-7.-wrap-up-reflection-5-min",
+    "title": "Week 1 | Introduction to Bioinformatics",
+    "section": "Step 7. Wrap-up Reflection (5 min)",
+    "text": "Step 7. Wrap-up Reflection (5 min)\nQuestions:\n\nWhat was hardest: generating, recording, or analysing?\nHow does this compare to working with real biological data?\nWhy do we need curated bioinformatics databases?"
+  },
+  {
+    "objectID": "week1.html#take-home-message",
+    "href": "week1.html#take-home-message",
+    "title": "Week 1 | Introduction to Bioinformatics",
+    "section": "Take home message",
+    "text": "Take home message\nBy rolling dice:\n\nyou’ve built a mini database;\nexperienced the challenge of standardisation;\nexplored sample size effects;\npractised tidy data;\nunderstood variable ranges; and\ncompared single vs. multivariate analysis.\n\nBy the end of this practical class, you should know:\n\n\nWhat made it possible to build a class database?\n\n\nStandardisation.\n\n\nWhy combine results?\n\n\nSample size = confidence.\n\n\nWhy tidy format?\n\n\nAnalysis-ready data.\n\n\nWhat do different dice represent?\n\n\nDifferent measurement complexities (possible outcomes).\n\n\nWhat’s the difference between single and multivariate analysis?\n\n\nOne variable vs. relationships between variables."
   },
   {
     "objectID": "week2.html",
@@ -158,7 +172,7 @@
     "href": "index.html#weekly-schedule",
     "title": "Bioinformatics Module | Bioinformatics and Drug Design",
     "section": "Weekly Schedule",
-    "text": "Weekly Schedule\n\nWeek 1 – Introduction to Bioinformatics and Biological Databases\nLecture Topics:\n\nDefinition and scope of bioinformatics.\nBioinformatics in drug discovery.\nOverview of databses per biological data types.\nPrimary and secondary databases.\nBioinformatics as an experimental science: search, compare, model, and integrate data.\n\nPractical Activities:\n\nWhat is Data? From Randomness to Bioinformatics Databases.\nExperience generating raw data from simple systems.\nUnderstand the importance of consistent recording and organization.\nAppreciate how analysis depends on well-structured data.\nConnect this activity to bioinformatics databases.\n\n\n\n\nWeek 2 – Gene and genomics databases\nPractical Activities:\n\nExplore NCBI, EMBL-EBI, and Ensembl.\nRetrieve gene and protein sequences (e.g. TP53).\nUse Ensembl Genome Browser to view gene structure.\n\n\n\nWeek 3 – Protein-Coding Genes and Genome Annotation\nLecture Topics:\n\nGene structure, transcripts, exons, splice variants.\nFunctional annotation and reference genomes.\nUniProt and genome browsers.\n\nPractical Activities:\n\nUse UCSC Genome Browser and Ensembl.\nInspect exon-intron structure, SNPs, and isoforms.\nRetrieve protein information from UniProt.\n\n\n\n\nWeek 4 – Sequence Alignment and Similarity Searches\nLecture Topics:\n\nSequence alignment: global vs. local.\nBLAST algorithm, scoring, E-value.\nOrthology and paralogy.\n\nPractical Activities:\n\nPerform BLAST searches via NCBI.\nAnalyse alignment outputs and E-values.\nMultiple sequence alignment with Clustal Omega.\n\n\n\n\nWeek 5 – Gene and Protein Function Annotation\nLecture Topics:\n\nGene Ontology (GO): biological process, molecular function, cellular component.\nFunctional annotation via InterPro, QuickGO.\n\nPractical Activities:\n\nAnnotate protein domains using InterPro.\nRetrieve and explore GO terms with QuickGO and AmiGO.\nAnalyse UniProt GO annotations.\n\n\n\n\nWeek 6 – Pathways and Systems Biology Resources\nLecture Topics:\n\nPathways in biology and pharmacology.\nDatabases: KEGG, Reactome, STRING.\nIntegrating pathway data with gene/protein functions.\n\nPractical Activities:\n\nUse KEGG Pathway Browser to explore drug metabolism.\nMap gene lists to pathways.\nExplore protein–protein interaction networks with STRING.\n\n\n\n\nWeek 7 – Functional Genomics and Expression Data\nLecture Topics:\n\nOverview of omics: microarray vs. RNA-seq.\nData repositories: GEO, ArrayExpress, GTEx.\nTissue-specific and disease-specific expression.\n\nPractical Activities:\n\nRetrieve datasets from GEO and ArrayExpress.\nExplore expression profiles using Expression Atlas.\nUse Human Protein Atlas for tissue expression data.\n\n\n\n\nWeek 8 – Integration and Case Study\nLecture Topics:\n\nIntegration of sequence, function, and expression data.\nUse of bioinformatics in drug target discovery.\nEthical and legal aspects of biomedical data reuse.\n\nPractical Activities:\n\nCase study: integrated analysis of a drug target gene (e.g. EGFR or BRCA1).\nCombine sequence, function, expression, and pathway information.\nProduce a structured summary of findings."
+    "text": "Weekly Schedule\n\nWeek 1 – Introduction to Bioinformatics and Biological Databases\nLecture Topics:\n\nDefinition and scope of bioinformatics.\nBioinformatics in drug discovery.\nOverview of databses per biological data types.\nPrimary and secondary databases.\nBioinformatics as an experimental science: search, compare, model, and integrate data.\n\nPractical Activities:\n\nFrom Data to Databases: Using Dice to Illustrate Principles of Bioinformatics"
   },
   {
     "objectID": "week6.html",

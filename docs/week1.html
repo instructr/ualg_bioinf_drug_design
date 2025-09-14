@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2bfc6a1f1b040d584362abe700325163.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -410,101 +410,209 @@ For example, bioinformatics is used to:<br>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <p>This content was adapted from EBI’s <a href="https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/">“Bioinformatics for the terrified: An introduction to the science of bioinformatics”</a></p>
+<!-- # Practical 1 -->
+<!-- **Activity 1:** *What is Data? From Randomness to Bioinformatics Databases* -->
+<!-- - **Duration:** \~1.5 hours    -->
+<!-- - **Learning goals:**    -->
+<!--   * Experience generating raw data from simple systems. -->
+<!--   * Understand the importance of consistent recording and organization. -->
+<!--   * Appreciate how analysis depends on well-structured data. -->
+<!--   * Connect classroom activities to bioinformatics databases. -->
+<!-- - **Materials:**  -->
+<!--   * Dice (D4, D6, D8, D10, D12, and D20): one per group of 2 students. -->
+<!--   * Paper sheets for data recording. -->
+<!--   * Worksheets or laptops. -->
+<!-- ## **0. Introduction (5 min)** -->
+<!--   * Short talk: “In science, everything starts with data.” -->
+<!--   * Contrasting examples: messy handwritten notes vs. neat tables. -->
+<!--   * Outline of the activity: *Generate → Organize → Analyse → Reflect → Connect to bioinformatics.* -->
+<!-- ## **1. Generating Data (10 min)** -->
+<!-- Students work in groups of 3–4. Each group has coins, dice, or playing cards. -->
+<!--   * **Task A: Coins** (10 min): Flip 20 times → record heads/tails. -->
+<!--   * **Task B: Dice 6** (10 min): Roll 20 times → record numbers. -->
+<!--   * **Task C: Dice 12** (10 min): Roll 20 times → record numbers. -->
+<!--   * **Task D: Cards** (10 min): Draw 20 cards → record suit + value. -->
+<!-- **Deliverable:** Each group keeps a raw record in *their own format*, without being told how (to surface differences later). -->
+<!-- ## **2. Organizing Data (15 min)** -->
+<!--   * Groups exchange their notebooks. -->
+<!--   * Prompt: *“Can you easily understand the other group’s results?”* -->
+<!--   * Introduce the **table structure** (rows = trials, columns = variables). -->
+<!--   * Each group rewrites their raw data into a structured table (on paper or in Excel/Google Sheets). -->
+<!-- **Discussion point:** Which format is easier to use? Why? -->
+<!-- ## **3. Creating Variables & Metadata (15 min)** -->
+<!--   * From dice rolls: create *even/odd* or *greater than 3*. -->
+<!--   * From coins: compute streaks of heads. -->
+<!--   * From cards: reduce to *red/black*. -->
+<!-- **Add metadata** (group name, device type, date). -->
+<!-- **Learning:** Data gain value when organized and enriched with metadata. -->
+<!-- ## **4. Analysing Data (15 min)** -->
+<!--   * Compute group statistics: -->
+<!--     * % heads -->
+<!--     * Dice mean -->
+<!--     * Card suit frequencies -->
+<!--   * Write results on the board. -->
+<!--   * Pool all data into a class dataset. -->
+<!--   * Compare across groups: any group with “weird” results (biased coin, dice luck)? -->
+<!-- **Discussion:** What happens when data are incomplete or inconsistently recorded? -->
+<!-- ## **5. Connecting to Bioinformatics (15 min)** -->
+<!-- Closing remarks: tying classroom data to real bioinformatics examples: -->
+<!--   * **Raw data** → DNA sequence reads. -->
+<!--   * **Tables** → FASTA, VCF, expression matrices. -->
+<!--   * **Metadata** → sample ID, tissue, platform. -->
+<!--   * **Databases** → NCBI, UniProt, GEO (curated, shared versions of our “class dataset”). -->
+<!--   * **Analysis** → statistics, visualisation, machine learning. -->
+<!-- ## **6. Wrap-up Reflection (15 min)** -->
+<!-- Questions: -->
+<!--   * What was hardest: generating, recording, or analysing? -->
+<!--   * How does this compare to working with real biological data? -->
+<!--   * Why do we need curated bioinformatics databases? -->
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>Activity 1:</strong> <em>What is Data? From Randomness to Bioinformatics Databases</em></p>
+<p><strong>Activity 1:</strong> <em>From Data to Databases: Using Dice to Illustrate Principles of Bioinformatics</em></p>
 <ul>
 <li><p><strong>Duration:</strong> ~1.5 hours<br>
 </p></li>
 <li><p><strong>Learning goals:</strong></p>
 <ul>
-<li>Experience generating raw data from simple systems.</li>
-<li>Understand the importance of consistent recording and organization.</li>
+<li>Experience generating raw data from simple systems (dice).</li>
+<li>Understand the importance of consistent data recording and organization.</li>
 <li>Appreciate how analysis depends on well-structured data.</li>
 <li>Connect classroom activities to bioinformatics databases.</li>
 </ul></li>
 <li><p><strong>Materials:</strong></p>
 <ul>
-<li>Coins (1 per group).</li>
-<li>Dice (D6 and D12).</li>
-<li>Decks of cards (1 per group).</li>
+<li>Dice (D4, D6, D8, D10, D12, and D20): one per group (1 or 2 students).</li>
 <li>Paper sheets for data recording.</li>
 <li>Worksheets or laptops.</li>
 </ul></li>
 </ul>
-<section id="introduction-5-min" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-5-min"><strong>0. Introduction (5 min)</strong></h2>
+<section id="activity-overview" class="level2">
+<h2 class="anchored" data-anchor-id="activity-overview">Activity overview</h2>
+<p>In this activity we will create a class dataset using dice. Along the way, you will recognize:</p>
 <ul>
-<li>Short talk: “In science, everything starts with data.”</li>
-<li>Contrasting examples: messy handwritten notes vs.&nbsp;neat tables.</li>
-<li>Outline of the activity: <em>Generate → Organize → Analyse → Reflect → Connect to bioinformatics.</em></li>
+<li>Why <strong>standardisation</strong> of data is essential to make data usable.</li>
+<li>How <strong>sample size</strong> affects confidence in results, hence the importance of combining datasets.</li>
+<li>What <strong>tidy data</strong> means.</li>
+<li>How different dice (D4, D6, D8, D10, D12, D20) relate to <strong>variables with different possible measurements</strong>.</li>
+<li>The difference between <strong>single-variable</strong> and <strong>multivariate</strong> analysis.</li>
 </ul>
 </section>
-<section id="generating-data-10-min" class="level2">
-<h2 class="anchored" data-anchor-id="generating-data-10-min"><strong>1. Generating Data (10 min)</strong></h2>
-<p>Students work in groups of 3–4. Each group has coins, dice, or playing cards.</p>
+<section id="step-1.-roll-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="step-1.-roll-15-min">Step 1. Roll (15 min)</h2>
 <ul>
-<li><strong>Task A: Coins</strong> (10 min): Flip 20 times → record heads/tails.</li>
-<li><strong>Task B: Dice 6</strong> (10 min): Roll 20 times → record numbers.</li>
-<li><strong>Task C: Dice 12</strong> (10 min): Roll 20 times → record numbers.</li>
-<li><strong>Task D: Cards</strong> (10 min): Draw 20 cards → record suit + value.</li>
+<li>Each group is assigned <strong>one die</strong>.</li>
+<li>Roll it <strong>10 times</strong>.</li>
+<li>Record your results in <strong>any format you like</strong>.</li>
 </ul>
-<p><strong>Deliverable:</strong> Each group keeps a raw record in <em>their own format</em>, without being told how (to surface differences later).</p>
+<p><em>Hint: Record the data in the way that you find most useful and understandable.</em></p>
 </section>
-<section id="organizing-data-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="organizing-data-15-min"><strong>2. Organizing Data (15 min)</strong></h2>
+<section id="step-2.-compare-standardise-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="step-2.-compare-standardise-15-min">Step 2. Compare &amp; Standardise (15 min)</h2>
 <ul>
-<li>Groups exchange their notebooks.</li>
-<li>Prompt: <em>“Can you easily understand the other group’s results?”</em></li>
-<li>Introduce the <strong>table structure</strong> (rows = trials, columns = variables).</li>
-<li>Each group rewrites their raw data into a structured table (on paper or in Excel/Google Sheets).</li>
+<li>Join all groups with the same die type (all D4 groups, all D6 groups…).</li>
+<li>Compare how different groups recorded their results.</li>
+<li>Notice differences and discuss the pros and cons of alternative recordings.</li>
+<li>Agree on one <strong>standard format</strong>.</li>
 </ul>
-<p><strong>Discussion point:</strong> Which format is easier to use? Why?</p>
+<p><em>Lesson: Bioinformatics databases using a standardized data format to allow the pooling together of data from different experiments.</em></p>
 </section>
-<section id="creating-variables-metadata-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="creating-variables-metadata-15-min"><strong>3. Creating Variables &amp; Metadata (15 min)</strong></h2>
+<section id="step-3.-combine-15-min" class="level2">
+<h2 class="anchored" data-anchor-id="step-3.-combine-15-min">Step 3. Combine (15 min)</h2>
 <ul>
-<li>From dice rolls: create <em>even/odd</em> or <em>greater than 3</em>.</li>
-<li>From coins: compute streaks of heads.</li>
-<li>From cards: reduce to <em>red/black</em>.</li>
+<li>All groups with the same die pool their results.</li>
+<li>Example: one group’s 10 rolls of a D6 = limited evidence, but 50 rolls across all groups = strong evidence about probabilities.</li>
 </ul>
-<p><strong>Add metadata</strong> (group name, device type, date).</p>
-<p><strong>Learning:</strong> Data gain value when organized and enriched with metadata.</p>
+<p><em>Lesson: Larger sample size = greater confidence in conclusions.</em></p>
 </section>
-<section id="analysing-data-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="analysing-data-15-min"><strong>4. Analysing Data (15 min)</strong></h2>
+<section id="step-4.-make-it-tidy-15" class="level2">
+<h2 class="anchored" data-anchor-id="step-4.-make-it-tidy-15">Step 4. Make it Tidy (15)</h2>
 <ul>
-<li><p>Compute group statistics:</p>
+<li>Does the agreed upon record standard follow the <strong>tidy rule?</strong>
 <ul>
-<li>% heads</li>
-<li>Dice mean</li>
-<li>Card suit frequencies</li>
+<li>Each variable = a column</li>
+<li>Each observation = a row</li>
+<li>Each value = a cell</li>
 </ul></li>
-<li><p>Write results on the board.</p></li>
-<li><p>Pool all data into a class dataset.</p></li>
-<li><p>Compare across groups: any group with “weird” results (biased coin, dice luck)?</p></li>
 </ul>
-<p><strong>Discussion:</strong> What happens when data are incomplete or inconsistently recorded?</p>
+<p><em>Lesson: This is the principle behind how most bioinformatics databases are structured.</em></p>
 </section>
-<section id="connecting-to-bioinformatics-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="connecting-to-bioinformatics-15-min"><strong>5. Connecting to Bioinformatics (15 min)</strong></h2>
-<p>Closing remarks: tying classroom data to real bioinformatics examples:</p>
+<section id="step-5.-reflect-on-variables-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="step-5.-reflect-on-variables-10-min">Step 5. Reflect on Variables (10 min)</h2>
 <ul>
-<li><strong>Raw data</strong> → DNA sequence reads.</li>
-<li><strong>Tables</strong> → FASTA, VCF, expression matrices.</li>
-<li><strong>Metadata</strong> → sample ID, tissue, platform.</li>
-<li><strong>Databases</strong> → NCBI, UniProt, GEO (curated, shared versions of our “class dataset”).</li>
-<li><strong>Analysis</strong> → statistics, visualisation, machine learning.</li>
+<li>Different dice = different numbers of possible outcomes.
+<ul>
+<li>D4 = 4 outcomes</li>
+<li>D20 = 20 outcomes</li>
+</ul></li>
+</ul>
+<p><em>Lesson: Biology is similar:</em></p>
+<ul>
+<li>Some variables have few states (genotype with 3 possible states).</li>
+<li>Others are more complex (gene expression with many possible values).</li>
 </ul>
 </section>
-<section id="wrap-up-reflection-15-min" class="level2">
-<h2 class="anchored" data-anchor-id="wrap-up-reflection-15-min"><strong>6. Wrap-up Reflection (15 min)</strong></h2>
+<section id="step-6.-single-vs.-multivariate-analysis-10-min" class="level2">
+<h2 class="anchored" data-anchor-id="step-6.-single-vs.-multivariate-analysis-10-min">Step 6. Single vs.&nbsp;Multivariate Analysis (10 min)</h2>
+<ul>
+<li><strong>Single variable</strong>: Analyse only one column (e.g.&nbsp;“What is the most common result for D6?”).</li>
+<li><strong>Multivariate</strong>: Combine columns (e.g.&nbsp;“When D6 is high, is D20 also high?”).</li>
+</ul>
+<p><em>Lesson: Bioinformatics often moves from <strong>univariate summaries</strong> (each gene/protein separately) to <strong>multivariate models</strong> (how variables interact).</em></p>
+</section>
+<section id="step-7.-wrap-up-reflection-5-min" class="level2">
+<h2 class="anchored" data-anchor-id="step-7.-wrap-up-reflection-5-min">Step 7. Wrap-up Reflection (5 min)</h2>
 <p>Questions:</p>
 <ul>
 <li>What was hardest: generating, recording, or analysing?</li>
 <li>How does this compare to working with real biological data?</li>
 <li>Why do we need curated bioinformatics databases?</li>
+</ul>
+<hr>
+</section>
+<section id="take-home-message" class="level2">
+<h2 class="anchored" data-anchor-id="take-home-message">Take home message</h2>
+<p>By rolling dice:</p>
+<ul>
+<li>you’ve built a <strong>mini database</strong>;</li>
+<li>experienced the challenge of <strong>standardisation</strong>;</li>
+<li>explored <strong>sample size effects</strong>;</li>
+<li>practised <strong>tidy data</strong>;</li>
+<li>understood <strong>variable ranges</strong>; and</li>
+<li>compared <strong>single vs.&nbsp;multivariate analysis</strong>.</li>
+</ul>
+<p>By the end of this practical class, you should know:</p>
+<ul>
+<li><ol type="1">
+<li>What made it possible to build a class database?</li>
+</ol>
+<ul>
+<li>Standardisation.</li>
+</ul></li>
+<li><ol start="2" type="1">
+<li>Why combine results?</li>
+</ol>
+<ul>
+<li>Sample size = confidence.</li>
+</ul></li>
+<li><ol start="3" type="1">
+<li>Why tidy format?</li>
+</ol>
+<ul>
+<li>Analysis-ready data.</li>
+</ul></li>
+<li><ol start="4" type="1">
+<li>What do different dice represent?</li>
+</ol>
+<ul>
+<li>Different measurement complexities (possible outcomes).</li>
+</ul></li>
+<li><ol start="5" type="1">
+<li>What’s the difference between single and multivariate analysis?</li>
+</ol>
+<ul>
+<li>One variable vs.&nbsp;relationships between variables.</li>
+</ul></li>
 </ul>
 </section>
 </div>
@@ -596,6 +704,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -706,6 +816,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

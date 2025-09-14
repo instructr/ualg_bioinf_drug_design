@@ -200,98 +200,215 @@ Another is [Open Targets](https://platform.opentargets.org), a platform that int
 
 This content was adapted from EBI's ["Bioinformatics for the terrified: An introduction to the science of bioinformatics"](https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/)
 
+<!-- # Practical 1 -->
+
+<!-- **Activity 1:** *What is Data? From Randomness to Bioinformatics Databases* -->
+
+<!-- - **Duration:** \~1.5 hours    -->
+<!-- - **Learning goals:**    -->
+
+<!--   * Experience generating raw data from simple systems. -->
+<!--   * Understand the importance of consistent recording and organization. -->
+<!--   * Appreciate how analysis depends on well-structured data. -->
+<!--   * Connect classroom activities to bioinformatics databases. -->
+
+<!-- - **Materials:**  -->
+
+<!--   * Dice (D4, D6, D8, D10, D12, and D20): one per group of 2 students. -->
+<!--   * Paper sheets for data recording. -->
+<!--   * Worksheets or laptops. -->
+
+<!-- ## **0. Introduction (5 min)** -->
+
+<!--   * Short talk: “In science, everything starts with data.” -->
+<!--   * Contrasting examples: messy handwritten notes vs. neat tables. -->
+<!--   * Outline of the activity: *Generate → Organize → Analyse → Reflect → Connect to bioinformatics.* -->
+
+
+<!-- ## **1. Generating Data (10 min)** -->
+
+<!-- Students work in groups of 3–4. Each group has coins, dice, or playing cards. -->
+
+<!--   * **Task A: Coins** (10 min): Flip 20 times → record heads/tails. -->
+<!--   * **Task B: Dice 6** (10 min): Roll 20 times → record numbers. -->
+<!--   * **Task C: Dice 12** (10 min): Roll 20 times → record numbers. -->
+<!--   * **Task D: Cards** (10 min): Draw 20 cards → record suit + value. -->
+
+<!-- **Deliverable:** Each group keeps a raw record in *their own format*, without being told how (to surface differences later). -->
+
+
+<!-- ## **2. Organizing Data (15 min)** -->
+
+<!--   * Groups exchange their notebooks. -->
+<!--   * Prompt: *“Can you easily understand the other group’s results?”* -->
+<!--   * Introduce the **table structure** (rows = trials, columns = variables). -->
+<!--   * Each group rewrites their raw data into a structured table (on paper or in Excel/Google Sheets). -->
+
+<!-- **Discussion point:** Which format is easier to use? Why? -->
+
+
+<!-- ## **3. Creating Variables & Metadata (15 min)** -->
+
+<!--   * From dice rolls: create *even/odd* or *greater than 3*. -->
+<!--   * From coins: compute streaks of heads. -->
+<!--   * From cards: reduce to *red/black*. -->
+
+<!-- **Add metadata** (group name, device type, date). -->
+
+<!-- **Learning:** Data gain value when organized and enriched with metadata. -->
+
+
+<!-- ## **4. Analysing Data (15 min)** -->
+
+<!--   * Compute group statistics: -->
+
+<!--     * % heads -->
+<!--     * Dice mean -->
+<!--     * Card suit frequencies -->
+<!--   * Write results on the board. -->
+<!--   * Pool all data into a class dataset. -->
+<!--   * Compare across groups: any group with “weird” results (biased coin, dice luck)? -->
+
+<!-- **Discussion:** What happens when data are incomplete or inconsistently recorded? -->
+
+
+<!-- ## **5. Connecting to Bioinformatics (15 min)** -->
+
+<!-- Closing remarks: tying classroom data to real bioinformatics examples: -->
+
+<!--   * **Raw data** → DNA sequence reads. -->
+<!--   * **Tables** → FASTA, VCF, expression matrices. -->
+<!--   * **Metadata** → sample ID, tissue, platform. -->
+<!--   * **Databases** → NCBI, UniProt, GEO (curated, shared versions of our “class dataset”). -->
+<!--   * **Analysis** → statistics, visualisation, machine learning. -->
+
+
+<!-- ## **6. Wrap-up Reflection (15 min)** -->
+
+<!-- Questions: -->
+
+<!--   * What was hardest: generating, recording, or analysing? -->
+<!--   * How does this compare to working with real biological data? -->
+<!--   * Why do we need curated bioinformatics databases? -->
+
 # Practical
 
-**Activity 1:** *What is Data? From Randomness to Bioinformatics Databases*
+**Activity 1:** *From Data to Databases: Using Dice to Illustrate Principles of Bioinformatics*
 
 - **Duration:** \~1.5 hours   
 - **Learning goals:**   
 
-  * Experience generating raw data from simple systems.
-  * Understand the importance of consistent recording and organization.
+  * Experience generating raw data from simple systems (dice).
+  * Understand the importance of consistent data recording and organization.
   * Appreciate how analysis depends on well-structured data.
   * Connect classroom activities to bioinformatics databases.
 
 - **Materials:** 
 
-  * Coins (1 per group).
-  * Dice (D6 and D12).
-  * Decks of cards (1 per group).
+  * Dice (D4, D6, D8, D10, D12, and D20): one per group (1 or 2 students).
   * Paper sheets for data recording.
   * Worksheets or laptops.
-
-## **0. Introduction (5 min)**
-
-  * Short talk: “In science, everything starts with data.”
-  * Contrasting examples: messy handwritten notes vs. neat tables.
-  * Outline of the activity: *Generate → Organize → Analyse → Reflect → Connect to bioinformatics.*
-
-
-## **1. Generating Data (10 min)**
-
-Students work in groups of 3–4. Each group has coins, dice, or playing cards.
-
-  * **Task A: Coins** (10 min): Flip 20 times → record heads/tails.
-  * **Task B: Dice 6** (10 min): Roll 20 times → record numbers.
-  * **Task C: Dice 12** (10 min): Roll 20 times → record numbers.
-  * **Task D: Cards** (10 min): Draw 20 cards → record suit + value.
-
-**Deliverable:** Each group keeps a raw record in *their own format*, without being told how (to surface differences later).
-
-
-## **2. Organizing Data (15 min)**
-
-  * Groups exchange their notebooks.
-  * Prompt: *“Can you easily understand the other group’s results?”*
-  * Introduce the **table structure** (rows = trials, columns = variables).
-  * Each group rewrites their raw data into a structured table (on paper or in Excel/Google Sheets).
-
-**Discussion point:** Which format is easier to use? Why?
-
-
-## **3. Creating Variables & Metadata (15 min)**
-
-  * From dice rolls: create *even/odd* or *greater than 3*.
-  * From coins: compute streaks of heads.
-  * From cards: reduce to *red/black*.
-
-**Add metadata** (group name, device type, date).
-
-**Learning:** Data gain value when organized and enriched with metadata.
-
-
-## **4. Analysing Data (15 min)**
-
-  * Compute group statistics:
   
-    * % heads
-    * Dice mean
-    * Card suit frequencies
-  * Write results on the board.
-  * Pool all data into a class dataset.
-  * Compare across groups: any group with “weird” results (biased coin, dice luck)?
-  
-**Discussion:** What happens when data are incomplete or inconsistently recorded?
+## Activity overview
+
+In this activity we will create a class dataset using dice. Along the way, you will recognize:
+
+* Why **standardisation** of data is essential to make data usable.
+* How **sample size** affects confidence in results, hence the importance of combining datasets.
+* What **tidy data** means.
+* How different dice (D4, D6, D8, D10, D12, D20) relate to **variables with different possible measurements**.
+* The difference between **single-variable** and **multivariate** analysis.
 
 
-## **5. Connecting to Bioinformatics (15 min)**
+## Step 1. Roll (15 min)
 
-Closing remarks: tying classroom data to real bioinformatics examples:
+* Each group is assigned **one die**.
+* Roll it **10 times**.
+* Record your results in **any format you like**.
 
-  * **Raw data** → DNA sequence reads.
-  * **Tables** → FASTA, VCF, expression matrices.
-  * **Metadata** → sample ID, tissue, platform.
-  * **Databases** → NCBI, UniProt, GEO (curated, shared versions of our “class dataset”).
-  * **Analysis** → statistics, visualisation, machine learning.
+*Hint: Record the data in the way that you find most useful and understandable.*
 
 
-## **6. Wrap-up Reflection (15 min)**
+## Step 2. Compare & Standardise (15 min)
+
+* Join all groups with the same die type (all D4 groups, all D6 groups...).
+* Compare how different groups recorded their results. 
+* Notice differences and discuss the pros and cons of alternative recordings.
+* Agree on one **standard format**.
+
+*Lesson: Bioinformatics databases using a standardized data format to allow the pooling together of data from different experiments.*
+
+
+## Step 3. Combine (15 min)
+
+* All groups with the same die pool their results.
+* Example: one group’s 10 rolls of a D6 = limited evidence, but 50 rolls across all groups = strong evidence about probabilities.
+
+*Lesson: Larger sample size = greater confidence in conclusions.*
+
+
+## Step 4. Make it Tidy (15)
+
+* Does the agreed upon record standard follow the **tidy rule?** 
+  + Each variable = a column
+  + Each observation = a row
+  + Each value = a cell
+
+*Lesson: This is the principle behind how most bioinformatics databases are structured.*
+
+
+## Step 5. Reflect on Variables (10 min)
+
+* Different dice = different numbers of possible outcomes.
+  - D4 = 4 outcomes
+  - D20 = 20 outcomes
+
+*Lesson: Biology is similar:*
+
+  - Some variables have few states (genotype with 3 possible states).
+  - Others are more complex (gene expression with many possible values).
+
+
+## Step 6. Single vs. Multivariate Analysis (10 min)
+
+* **Single variable**: Analyse only one column (e.g. “What is the most common result for D6?”).
+* **Multivariate**: Combine columns (e.g. “When D6 is high, is D20 also high?”).
+
+*Lesson: Bioinformatics often moves from **univariate summaries** (each gene/protein separately) to **multivariate models** (how variables interact).*
+
+
+## Step 7. Wrap-up Reflection (5 min)
 
 Questions:
 
   * What was hardest: generating, recording, or analysing?
   * How does this compare to working with real biological data?
   * Why do we need curated bioinformatics databases?
+  
+---
 
+## Take home message 
+
+By rolling dice: 
+
+  - you’ve built a **mini database**; 
+  - experienced the challenge of **standardisation**; 
+  - explored **sample size effects**; 
+  - practised **tidy data**; 
+  - understood **variable ranges**; and 
+  - compared **single vs. multivariate analysis**.
+
+By the end of this practical class, you should know:
+
+- 1. What made it possible to build a class database?
+  - Standardisation.
+- 2. Why combine results?
+  - Sample size = confidence.
+- 3. Why tidy format?
+  - Analysis-ready data.
+- 4. What do different dice represent?
+  - Different measurement complexities (possible outcomes).
+- 5. What’s the difference between single and multivariate analysis?
+  - One variable vs. relationships between variables.
 
 :::
