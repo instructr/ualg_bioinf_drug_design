@@ -29,13 +29,13 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 ## Weekly Schedule
 
-### Week 1 – Introduction to Bioinformatics and Biological Databases
+### Topic 1 – Introduction to Bioinformatics and Biological Databases
 
 **Lecture Topics**:
 
 - Definition and scope of bioinformatics.
 - Bioinformatics in drug discovery.
-- Overview of databses per biological data types.
+- Overview of databases per biological data types.
 - Primary and secondary databases.
 - Bioinformatics as an experimental science: search, compare, model, and integrate data.
 
@@ -44,108 +44,6 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 
 - *From Data to Databases: Using Dice to Illustrate Principles of Bioinformatics*
 
----
 
-<!-- ### Week 2 – Gene and genomics databases -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Explore **NCBI**, **EMBL-EBI**, and **Ensembl**. -->
-<!-- - Retrieve gene and protein sequences (e.g. *TP53*). -->
-<!-- - Use Ensembl Genome Browser to view gene structure. -->
-
-
-<!-- ### Week 3 – Protein-Coding Genes and Genome Annotation -->
-
-<!-- **Lecture Topics**: -->
-
-<!-- - Gene structure, transcripts, exons, splice variants. -->
-<!-- - Functional annotation and reference genomes. -->
-<!-- - UniProt and genome browsers. -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Use **UCSC Genome Browser** and **Ensembl**. -->
-<!-- - Inspect exon-intron structure, SNPs, and isoforms. -->
-<!-- - Retrieve protein information from **UniProt**. -->
-
-<!-- --- -->
-
-<!-- ### Week 4 – Sequence Alignment and Similarity Searches -->
-
-<!-- **Lecture Topics**: -->
-
-<!-- - Sequence alignment: global vs. local. -->
-<!-- - BLAST algorithm, scoring, E-value. -->
-<!-- - Orthology and paralogy. -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Perform **BLAST** searches via NCBI. -->
-<!-- - Analyse alignment outputs and E-values. -->
-<!-- - Multiple sequence alignment with **Clustal Omega**. -->
-
-<!-- --- -->
-
-<!-- ### Week 5 – Gene and Protein Function Annotation -->
-
-<!-- **Lecture Topics**: -->
-
-<!-- - **Gene Ontology (GO)**: biological process, molecular function, cellular component. -->
-<!-- - Functional annotation via **InterPro**, **QuickGO**. -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Annotate protein domains using **InterPro**. -->
-<!-- - Retrieve and explore GO terms with **QuickGO** and **AmiGO**. -->
-<!-- - Analyse UniProt GO annotations. -->
-
-<!-- --- -->
-
-<!-- ### Week 6 – Pathways and Systems Biology Resources -->
-
-<!-- **Lecture Topics**: -->
-
-<!-- - Pathways in biology and pharmacology. -->
-<!-- - Databases: **KEGG**, **Reactome**, **STRING**. -->
-<!-- - Integrating pathway data with gene/protein functions. -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Use **KEGG Pathway Browser** to explore drug metabolism. -->
-<!-- - Map gene lists to pathways. -->
-<!-- - Explore protein–protein interaction networks with **STRING**. -->
-
-<!-- --- -->
-
-<!-- ### Week 7 – Functional Genomics and Expression Data -->
-
-<!-- **Lecture Topics**: -->
-
-<!-- - Overview of **omics**: microarray vs. RNA-seq. -->
-<!-- - Data repositories: **GEO**, **ArrayExpress**, **GTEx**. -->
-<!-- - Tissue-specific and disease-specific expression. -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Retrieve datasets from **GEO** and **ArrayExpress**. -->
-<!-- - Explore expression profiles using **Expression Atlas**. -->
-<!-- - Use **Human Protein Atlas** for tissue expression data. -->
-
-<!-- --- -->
-
-<!-- ### Week 8 – Integration and Case Study -->
-
-<!-- **Lecture Topics**: -->
-
-<!-- - Integration of sequence, function, and expression data. -->
-<!-- - Use of bioinformatics in drug target discovery. -->
-<!-- - Ethical and legal aspects of biomedical data reuse. -->
-
-<!-- **Practical Activities**: -->
-
-<!-- - Case study: integrated analysis of a drug target gene (e.g. *EGFR* or *BRCA1*). -->
-<!-- - Combine sequence, function, expression, and pathway information. -->
-<!-- - Produce a structured summary of findings. -->
 
 

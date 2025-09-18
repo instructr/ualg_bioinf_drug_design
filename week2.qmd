@@ -1,5 +1,5 @@
 ---
-title: "Week 2 | TBA"
+title: "Topic 2 | TBA"
 ---
 
 ::: {.callout-note}

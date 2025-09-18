@@ -1,157 +1,157 @@
 [
   {
-    "objectID": "calendar.html",
-    "href": "calendar.html",
-    "title": "Calendar",
-    "section": "",
-    "text": "The scheduled classes for this curse in 2025 are:\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "week3.html",
-    "href": "week3.html",
-    "title": "Week 3 | TBA",
+    "objectID": "week7.html",
+    "href": "week7.html",
+    "title": "Topic 7 | TBA",
     "section": "",
     "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "week5.html",
     "href": "week5.html",
-    "title": "Week 5 | TBA",
+    "title": "Topic 5 | TBA",
     "section": "",
     "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "week7.html",
-    "href": "week7.html",
-    "title": "Week 7 | TBA",
-    "section": "",
-    "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "week4.html",
-    "href": "week4.html",
-    "title": "Week 4 | TBA",
+    "objectID": "week3.html",
+    "href": "week3.html",
+    "title": "Topic 3 | TBA",
     "section": "",
     "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "week1.html",
     "href": "week1.html",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "",
-    "text": "Class Details\n\n\n\n📅 Date: September 2025\n📖 Synopsis: Introduction to Bioinformatics and Biological Databases"
+    "text": "Class Details\n\n\n\n📅 Date: 15 September 2025\n📖 Synopsis: Introduction to Bioinformatics and Biological Databases"
   },
   {
     "objectID": "week1.html#what-is-bioinformatics",
     "href": "week1.html#what-is-bioinformatics",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "1. What is bioinformatics?",
-    "text": "1. What is bioinformatics?\nBioinformatics is the interdisciplinary science of managing and analysing biological data. First coined by Dutch theoretical biologist Paulien Hogeweg and Ben Hesper in the 1970’s to describe ‘informatic processes in biotic systems’, it began with sequence analysis but now also includes modelling, image analysis, and comparison of both linear sequences and 3D structures (Fig. 1).\n\n\n\nFigure 1: Overview of the data types in bioinformatics: originally centered on sequence data, now expanded to include structural, chemical, and systems biology. (From: https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified)"
+    "text": "1. What is bioinformatics?\nBioinformatics is the interdisciplinary science of managing and analysing biological data. First coined by Dutch theoretical biologists Paulien Hogeweg and Ben Hesper in the 1970’s to describe ‘informatic processes in biotic systems’, it began with sequence analysis but now also includes modelling, image analysis, and comparison of both linear sequences and 3D structures (Fig. 1).\n\n\n\nFigure 1: Overview of the data types in bioinformatics: originally centered on sequence data, now expanded to include structural, chemical, and systems biology. (From: https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified)"
   },
   {
     "objectID": "week1.html#who-uses-bioinformatics",
     "href": "week1.html#who-uses-bioinformatics",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "2. Who uses bioinformatics?",
     "text": "2. Who uses bioinformatics?\nMolecular life sciences are now strongly data-driven and rely on open-access databases in both basic and applied research.\nYou do not need to be a bioinformatician to use bioinformatics databases, methods, and tools. However, as large datasets become central to biomedical and pharmaceutical research, it is increasingly important for all molecular life scientists to understand both the possibilities and the limits of bioinformatics, and to collaborate with bioinformatics experts in designing, analysing, and interpreting experiments.\n\n2.1 Bioinformatics in drug discovery\nThis is equally true in the pharmaceutical sciences, where bioinformatics supports drug discovery, biomarker development, and precision medicine.\nFor example, bioinformatics is used to:\n- Identify and validate potential drug targets by integrating genomic, transcriptomic, and proteomic data.\n- Discover and evaluate biomarkers for diagnosis, prognosis, and treatment response.\n- Apply precision medicine approaches, matching patients to therapies based on their molecular profiles.\n- Support drug repurposing by linking existing compounds to new disease indications."
   },
   {
     "objectID": "week1.html#the-role-of-public-databases",
     "href": "week1.html#the-role-of-public-databases",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "3. The role of public databases",
     "text": "3. The role of public databases\nA few bioinformatics centres of excellence worldwide are responsible for collecting, organising, and providing open access to published biological data. Key centres include:\n\nEMBL-European Bioinformatics Institute (EMBL-EBI)\nUS National Center for Biotechnology Information (NCBI)\nNational Institute of Genetics in Japan (NIG)\n\nThis work began in the early 1980s, when DNA sequence data started to accumulate in scientific publications. To manage this, the ENA - European Nucleotide Archive) was created, as well as the GenBank at NCBI, and DDBJ at NIG.\nWho owns the data? From the start, the bioinformatics community has promoted open data sharing and made it a reality through international collaborations, for example:\n\nFor nucleotide sequences: International Sequence Database Collaboration;\nFor protein sequences: UniProt Consortium;\nFor macromulecular structures: Worldwide Protein Data Bank.\n\nThis openness has allowed researchers to fully benefit from large-scale projects such as the Human Genome Project and The Encyclopedia of DNA Elements (ENCODE). Importantly, open sharing is not limited to big collaborations. Increasingly, funding policies reflect the principle that if research is publicly funded, the resulting data should also be made publicly accessible for others to use."
   },
   {
     "objectID": "week1.html#making-data-useful",
     "href": "week1.html#making-data-useful",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "4. Making data useful",
     "text": "4. Making data useful\nOpen access is only the first step. For data to be truly useful, it must also be recorded and organised in a way that supports consistent interpretation and reuse. This is where the distinction between primary and secondary databases becomes important.\n\n4.1 Primary vs Secondary databases\nPrimary databases in bioinformatics are repositories that store raw, unprocessed biological data generated directly from experimental methods, such as nucleotide sequences, protein sequences, and macromolecular structures. Once given a database accession number, the data in primary databases are never changed: they form part of the scientific record.\nSecondary databases comprise data derived from the results of analysing primary data. They provide curated, processed, or interpreted data that is derived from the combination of diverse sources of primary data, offering functional insights and higher-level biological context, to derive new knowledge from the public record of science. Secondary databases have become the molecular biologist’s reference library, offering extensive information on nearly every studied gene or gene product. Although often overwhelming, these resources hold enormous potential for discovery through data mining.\n\n\n4.2 Primary databases\n\nStore original and unprocessed data from experiments.\nExamples: ENA (European Nucleotide Archive), GenBank (nucleotide sequences), Protein Data Bank (PDB) (3D protein structures), ArrayExpress (gene expression).\nData is archival and serves as the scientific record, maintaining the integrity of experimental data.\n\n\n\n4.3 Secondary databases\n\nContain information derived by analyzing, annotating, and curating data from primary databases.\nExamples: InterPro (protein families, integrative protein data), UniProt (protein sequences and functional information).\nData includes interpretations, predictions, and functional annotations which enrich biological context and usability for researchers.\n\n\n\n4.4 Comparison table\n\n\n\nCategory\nPrimary Database\nSecondary Database\n\n\n\n\nData\nRaw, experimental\nProcessed, curated, interpreted\n\n\nSource\nDirect experiment/researcher input\nAnalysis of primary database data\n\n\nExamples\nENA, GenBank and DDBJ (nucleotide sequence); ArrayExpress and GEO (functional genomics data); PDB (3D macromolecular structures)\nUniProt (sequence and functional information on proteins); Ensembl (variation, function, regulation and more layered onto whole genome sequences); InterPro (protein families, motifs and domains)\n\n\nFunction\nArchival record\nAdds annotations and context\n\n\nModification\nData not altered\nData is analyzed, can be modified\n\n\n\nThese two types of databases are fundamental to bioinformatics, working together to organize, preserve, and interpret biological data for research and discovery.\n\n\n4.5 Hybrid databases\nSome databases combine both primary and secondary features. For example, UniProt holds experimental peptide sequences but also infers sequences and adds extensive automated (TrEMBL) and manual (SwissProt) annotations. Others separate the two functions into different branches, such as ArrayExpress (raw functional genomics data) and the Expression Atlas (derived expression patterns).\n\n\n4.6 Molecular databases per data type\nBioinformatics spans many different types of biological data, each with its own uses:\n- Genomic data: DNA sequences, variants, and structural alterations.\n- Transcriptomic data: RNA expression and splicing patterns.\n- Proteomic data: protein expression, modifications, and interactions.\n- Metabolomic data: metabolites and metabolic pathways.\n- Structural data: 3D structures of proteins and other macromolecules.\n- Phenotypic and clinical data: patient traits, disease states, and treatment outcomes.\nTogether, these diverse datasets provide complementary perspectives and, when integrated, can generate powerful insights into biology and disease.\nFigure 2 shows an overview of molecular biology data resources: genomic (DNA & genes), transcriptomic (RNA expression), proteomic (proteins & structures), pathway/integrated knowledge, and chemical/drug databases, highlighting the some of the main open-access repositories that support research and drug discovery.\n\n\n\nFigure 2: Overview of bioinformatics online public resources."
   },
   {
     "objectID": "week1.html#bioinformatics-as-an-experimental-science",
     "href": "week1.html#bioinformatics-as-an-experimental-science",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "5. Bioinformatics as an experimental science",
     "text": "5. Bioinformatics as an experimental science\nBioinformatics goes beyond data storage to include experiments on data. Simple searches retrieve information, but drawing conclusions (such as finding protein homologues) requires the same rigour as lab experiments, including appropriate methods and controls. Core databases serve as gateways to structured knowledge, enabling systematic exploration of the literature.\nBioinformatics experiments can be grouped into four types: searching, comparing, modelling, and integrating.\n\n5.1 Searching\nThe simplest type of bioinformatics experiment is to search a public database for information on a specific gene or protein. For example, with EBI Search (Figure 3), you can search across a large number of public databases simultaneously, without restricting beforehand the database to be searched (see bellow at the Integrating section).\n\n\n\nFigure 3: Data types that can be searched using EBI Search (where you can explore the interactive version of this map).\n\n\n\nControls\nA simple search is not an experiment and does not require controls. But once search results are used to answer a biological question, it becomes an experiment and controls are essential.\n\n\n\n\n\n\n\nSearch only\nExperiment + controls\n\n\n\n\nRetrieve information only\nUse search results to answer a biological question\n\n\nExample: find all protein sequences with the keyword globin\nExample: identify kinases that are in a pathway and upregulated in a disease\n\n\nNo controls required\nControls needed:  – Check if terms map to unrelated pathways  – Confirm terms are correctly linked to entries  – Look for consistency in related records\n\n\n\n\n\n\n5.2 Comparing\nThe most frequently used type of comparison in bioinformatics is sequence comparison to help reveal relationships in function, evolution, or both. The most common approach is sequence comparison, where nucleotide or protein sequences are aligned to database entries. Alignments account for insertions, deletions, and substitutions that may have occurred since divergence from a common ancestor. Matches can suggest evolutionary or functional relationships.\nAlignments may be pairwise or multiple, with different tools suited to different contexts: for example, BLAST is designed for finding regions of local similarity between sequences across large databases with high sensitivity, while BLAT is optimized for quickly aligning nearly identical sequences to a reference genome with lower sensitivity but much greater speed.\n\nControls\nThe key challenge is judging whether an alignment is significant, not just producing it. Significance is measured by the expectation score (e-value): the lower the e-value, the less likely it is that the match is random, and therefore, the more likely it reflects true homology. Controls include comparing random sequences and checking scores for unrelated sequences. Tool choice also matters, as tools differ in speed, accuracy, and suitability for specific applications.\n\n\n\n5.3 Modelling\nStructural modelling helps generate hypotheses about the 3D structure of macromolecules and their biochemical functions. A major breakthrough came with AlphaFold (Google DeepMind, 2021), which predicts protein structures from sequences. Its impact was recognised with the 2024 Nobel Prize in Chemistry, awarded to Demis Hassabis, John M. Jumper, and David Baker. In collaboration with EMBL-EBI, AlphaFold predictions are freely available in the AlphaFold Protein Structure Database.\nAnother widely used option for structural modelling is SWISS-MODEL, a web-based service developed at the Swiss Institute of Bioinformatics (SIB). It provides automated homology modelling of protein 3D structures by using known experimental structures as templates. This allows researchers to generate reliable structural models when experimental data are not available, making SWISS-MODEL a valuable complement to resources like AlphaFold.\n\nIn the Drug-Design module of this course, you will learn learn more about structural modelling.\n\nBeyond individual molecules, researchers also model biological processes and interactions (systems biology). Standardised mathematical models can be accessed from the BioModels Database. Systems modelling follows an iterative cycle:\n\nBuild a model based on current knowledge;\nTest it against biological data;\nRefine it;\nRepeat until the model reliably reflects reality.\n\n\n\n5.4 Integrating\nData integration has long been a challenge in bioinformatics, yet it is a powerful way to test hypotheses. By combining results, for example from transcriptomics, proteomics, and metabolomics, researchers can gather strong evidence for the involvement of a pathway in disease or drug resistance. Like systems modelling, integration supports hypothesis generation, but experimental validation remains essential.\nThe good news is that many resources now handle much of the complex work of linking and integrating data. One example is EBI Search, which maps related entities efficiently (also mentioned above in the Searching section).\nAnother is Open Targets, a platform that integrates large volumes of public data to support discovery. Open Targets is specifically designed to help researchers explore and visualise drug targets in the context of disease."
   },
   {
     "objectID": "week1.html#references",
     "href": "week1.html#references",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "References",
     "text": "References\nThis content was adapted from EBI’s “Bioinformatics for the terrified: An introduction to the science of bioinformatics”"
   },
   {
     "objectID": "week1.html#activity-overview",
     "href": "week1.html#activity-overview",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Activity overview",
     "text": "Activity overview\nIn this activity we will create a class dataset using dice. Along the way, you will recognize:\n\nWhy standardisation of data is essential to make data usable.\nHow sample size affects confidence in results, hence the importance of combining datasets.\nWhat tidy data means.\nHow different dice (D4, D6, D8, D10, D12, D20) relate to variables with different possible measurements.\nThe difference between single-variable and multivariate analysis."
   },
   {
     "objectID": "week1.html#step-1.-roll-15-min",
     "href": "week1.html#step-1.-roll-15-min",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 1. Roll (15 min)",
     "text": "Step 1. Roll (15 min)\n\nEach group is assigned one die.\nRoll it 10 times.\nRecord your results in any format you like.\n\nHint: Record the data in the way that you find most useful and understandable."
   },
   {
     "objectID": "week1.html#step-2.-compare-standardise-15-min",
     "href": "week1.html#step-2.-compare-standardise-15-min",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 2. Compare & Standardise (15 min)",
     "text": "Step 2. Compare & Standardise (15 min)\n\nJoin all groups with the same die type (all D4 groups, all D6 groups…).\nCompare how different groups recorded their results.\nNotice differences and discuss the pros and cons of alternative recordings.\nAgree on one standard format.\n\nLesson: Bioinformatics databases using a standardized data format to allow the pooling together of data from different experiments."
   },
   {
     "objectID": "week1.html#step-3.-combine-15-min",
     "href": "week1.html#step-3.-combine-15-min",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 3. Combine (15 min)",
     "text": "Step 3. Combine (15 min)\n\nAll groups with the same die pool their results.\nExample: one group’s 10 rolls of a D6 = limited evidence, but 50 rolls across all groups = strong evidence about probabilities.\n\nLesson: Larger sample size = greater confidence in conclusions."
   },
   {
     "objectID": "week1.html#step-4.-make-it-tidy-15",
     "href": "week1.html#step-4.-make-it-tidy-15",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 4. Make it Tidy (15)",
     "text": "Step 4. Make it Tidy (15)\n\nDoes the agreed upon record standard follow the tidy rule?\n\nEach variable = a column\nEach observation = a row\nEach value = a cell\n\n\nLesson: This is the principle behind how most bioinformatics databases are structured."
   },
   {
     "objectID": "week1.html#step-5.-reflect-on-variables-10-min",
     "href": "week1.html#step-5.-reflect-on-variables-10-min",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 5. Reflect on Variables (10 min)",
     "text": "Step 5. Reflect on Variables (10 min)\n\nDifferent dice = different numbers of possible outcomes.\n\nD4 = 4 outcomes\nD20 = 20 outcomes\n\n\nLesson: Biology is similar:\n\nSome variables have few states (genotype with 3 possible states).\nOthers are more complex (gene expression with many possible values)."
   },
   {
     "objectID": "week1.html#step-6.-single-vs.-multivariate-analysis-10-min",
     "href": "week1.html#step-6.-single-vs.-multivariate-analysis-10-min",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 6. Single vs. Multivariate Analysis (10 min)",
     "text": "Step 6. Single vs. Multivariate Analysis (10 min)\n\nSingle variable: Analyse only one column (e.g. “What is the most common result for D6?”).\nMultivariate: Combine columns (e.g. “When D6 is high, is D20 also high?”).\n\nLesson: Bioinformatics often moves from univariate summaries (each gene/protein separately) to multivariate models (how variables interact)."
   },
   {
     "objectID": "week1.html#step-7.-wrap-up-reflection-5-min",
     "href": "week1.html#step-7.-wrap-up-reflection-5-min",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Step 7. Wrap-up Reflection (5 min)",
     "text": "Step 7. Wrap-up Reflection (5 min)\nQuestions:\n\nWhat was hardest: generating, recording, or analysing?\nHow does this compare to working with real biological data?\nWhy do we need curated bioinformatics databases?"
   },
   {
     "objectID": "week1.html#take-home-message",
     "href": "week1.html#take-home-message",
-    "title": "Week 1 | Introduction to Bioinformatics",
+    "title": "Topic 1 | Introduction to Bioinformatics",
     "section": "Take home message",
     "text": "Take home message\nBy rolling dice:\n\nyou’ve built a mini database;\nexperienced the challenge of standardisation;\nexplored sample size effects;\npractised tidy data;\nunderstood variable ranges; and\ncompared single vs. multivariate analysis.\n\nBy the end of this practical class, you should know:\n\n\nWhat made it possible to build a class database?\n\n\nStandardisation.\n\n\nWhy combine results?\n\n\nSample size = confidence.\n\n\nWhy tidy format?\n\n\nAnalysis-ready data.\n\n\nWhat do different dice represent?\n\n\nDifferent measurement complexities (possible outcomes).\n\n\nWhat’s the difference between single and multivariate analysis?\n\n\nOne variable vs. relationships between variables."
   },
   {
-    "objectID": "week2.html",
-    "href": "week2.html",
-    "title": "Week 2 | TBA",
+    "objectID": "contact_me.html",
+    "href": "contact_me.html",
+    "title": "Contact me",
     "section": "",
-    "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
+    "text": "Feel free to reach out if you need assistance with these training materials, or just to say hi!\n\nLoading…\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "calendar.html",
+    "href": "calendar.html",
+    "title": "Calendar",
+    "section": "",
+    "text": "The scheduled classes for this curse in 2025 are:\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -172,27 +172,27 @@
     "href": "index.html#weekly-schedule",
     "title": "Bioinformatics Module | Bioinformatics and Drug Design",
     "section": "Weekly Schedule",
-    "text": "Weekly Schedule\n\nWeek 1 – Introduction to Bioinformatics and Biological Databases\nLecture Topics:\n\nDefinition and scope of bioinformatics.\nBioinformatics in drug discovery.\nOverview of databses per biological data types.\nPrimary and secondary databases.\nBioinformatics as an experimental science: search, compare, model, and integrate data.\n\nPractical Activities:\n\nFrom Data to Databases: Using Dice to Illustrate Principles of Bioinformatics"
+    "text": "Weekly Schedule\n\nTopic 1 – Introduction to Bioinformatics and Biological Databases\nLecture Topics:\n\nDefinition and scope of bioinformatics.\nBioinformatics in drug discovery.\nOverview of databases per biological data types.\nPrimary and secondary databases.\nBioinformatics as an experimental science: search, compare, model, and integrate data.\n\nPractical Activities:\n\nFrom Data to Databases: Using Dice to Illustrate Principles of Bioinformatics"
   },
   {
-    "objectID": "week6.html",
-    "href": "week6.html",
-    "title": "Week 6 | TBA",
+    "objectID": "week2.html",
+    "href": "week2.html",
+    "title": "Topic 2 | TBA",
     "section": "",
     "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "week4.html",
+    "href": "week4.html",
+    "title": "Topic 4 | TBA",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+    "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "contact_me.html",
-    "href": "contact_me.html",
-    "title": "Contact me",
+    "objectID": "week6.html",
+    "href": "week6.html",
+    "title": "Topic 6 | TBA",
     "section": "",
-    "text": "Feel free to reach out if you need assistance with these training materials, or just to say hi!\n\nLoading…\n\n\n\n\n Back to top"
+    "text": "Class Details\n\n\n\n📅 Date: 2025\n📖 Synopsis: TBA\n\n\n\n\n\n\n Back to top"
   }
 ]
