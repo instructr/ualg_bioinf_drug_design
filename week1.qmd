@@ -4,7 +4,7 @@ title: "Topic 1 | Introduction to Bioinformatics"
 
 ::: {.callout-note}
 ## Class Details
-📅 **Date:** 15 September 2025  
+📅 **Date:** 15/17 September 2025  
 📖 **Synopsis:** Introduction to Bioinformatics and Biological Databases  
 :::
 
