@@ -1,0 +1,757 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "rzRvNWepgAFgOa1UJy2Nl",
+      "type": "rectangle",
+      "x": 836.8916625976562,
+      "y": 508.08730196794477,
+      "width": 748.9833374023438,
+      "height": 115,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fcc2d7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1400457321,
+      "version": 235,
+      "versionNonce": 1977896071,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "_eK0uLkcabwXmP_M433_C"
+        },
+        {
+          "id": "bk1rDLr5qj-4zGRhPT3z7",
+          "type": "arrow"
+        },
+        {
+          "id": "loF2zjTZ_-j_1spjihk5i",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "_eK0uLkcabwXmP_M433_C",
+      "type": "text",
+      "x": 880.2833251953125,
+      "y": 513.0873019679448,
+      "width": 662.2000122070312,
+      "height": 105,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 468079433,
+      "version": 291,
+      "versionNonce": 1327783303,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false,
+      "text": "1. Start with DrugBank \nDiscover molecular targets and drug related\ninformation.",
+      "fontSize": 28,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rzRvNWepgAFgOa1UJy2Nl",
+      "originalText": "1. Start with DrugBank \nDiscover molecular targets and drug related information.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "4OV3xV7ydTV59eyZlfFy4",
+      "type": "rectangle",
+      "x": 830.0083312988281,
+      "y": 677.605041419123,
+      "width": 760.2499999999999,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 741278249,
+      "version": 321,
+      "versionNonce": 148317095,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "Glrut-UxcL4qruZF5fsst"
+        },
+        {
+          "id": "bk1rDLr5qj-4zGRhPT3z7",
+          "type": "arrow"
+        },
+        {
+          "id": "xf0M9pFhIuLEr6SOUyCyt",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Glrut-UxcL4qruZF5fsst",
+      "type": "text",
+      "x": 848.2333374023438,
+      "y": 682.605041419123,
+      "width": 723.7999877929688,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1363072265,
+      "version": 318,
+      "versionNonce": 1106056359,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false,
+      "text": "2. Proceed with UniProt \nFor almost any gene/protein target, Uniprot\nprovides the most readable and comprehensive\nfunctional summary. It's the best \"first stop.\"",
+      "fontSize": 28,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "4OV3xV7ydTV59eyZlfFy4",
+      "originalText": "2. Proceed with UniProt \nFor almost any gene/protein target, Uniprot provides the most readable and comprehensive functional summary. It's the best \"first stop.\"",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "eyiqOKhPHLIXWwxO21gWU",
+      "type": "rectangle",
+      "x": 823.5416564941406,
+      "y": 877.3315989644359,
+      "width": 773.183349609375,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 781274089,
+      "version": 174,
+      "versionNonce": 1638012615,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "xpC8j0iudcQJCnzo5e-vB"
+        },
+        {
+          "id": "xf0M9pFhIuLEr6SOUyCyt",
+          "type": "arrow"
+        },
+        {
+          "id": "iIHdvA7qp2vdBLNvfuwee",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "xpC8j0iudcQJCnzo5e-vB",
+      "type": "text",
+      "x": 863.6333312988281,
+      "y": 882.3315989644359,
+      "width": 693,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": null,
+      "seed": 1815209673,
+      "version": 195,
+      "versionNonce": 1154607047,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false,
+      "text": "3. Visualize with RCSB PDB\nFor any drug-target interaction, the PDB is\nunbeatable for making the abstract concept of\n\"binding\" concrete and visual.",
+      "fontSize": 28,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "eyiqOKhPHLIXWwxO21gWU",
+      "originalText": "3. Visualize with RCSB PDB\nFor any drug-target interaction, the PDB is unbeatable for making the abstract concept of \"binding\" concrete and visual.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "cNpFwQDgClxZhzHm_1FMb",
+      "type": "rectangle",
+      "x": 825.3416442871094,
+      "y": 1071.0029550412814,
+      "width": 772.0833740234375,
+      "height": 185,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#96f2d7",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 616310185,
+      "version": 424,
+      "versionNonce": 1189193191,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "gucU8qpftLykwVcnm_UPu"
+        },
+        {
+          "id": "iIHdvA7qp2vdBLNvfuwee",
+          "type": "arrow"
+        },
+        {
+          "id": "wzJQsDFLjIBJKmO9nHoOj",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "gucU8qpftLykwVcnm_UPu",
+      "type": "text",
+      "x": 849.4833374023438,
+      "y": 1076.0029550412814,
+      "width": 723.7999877929688,
+      "height": 175,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": null,
+      "seed": 324765833,
+      "version": 400,
+      "versionNonce": 904877799,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false,
+      "text": "4. Add Context with Specialized DBs\nUse OMIM for genetic disease, ClinVar for\nclinically relevant variants, and KEGG/Reactome\nfor pathways to build layers of understanding\naround the core drug–target pair.",
+      "fontSize": 28,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "cNpFwQDgClxZhzHm_1FMb",
+      "originalText": "4. Add Context with Specialized DBs\nUse OMIM for genetic disease, ClinVar for clinically relevant variants, and KEGG/Reactome for pathways to build layers of understanding around the core drug–target pair.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "P0AiJoFYskVLTmotKQFGu",
+      "type": "rectangle",
+      "x": 819.2749938964844,
+      "y": 1298.5000000000002,
+      "width": 781.7166748046876,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 30117737,
+      "version": 294,
+      "versionNonce": 2007126279,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "QhZnHwyeA3r4JV30OAqCY"
+        },
+        {
+          "id": "wzJQsDFLjIBJKmO9nHoOj",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "QhZnHwyeA3r4JV30OAqCY",
+      "type": "text",
+      "x": 825.1333312988281,
+      "y": 1303.5000000000002,
+      "width": 770,
+      "height": 140,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": null,
+      "seed": 1985460809,
+      "version": 328,
+      "versionNonce": 2077352455,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false,
+      "text": "5. Use genome browsers for genomic events \nFor gene fusions, large deletions/duplications, or\nunderstanding gene structure, Ensembl and UCSC are\nessential.",
+      "fontSize": 28,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "P0AiJoFYskVLTmotKQFGu",
+      "originalText": "5. Use genome browsers for genomic events \nFor gene fusions, large deletions/duplications, or understanding gene structure, Ensembl and UCSC are essential.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "bk1rDLr5qj-4zGRhPT3z7",
+      "type": "arrow",
+      "x": 1210.820852448741,
+      "y": 624.0873019679448,
+      "width": 0.7828608115733005,
+      "height": 52.51773945117827,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aA",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 568035625,
+      "version": 523,
+      "versionNonce": 1467974759,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301916848,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.7828608115733005,
+          52.51773945117827
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "rzRvNWepgAFgOa1UJy2Nl",
+        "focus": -0.0000011528467251467448,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "4OV3xV7ydTV59eyZlfFy4",
+        "focus": 8.299324661062564e-7,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "xf0M9pFhIuLEr6SOUyCyt",
+      "type": "arrow",
+      "x": 1210.224574289194,
+      "y": 829.0401654031324,
+      "width": 0.3541568124569494,
+      "height": 46.58516491970272,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aB",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 230849545,
+      "version": 466,
+      "versionNonce": 452231881,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301854782,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.3541568124569494,
+          46.58516491970272
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "4OV3xV7ydTV59eyZlfFy4",
+        "focus": -8.299324661062564e-7,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "eyiqOKhPHLIXWwxO21gWU",
+        "focus": 8.096094711590678e-7,
+        "gap": 5.300000000000011
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "iIHdvA7qp2vdBLNvfuwee",
+      "type": "arrow",
+      "x": 1210.4896984403192,
+      "y": 1028.331598964436,
+      "width": 0.08153351881492199,
+      "height": 41.67135607684554,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aC",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 168301289,
+      "version": 598,
+      "versionNonce": 213569095,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301930579,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.08153351881492199,
+          41.67135607684554
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "eyiqOKhPHLIXWwxO21gWU",
+        "focus": -0.0000013364360954183616,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "cNpFwQDgClxZhzHm_1FMb",
+        "focus": -5.120869287022443e-7,
+        "gap": 1
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "wzJQsDFLjIBJKmO9nHoOj",
+      "type": "arrow",
+      "x": 1210.500808987317,
+      "y": 1257.0029550412814,
+      "width": 0.07819089113422706,
+      "height": 36.197044958718834,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aD",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1530383817,
+      "version": 733,
+      "versionNonce": 217541991,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301930580,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.07819089113422706,
+          36.197044958718834
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "cNpFwQDgClxZhzHm_1FMb",
+        "focus": 5.036154259893029e-7,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "P0AiJoFYskVLTmotKQFGu",
+        "focus": 0.0000010763852318851681,
+        "gap": 5.299999999999841
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "hf58t4sPMzbmi9cZ5rXZk",
+      "type": "rectangle",
+      "x": 724.3916625976562,
+      "y": 362.12150958409995,
+      "width": 971.483337402344,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aE",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 950432841,
+      "version": 404,
+      "versionNonce": 1844968039,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "k6I2ingWQA-AKLm41-YBz"
+        },
+        {
+          "id": "loF2zjTZ_-j_1spjihk5i",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "k6I2ingWQA-AKLm41-YBz",
+      "type": "text",
+      "x": 794.3333435058595,
+      "y": 389.62150958409995,
+      "width": 831.5999755859375,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aF",
+      "roundness": null,
+      "seed": 1581450025,
+      "version": 531,
+      "versionNonce": 2004224295,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301971259,
+      "link": null,
+      "locked": false,
+      "text": "Bioinformatics Databases | Search Strategy",
+      "fontSize": 36,
+      "fontFamily": 8,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "hf58t4sPMzbmi9cZ5rXZk",
+      "originalText": "Bioinformatics Databases | Search Strategy",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "loF2zjTZ_-j_1spjihk5i",
+      "type": "arrow",
+      "x": 1209.3155980412805,
+      "y": 463.12150958409995,
+      "width": 0.5501274105163247,
+      "height": 43.86037825161583,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aG",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 53130761,
+      "version": 769,
+      "versionNonce": 637558663,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1758301916849,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5501274105163247,
+          43.86037825161583
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "hf58t4sPMzbmi9cZ5rXZk",
+        "focus": 0.003339158210911981,
+        "gap": 1
+      },
+      "endBinding": {
+        "elementId": "rzRvNWepgAFgOa1UJy2Nl",
+        "focus": -0.00468824600802812,
+        "gap": 1.1054141322290434
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}

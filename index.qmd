@@ -6,6 +6,8 @@ date: "September 2025"
 output: html_document
 ---
 
+:::{.panel-tabset}
+
 ## Course Overview
 
 This 7-week module introduces bioinformatics concepts and tools relevant for pharmaceutical sciences. Students will gain hands-on experience with public databases and online tools to retrieve, analyse, and interpret genomic, proteomic, and transcriptomic data.
@@ -21,15 +23,174 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 **Assessment**:
 
 - Final short video report: characterisation of a gene/protein using bioinformatics tools.
-  - 5 minutes max;
+  - 2-5 minutes;
   - Groups of 2 students;
   - Final presentation and discussion of the video report.
+  
 
----
+## TP Classes Overview
 
-## Weekly Schedule
+#### **Goal**
 
-### Topic 1 – Introduction to Bioinformatics and Biological Databases
+Learn to independently explore and critically interpret bioinformatics resources in order to connect drugs with their molecular targets and understand their pharmacological, mechanistic, and clinical relevance.
+
+#### **Learning outcomes**
+
+By the end of the TP practical classes, students should be able to:
+
+-   Identify the molecular target(s) of a given drug using authoritative online bioinformatics resources.
+
+-   Retrieve and interpret relevant information on drug classes, mechanisms of action, target function, pathways, and clinical associations.
+
+-   Integrate data from multiple sources to explain the pharmacological and clinical importance of a drug–target pair.
+
+-   Demonstrate independent inquiry skills by selecting appropriate databases, justifying search strategies, and reflecting on findings.
+
+-   Communicate discoveries clearly through concise answers, group discussions, and structured information reporting.
+
+#### **Evaluation**
+
+Any student choosing to complete the worksheet and take part in the class discussion, will earn one bonus point toward the final grade for the bioinformatics module evaluation (the video + presentation report).
+
+Their participation in class will be evaluated using these criteria:
+
+-   **Complete answers** → Did you cover everything that was asked?
+-   **Smart searching** → Did you find the info in a clear and simple way?
+-   **Double-checking** → Did you confirm the info by looking at more than one place?
+-   **Sharing** → Are you ready to explain to the class how you found your answers?
+
+#### **Activities general overview** 
+
+Starting from a **drug**, the students will be guided on the journey to discover its **molecular target**, priming them to explore online resources in order to uncover information that is central to pharmaceutical sciences students.
+
+1.  Every activity will follow the same **conceptual map**:
+
+Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
+
+2.  The **categories of information** that students should be able to find online and articulate for each drug–target pair are:
+
+-   **A. Drug Basics**
+    -   Drug class
+    -   Mechanism of action
+    -   Therapeutic indications
+    -   Adverse effects
+-   **B. Target Identity**
+    -   Gene name and synonyms
+    -   Protein function
+    -   Tissue expression
+    -   Pathophysiological relevance
+-   **C. Molecular Mechanism**
+    -   Binding site
+    -   Structural information
+    -   Known mutations
+    -   Pathway involvement
+-   **D. Clinical and Translational Relevance**
+    -   Drug resistance mechanisms
+    -   Drug–drug interactions
+    -   Biomarkers of response
+    -   Approved vs experimental uses
+
+3.  Most relevant databases for each category of relevant information to retrieve for each drug-target pair are (as a general rule):
+
+-   *Drug bank*, (*ChEMBL*, *PubChem*) = drug details
+-   *UniProt* = protein details
+-   *NCBI/Ensembl/UCSC* = gene identity & functional details
+-   *PDB* = structure
+-   *ClinVar/OMIM* = clinical genetics & variants
+-   *KEGG/Reactome* = pathways
+
+#### **Resources summary table**
+
+| **Category** | **What to Find** | **Top Resource(s)** |
+|-------------------|-------------------|----------------------------------|
+| **1. Drug Basics** | **Drug class** <br> (e.g. NSAID, benzodiazepine, kinase inhibitor, etc.) | [NCBI](https://www.ncbi.nlm.nih.gov), [EBI Search](https://www.ebi.ac.uk/ebisearch/), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+|  | **Therapeutic use** <br> (major diseases or conditions it treats) | [OMIM](https://www.omim.org), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+|  | **Mechanism of action** <br> (at a high level: inhibits, activates, modulates…) | [UniProt](https://www.uniprot.org), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+|  | **Common adverse effects** <br> (especially those linked to its mechanism) | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [OMIM](https://www.omim.org) |
+| **2. Target Identity** | **Gene name + synonyms** <br> (official symbol, aliases) | [Ensembl](https://www.ensembl.org), [NCBI Gene](https://www.ncbi.nlm.nih.gov/gene) |
+|  | **Protein function** <br> (normal biological role) | [UniProt](https://www.uniprot.org) |
+|  | **Tissue expression** <br> (where it is most abundant in the body) | [UCSC Genome Browser](https://genome.ucsc.edu), [UniProt](https://www.uniprot.org), ([The Human Protein Atlas](https://www.proteinatlas.org/)) |
+|  | **Pathophysiological relevance** <br> (disease(s) associated with target) | [OMIM](https://www.omim.org), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), ([dbSNP](https://www.ncbi.nlm.nih.gov/snp/)) |
+| **3. Molecular Mechanism** | **Drug binding site** <br> (active site, allosteric site, receptor domain) | [RCSB PDB](https://www.rcsb.org) |
+|  | **Structural information** <br> (are there PDB structures with the drug bound?) | [RCSB PDB](https://www.rcsb.org) |
+|  | **Known variants/mutations** <br> (variants that alter drug response) | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), ([dbSNP](https://www.ncbi.nlm.nih.gov/snp/)) |
+|  | **Pathways** <br> (biological processes where the target participates) | [KEGG](https://www.genome.jp/kegg/), [Reactome](https://reactome.org) |
+| **4. Clinical & Translational Relevance** | **Drug resistance mechanisms** <br> (mutations, enzymatic degradation) | [OMIM](https://www.omim.org), [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), ([dbSNP](https://www.ncbi.nlm.nih.gov/snp/)) |
+|  | **Drug–drug interactions** <br> (e.g. common metabolising enzymes) | [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+|  | **Biomarkers of response** <br> (genetic or protein markers that predict efficacy/toxicity) | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [OMIM](https://www.omim.org), ([ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+|  | **Approved vs experimental/repurposed uses** <br> (has it been repurposed, or are there ongoing trials?) | ([ClinicalTrials.gov](https://clinicaltrials.gov)), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+
+#### **Activities worksheet [template]**
+
+------------------------------------------------------------------------
+
+**Goal:** **Explore** and **critically interpret bioinformatics resources** to connect drugs with their molecular targets and understand their pharmacological, mechanistic, and clinical relevance.
+
+**How to work:** Use any of the following databases to help you: [Online Database links for each activity]
+
+
+
+#### Identification
+
+------------------------------------------------------------------------
+
+**Activity number:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Date & TP group:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Student(s) name(s):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+#### Drug-Molecular Target report
+
+------------------------------------------------------------------------
+
+**Drug name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Molecular target (gene/protein):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+#### 1. Drug Basics
+
+-   **Drug class:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Therapeutic use(s):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Mechanism of action** (summary): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Common adverse effects** (linked to mechanism): \_\_\_\_
+
+#### 2. Target Identity
+
+-   **Official gene name + synonyms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Protein function** (normal physiology)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Tissue expression** (where is it active?)**:** \_\_\_\_\_\_\_\_\_\_\_\_
+-   **Relevance in disease:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### 3. Molecular Mechanism
+
+-   **Where does the drug bind?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Is there a known 3D structure with drug bound?** (yes/no; PDB ID if found)
+-   **Variants or mutations affecting drug response:** \_\_\_\_\_\_
+-   **Pathways involved** (KEGG/Reactome)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### 4. Clinical and Translational Relevance
+
+-   **Known resistance mechanisms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Drug–drug interactions** (key enzymes, e.g. CYPs)**:** \_\_\_\_
+-   **Biomarkers of response** (if any)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Approved vs experimental/repurposed uses:** \_\_\_\_\_\_\_\_\_
+
+#### 5. Integrated Reflection
+
+-   **Why is this drug–target pair important in pharmacology?**
+
+    ------------------------------------------------------------------------
+
+-   **One new/surprising fact I found for this drug-target pair:**
+
+    ------------------------------------------------------------------------
+
+## Course Weekly Schedule
+
+### Topic 1 \| Introduction to Bioinformatics and Biological Databases
 
 **Lecture Topics**:
 
@@ -40,10 +201,155 @@ This 7-week module introduces bioinformatics concepts and tools relevant for pha
 - Bioinformatics as an experimental science: search, compare, model, and integrate data.
 
 
-**Practical Activities**:
+**TP Activity 1**:
 
 - *From Data to Databases: Using Dice to Illustrate Principles of Bioinformatics*
 
+### Topic 2 \| Drugs and Molecular Information
+
+**Exploring databases**:
+[DrugBank](https://go.drugbank.com),
+[NCBI](https://www.ncbi.nlm.nih.gov)
+
+* **Lecture topics**
+
+  * Retrieving drug and compound information — **DrugBank**
+  * Accessing reference sequences and molecular records — **NCBI**
+  * Linking chemical and molecular data — **DrugBank / NCBI**
+
+* **Learning goals**
+
+  * Learn how to retrieve drug and target information from online resources.
+  * Explore NCBI as a central entry point for biological data.
+  * Connect pharmacological and molecular data sources.
+
+* **TP Activity 2**
+
+  * *Ibuprofen & Prostaglandin Pathways*
+
+
+### Topic 3 \| Proteins and Structures
+
+**Exploring databases**:
+[UniProt](https://www.uniprot.org),
+[RCSB PDB](https://www.rcsb.org)
+
+* **Lecture topics**
+
+  * Accessing protein annotation, domains, and sequence features — **UniProt**
+  * Visualising receptor structures — **RCSB PDB**
+  * Exploring ligand binding sites in protein complexes — **RCSB PDB / UniProt**
+
+* **Learning goals**
+
+  * Learn to retrieve and interpret protein functional information.
+  * Explore 3D receptor structures.
+  * Integrate protein sequence and structural data.
+
+* **TP Activity 3**
+
+  * *Diazepam & GABA Receptor Structures*
+
+
+### Topic 4 \| Variants and Diseases
+
+**Exploring databases**:
+[ClinVar](https://www.ncbi.nlm.nih.gov/clinvar),
+[OMIM](https://www.omim.org)
+
+* **Lecture topics**
+
+  * Accessing clinical variant data — **ClinVar**
+  * Exploring disease associations and inheritance — **OMIM**
+  * Understanding how genetic variation is linked to disease — **ClinVar / OMIM**
+
+* **Learning goals**
+
+  * Learn to retrieve disease-related variant information.
+  * Explore how clinical resources document genetic associations.
+  * Relate molecular changes to curated disease knowledge.
+
+* **TP Activity 4**
+
+  * *Imatinib & Chromosomal Fusions*
+
+
+### Topic 5 \| Pathways and Signalling
+
+**Exploring databases**:
+[KEGG](https://www.genome.jp/kegg),
+[Reactome](https://reactome.org)
+
+* **Lecture topics**
+
+  * Exploring checkpoint signalling pathways — **KEGG**
+  * Mapping DNA damage response into curated cascades — **Reactome**
+  * Comparing complementary pathway visualisations — **KEGG / Reactome**
+
+* **Learning goals**
+
+  * Learn to navigate pathway maps to locate molecular players.
+  * Compare pathway representations across resources.
+  * Connect signalling pathways to therapeutic strategies.
+
+* **TP Activity 5**
+
+  * *Checkpoint Kinase Pathways*
+
+
+### Topic 6 \| Genomes and Regulation
+
+**Exploring databases**:
+[Ensembl](https://www.ensembl.org),
+[UCSC Genome Browser](https://genome.ucsc.edu)
+
+* **Lecture topics**
+
+  * Exploring receptor variants in genome browsers — **Ensembl**
+  * Investigating regulatory regions and conservation — **UCSC Genome Browser**
+  * Comparing genomic representations of receptors — **Ensembl / UCSC**
+
+* **Learning goals**
+
+  * Learn to use genome browsers for receptor data.
+  * Explore regulation and conservation using genome visualisations.
+  * Integrate genomic data into functional context.
+
+* **TP Activity 6**
+
+  * *EGFR Inhibitors & Resistance Mechanisms*
+
+
+### Topic 7 \| Integrating Bioinformatics Resources
+
+**Recap**:
+[DrugBank](https://go.drugbank.com),
+[NCBI](https://www.ncbi.nlm.nih.gov),
+[UniProt](https://www.uniprot.org),
+[RCSB PDB](https://www.rcsb.org),
+[ClinVar](https://www.ncbi.nlm.nih.gov/clinvar),
+[OMIM](https://www.omim.org),
+[KEGG](https://www.genome.jp/kegg),
+[Reactome](https://reactome.org),
+[Ensembl](https://www.ensembl.org),
+[UCSC Genome Browser](https://genome.ucsc.edu)
+
+* **Lecture topics**
+
+  * Reviewing how drug, protein, variant, and pathway information are connected.
+  * Comparing overlaps and complementary strengths of databases.
+  * Practising integration of multiple resources for a full case study.
+
+* **Learning goals**
+
+  * Recap database navigation across drug, protein, variant, and pathway levels.
+  * Learn how to combine resources to answer complex biomedical questions.
+  * Build confidence in selecting the right tool for a given problem.
+
+* **TP Activity 7**
+
+  * *Semaglutide & Metabolic Pathways (Integration Recap)*
 
 
 
+:::
