@@ -1,12 +1,39 @@
 ---
-title: "Topic 7 | TBA"
+title: "Topic 7 | Integrating Bioinformatics Resources"
 ---
 
-::: {.callout-note}
+::: callout-note
 ## Class Details
-📅 **Date:** 2025  
-📖 **Synopsis:** TBA  
+
+📅 **Date:** 2025\
+📖 **Synopsis:** Recap: DrugBank, NCBI, UniProt, RCSB PDB, ClinVar, OMIM, KEGG, Reactome, Ensembl, UCSC Genome Browser
 :::
 
+**Lecture topics**
+
+  - Reviewing how drug, protein, variant, and pathway information are connected.
+  - Comparing overlaps and complementary strengths of databases.
+  - Practising integration of multiple resources for a full case study.
+
+
+**Learning goals**
+
+  - Recap database navigation across drug, protein, variant, and pathway levels.
+  - Learn how to combine resources to answer complex biomedical questions.
+  - Build confidence in selecting the right tool for a given problem.
+  
 </br>
 
+::: panel-tabset
+
+# Theory
+
+
+
+# Practical
+
+**TP Activity 7**
+
+  - Semaglutide & Metabolic Pathways (Integration Recap)
+
+:::

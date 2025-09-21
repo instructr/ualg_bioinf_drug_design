@@ -1,12 +1,36 @@
 ---
-title: "Topic 3 | TBA"
+title: "Topic 3 | Proteins and Structures"
 ---
 
 ::: {.callout-note}
 ## Class Details
-📅 **Date:** 2025  
-📖 **Synopsis:** TBA  
+📅 **Date:** 25 September 2025  
+📖 **Synopsis:** Exploring databases: UniProt, RCSB PDB  
 :::
+
+**Lecture topics**
+
+  - Accessing protein annotation, domains, and sequence features - UniProt
+  - Visualising receptor structures - RCSB PDB
+  - Exploring ligand binding sites in protein complexes - RCSB PDB / UniProt
+
+**Learning goals**
+
+  - Learn to retrieve and interpret protein functional information.
+  - Explore 3D receptor structures.
+  - Integrate protein sequence and structural data.
 
 </br>
 
+::: {.panel-tabset}
+
+# Theory
+
+
+# Practical
+
+**TP Activity 3**
+
+  - Diazepam & GABA Receptor Structures
+
+:::

@@ -1,12 +1,36 @@
 ---
-title: "Topic 4 | TBA"
+title: "Topic 4 | Variants and Diseases"
 ---
 
 ::: {.callout-note}
 ## Class Details
 📅 **Date:** 2025  
-📖 **Synopsis:** TBA  
+📖 **Synopsis:** Exploring databases: ClinVar, OMIM  
 :::
+
+**Lecture topics**
+
+  - Accessing clinical variant data - ClinVar
+  - Exploring disease associations and inheritance - OMIM
+  - Understanding how genetic variation is linked to disease - ClinVar / OMIM
+
+**Learning goals**
+
+  - Learn to retrieve disease-related variant information.
+  - Explore how clinical resources document genetic associations.
+  - Relate molecular changes to curated disease knowledge.
 
 </br>
 
+::: {.panel-tabset}
+
+# Theory
+
+
+# Practical
+
+**TP Activity 4**
+
+  - Imatinib & Chromosomal Fusions
+        
+:::

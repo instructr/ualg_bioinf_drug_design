@@ -1,12 +1,37 @@
 ---
-title: "Topic 5 | TBA"
+title: "Topic 5 | Pathways and Signalling"
 ---
 
 ::: {.callout-note}
 ## Class Details
 📅 **Date:** 2025  
-📖 **Synopsis:** TBA  
+📖 **Synopsis:** Exploring databases: KEGG, Reactome  
 :::
+
+**Lecture topics**
+
+  - Exploring checkpoint signalling pathways - KEGG
+  - Mapping DNA damage response into curated cascades - Reactome
+  - Comparing complementary pathway visualisations - KEGG / Reactome
+
+**Learning goals**
+
+  - Learn to navigate pathway maps to locate molecular players.
+  - Compare pathway representations across resources.
+  - Connect signalling pathways to therapeutic strategies.
 
 </br>
 
+::: {.panel-tabset}
+
+# Theory
+
+
+# Practical
+
+**TP Activity 5**
+
+  - Checkpoint Kinase Pathways
+
+
+:::

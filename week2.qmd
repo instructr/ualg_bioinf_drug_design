@@ -1,12 +1,36 @@
 ---
-title: "Topic 2 | TBA"
+title: "Topic 2 | Drugs and Molecular Information"
 ---
 
 ::: {.callout-note}
 ## Class Details
-📅 **Date:** 2025  
-📖 **Synopsis:** TBA  
+📅 **Date:** 22/23 September 2025  
+📖 **Synopsis:** Exploring databases: DrugBank, NCBI  
 :::
 
+**Lecture topics**
+
+  - Retrieving drug and compound information - DrugBank
+  - Accessing reference sequences and molecular records - NCBI
+  - Linking chemical and molecular data - DrugBank / NCBI
+
+**Learning goals**
+
+  - Learn how to retrieve drug and target information from online resources.
+  - Explore NCBI as a central entry point for biological data.
+  - Connect pharmacological and molecular data sources.
+        
 </br>
 
+::: {.panel-tabset}
+
+# Theory
+
+
+# Practical
+
+**TP Activity 2**
+
+  - Ibuprofen & Prostaglandin Pathways
+
+:::
