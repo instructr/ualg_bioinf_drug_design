@@ -120,17 +120,13 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 |  | **Biomarkers of response** <br> (genetic or protein markers that predict efficacy/toxicity) | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [OMIM](https://www.omim.org), ([ChEMBL](https://www.ebi.ac.uk/chembl/)) |
 |  | **Approved vs experimental/repurposed uses** <br> (has it been repurposed, or are there ongoing trials?) | ([ClinicalTrials.gov](https://clinicaltrials.gov)), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
 
+<br>
+
 #### **Activities worksheet [template]**
 
 ------------------------------------------------------------------------
 
-**Goal:** **Explore** and **critically interpret bioinformatics resources** to connect drugs with their molecular targets and understand their pharmacological, mechanistic, and clinical relevance.
-
-**How to work:** Use any of the following databases to help you: [Online Database links for each activity]
-
-
-
-#### Identification
+#### Student and Activity Identification
 
 ------------------------------------------------------------------------
 

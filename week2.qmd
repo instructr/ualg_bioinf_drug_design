@@ -26,11 +26,159 @@ title: "Topic 2 | Drugs and Molecular Information"
 
 # Theory
 
+### Introduction
+
+This class explores two important yet very different databases: **DrugBank** and **NCBI**. 
+
+DrugBank focuses on drugs, their molecular targets, and clinical information, while NCBI is a broad platform that integrates many types of biological data, from genes and proteins to literature and clinical variants. 
+
+Together, they show how specialised and general-purpose resources can complement each other, and why learning to navigate both is essential for connecting drug information with the underlying biology.
+
+### Challenges
+
+Using these large online resources for the first time presents some challenges and common difficulties: 
+
+- **Information overload:** both DrugBank and NCBI contain a lot of data and links; you may feel lost in deciding what is essential versus background.
+
+- **Navigation structure:** NCBI in particular is a collection of many sub-databases (Gene, PubMed, ClinVar, GEO, etc.), and you may not immediately know which one to enter or how to move between them.
+
+- **Technical terminology:** drug mechanisms, gene names, and clinical annotations use specialised vocabulary that may not yet be familiar to you.
+
+- **Cross-referencing:** following links across databases (e.g., from DrugBank to UniProt, or from NCBI Gene to PubMed articles) can feel like “falling down a rabbit hole” without a clear strategy.
+
+- **Search skills:** knowing what search terms to use (drug name, gene symbol, disease, accession number) and how to refine results can be challenging at the start.
+
+> It’s normal to feel a bit overwhelmed when using any online Bioinformatics resource for the first time. These databases are large and detailed, and **nobody masters them right away**. With practice, the structure becomes more familiar, and you will quickly learn how to find the information you need. **Don’t worry if it feels slow at the beginning** - every search builds your confidence, and over time the process becomes natural. By the end of these classes you will feel confident finding your way around key bioinformatics databases.
+
+### Databases overview
+
+<br>
+
+#### **DrugBank**
+
+![Drugbank home page.](figs/drugbank.png)
+
+**URL:** [https://go.drugbank.com](https://go.drugbank.com)
+
+**1. Purpose | ** A resource that combines detailed information on drugs with their molecular targets and mechanisms of action.
+
+**2. Content | ** Includes approved and experimental drugs, chemical structures, pharmacological data, molecular targets (genes/proteins), pathways, interactions, and related clinical information.
+
+**3. Typical Use Cases**
+
+* Identify the molecular target of a drug (e.g., which enzyme or receptor it binds).
+* Explore known drug–drug interactions.
+* Check clinical indications and side effects.
+* Find links between drugs and genetic information.
+
+**4. External Connections | ** Cross-linked with many complementary resources such as UniProt (proteins), KEGG (pathways), PubChem/ChEMBL (chemical compounds), and NCBI (gene information), SMPDB (small molecule pathways), among others.
+
+<br>
+
+#### **NCBI - National Center for Biotechnology Information**
+
+![NCBI home page.](figs/ncbi.png)
+**URL:** [https://www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov)
+
+**1. Purpose | ** A central hub providing access to a wide range of biological and biomedical databases and tools, covering genes, genomes, proteins, literature, and clinical information.
+
+**2. Content | ** Includes PubMed (scientific literature), Gene (gene information), Nucleotide and Protein sequence databases, ClinVar (clinical variants), dbSNP (genetic variation), GEO (expression data), and many others.
+
+**3. Typical Use Cases**
+
+* Search for scientific articles on a drug, gene, or disease.
+* Look up detailed information about a specific gene or protein.
+* Explore genetic variants and their clinical significance.
+* Access genomic and transcriptomic datasets for analysis.
+
+**4. External Connections | ** Cross-linked with numerous resources such as UniProt (proteins), OMIM (diseases), KEGG/Reactome (pathways), RCSB PDB (structures), and DrugBank (drugs and targets), among many others.
+
+
+### Live Demonstration
+
+In this session, we will begin with a live demonstration of one drug entry: **either suggested by the class or chosen by the instructor** (for example, metformin), to show the main features and how to navigate these two databases.
+
 
 # Practical
 
-**TP Activity 2**
+### **TP Activity 2**
 
-  - Ibuprofen & Prostaglandin Pathways
+**Ibuprofen & Prostaglandin Pathways**
+
+**Goal:**
+
+* Learn how to **explore** and **critically interpret bioinformatics resources** by connecting **Ibuprofen** with its molecular targets.
+* Understand its **pharmacological action**, **mechanism of action**, and **clinical relevance**.
+* Use the following databases: [DrugBank](https://go.drugbank.com), [NCBI](https://www.ncbi.nlm.nih.gov).
+
+**How to work:**
+
+1. **Search for Ibuprofen** in [DrugBank](https://go.drugbank.com).
+2. **Review the DrugBank entry** and use it to answer the worksheet questions.
+
+   * Support each answer with a **reference (link, screenshot, or citation)** so it can be verified.
+3. **Tip:** DrugBank links to many other databases with complementary information about targets, diseases, pathways, and genetic details. Be pragmatic: choose the linked resources most useful for answering the worksheet.
+
+<br>
+
+### Woksheet | Ibuprofen & Prostaglandin Pathways
+
+#### Student and Activity Identification
+
+------------------------------------------------------------------------
+
+**Activity number:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Date & TP group:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Student(s) name(s):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+#### Drug-Molecular Target report
+
+------------------------------------------------------------------------
+
+**Drug name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Molecular target (gene/protein):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+#### 1. Drug Basics
+
+-   **Drug class:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Therapeutic use(s):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Mechanism of action** (summary): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Common adverse effects** (linked to mechanism): \_\_\_\_
+
+#### 2. Target Identity
+
+-   **Official gene name + synonyms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Protein function** (normal physiology)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Tissue expression** (where is it active?)**:** \_\_\_\_\_\_\_\_\_\_\_\_
+-   **Relevance in disease:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### 3. Molecular Mechanism
+
+-   **Where does the drug bind?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Is there a known 3D structure with drug bound?** (yes/no; PDB ID if found)
+-   **Variants or mutations affecting drug response:** \_\_\_\_\_\_
+-   **Pathways involved** (KEGG/Reactome)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+#### 4. Clinical and Translational Relevance
+
+-   **Known resistance mechanisms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Drug–drug interactions** (key enzymes, e.g. CYPs)**:** \_\_\_\_
+-   **Biomarkers of response** (if any)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Approved vs experimental/repurposed uses:** \_\_\_\_\_\_\_\_\_
+
+#### 5. Integrated Reflection
+
+-   **Why is this drug–target pair important in pharmacology?**
+
+    ------------------------------------------------------------------------
+
+-   **One new/surprising fact I found for this drug-target pair:**
+
+    ------------------------------------------------------------------------
 
 :::
