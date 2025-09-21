@@ -94,7 +94,7 @@ Using these large online resources for the first time presents some challenges a
 **4. External Connections | ** Cross-linked with numerous resources such as UniProt (proteins), OMIM (diseases), KEGG/Reactome (pathways), RCSB PDB (structures), and DrugBank (drugs and targets), among many others.
 
 
-### Live Demonstration
+### Class Live Demonstration
 
 In this session, we will begin with a live demonstration of one drug entry: **either suggested by the class or chosen by the instructor** (for example, metformin), to show the main features and how to navigate these two databases.
 
