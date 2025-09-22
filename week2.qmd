@@ -119,6 +119,8 @@ In this session, we will begin with a live demonstration of one drug entry: **ei
    * Support each answer with a **reference (link, screenshot, or citation)** so it can be verified.
 3. **Tip:** DrugBank links to many other databases with complementary information about targets, diseases, pathways, and genetic details. Be pragmatic: choose the linked resources most useful for answering the worksheet.
 
+4. Below you can view the worksheet. To complete it, please use the template file provided as a shared tab in Teams (this class Team accessible through your MS Office 365 institutional account). [Link to template file here](https://teams.microsoft.com/l/entity/1c256a65-83a6-4b5c-9ccf-78f8afb6f1e8/_djb2_msteams_prefix_2532216860?context=%7B%22channelId%22%3A%2219%3Ai6TkSIBPEuLmPVaajCiyPqzPyefGf3__6osb35EqzWQ1%40thread.tacv2%22%7D&tenantId=130f0931-a0f6-44b9-ae85-b9f16c89ad82).
+
 <br>
 
 ### Woksheet | Ibuprofen & Prostaglandin Pathways
