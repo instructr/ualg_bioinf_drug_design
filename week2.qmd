@@ -147,7 +147,7 @@ In this session, we will begin with a live demonstration of one drug entry: **ei
 
 #### 1. Drug Basics
 
--   **Drug class:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Therapeutic category:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Therapeutic use(s):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Mechanism of action** (summary): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Common adverse effects** (linked to mechanism): \_\_\_\_
@@ -157,16 +157,16 @@ In this session, we will begin with a live demonstration of one drug entry: **ei
 -   **Official gene name + synonyms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Protein function** (normal physiology)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Tissue expression** (where is it active?)**:** \_\_\_\_\_\_\_\_\_\_\_\_
--   **Relevance in disease:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Pathophysiological relevance (diseases associated with target)** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### 3. Molecular Mechanism
+#### 3. Molecular Mechanism (extra credit)
 
 -   **Where does the drug bind?** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Is there a known 3D structure with drug bound?** (yes/no; PDB ID if found)
 -   **Variants or mutations affecting drug response:** \_\_\_\_\_\_
 -   **Pathways involved** (KEGG/Reactome)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### 4. Clinical and Translational Relevance
+#### 4. Clinical and Translational Relevance (extra credit)
 
 -   **Known resistance mechanisms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Drug–drug interactions** (key enzymes, e.g. CYPs)**:** \_\_\_\_

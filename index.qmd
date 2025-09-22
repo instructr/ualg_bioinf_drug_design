@@ -70,7 +70,7 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 2.  The **categories of information** that students should be able to find online and articulate for each drug–target pair are:
 
 -   **A. Drug Basics**
-    -   Drug class
+    -   Therapeutic category
     -   Mechanism of action
     -   Therapeutic indications
     -   Adverse effects
@@ -103,7 +103,7 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 
 | **Category** | **What to Find** | **Top Resource(s)** |
 |-------------------|-------------------|----------------------------------|
-| **1. Drug Basics** | **Drug class** <br> (e.g. NSAID, benzodiazepine, kinase inhibitor, etc.) | [NCBI](https://www.ncbi.nlm.nih.gov), [EBI Search](https://www.ebi.ac.uk/ebisearch/), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
+| **1. Drug Basics** | **Therapeutic category** <br> (e.g. NSAID, benzodiazepine, kinase inhibitor, etc.) | [NCBI](https://www.ncbi.nlm.nih.gov), [EBI Search](https://www.ebi.ac.uk/ebisearch/), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
 |  | **Therapeutic use** <br> (major diseases or conditions it treats) | [OMIM](https://www.omim.org), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
 |  | **Mechanism of action** <br> (at a high level: inhibits, activates, modulates…) | [UniProt](https://www.uniprot.org), [DrugBank](https://go.drugbank.com), ([PubChem](https://pubchem.ncbi.nlm.nih.gov), [ChEMBL](https://www.ebi.ac.uk/chembl/)) |
 |  | **Common adverse effects** <br> (especially those linked to its mechanism) | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/), [OMIM](https://www.omim.org) |
@@ -148,7 +148,7 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 
 #### 1. Drug Basics
 
--   **Drug class:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Therapeutic category:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Therapeutic use(s):** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Mechanism of action** (summary): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Common adverse effects** (linked to mechanism): \_\_\_\_
@@ -158,7 +158,7 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 -   **Official gene name + synonyms:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Protein function** (normal physiology)**:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_
 -   **Tissue expression** (where is it active?)**:** \_\_\_\_\_\_\_\_\_\_\_\_
--   **Relevance in disease:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+-   **Pathophysiological relevance** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 #### 3. Molecular Mechanism
 
