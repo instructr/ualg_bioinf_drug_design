@@ -26,11 +26,111 @@ title: "Topic 3 | Proteins and Structures"
 
 # Theory
 
+### Introduction
+
+This class explores two complementary databases: **UniProt** and **RCSB PDB**.
+
+UniProt focuses on proteins—their sequences, functions, domains, isoforms, variants, and biological context, while RCSB PDB is the central archive of experimentally determined **3D macromolecular structures** and related ligands.
+
+Together, they show how sequence-level knowledge and structure-level evidence combine to explain protein function and drug interactions. Learning to navigate both is essential for connecting **what a protein is** (UniProt) with **how it looks and works in 3D** (PDB).
+
+### Challenges
+
+Using these resources for the first time presents common difficulties:
+
+* **Information overload:** both UniProt and PDB are rich and dense; it takes practice to identify what is essential for your question.
+* **Identifier mapping:** connecting a **UniProt accession** to the correct **PDB structure(s)** can be tricky (isoforms, chain IDs, residue numbering).
+* **Quality and interpretation:** structures vary by **method** (X-ray, cryo-EM, NMR), **resolution**, and **completeness**; understanding validation metrics is important.
+* **Navigation structure:** UniProt integrates many cross-references (InterPro, Pfam, Reactome, KEGG, etc.); PDB integrates tools, visualisers, and related databases (EMDB, PDBe-KB).
+* **Technical terminology:** domains, motifs, PTMs, variants, assemblies, interfaces, and binding sites may be unfamiliar at first.
+* **Search skills:** choosing effective queries (gene symbol vs UniProt accession; PDB ID vs ligand name) and refining filters is key.
+
+> As always: It’s normal to feel a bit overwhelmed at the start. These databases are extensive, and **nobody masters them immediately**. With practice, their structure becomes familiar and you will quickly find what you need. **Do not worry if it feels slow initially**—each search builds confidence, and over time the process becomes natural. By the end of these classes you will feel confident navigating core protein and structure databases.
+
+### Databases overview
+
+<br>
+
+#### **UniProt**
+
+![UniProt home page.](figs/uniprot.png)
+
+**URL:** [https://www.uniprot.org](https://www.uniprot.org)
+
+**1. Purpose |** A comprehensive knowledgebase of protein **sequences** and **functional annotations**.
+
+**2. Content |** Protein names, gene symbols, isoforms, domains/motifs, post-translational modifications (PTMs), subcellular localisation, interaction partners, variants/disease associations, pathways, cross-references, and evidence codes.
+
+**3. Typical Use Cases**
+
+* Retrieve a **canonical protein sequence** and known **isoforms**.
+* Identify **functional domains/motifs** and **PTMs** relevant to activity or regulation.
+* Review **variants** (position, effect, disease links) and map them to the sequence.
+* Find **pathway context** (via Reactome/KEGG) and **protein–protein interactions**.
+* Jump to **3D structures** and structure coverage via cross-links to PDB.
+
+**4. External Connections |** Cross-linked with **RCSB PDB** (structures), **NCBI**, **Ensembl**, **InterPro** (domains), **Reactome/KEGG** (pathways), **ClinVar/OMIM** (clinical), **ChEMBL/DrugBank** (bioactive compounds/targets), among others.
+
+<br>
+
+#### **RCSB PDB – Protein Data Bank**
+
+![RCSB PDB home page.](figs/pdb.png)
+
+**URL:** [https://www.rcsb.org](https://www.rcsb.org)
+
+**1. Purpose |** The primary public archive of **experimentally determined 3D structures** of proteins, nucleic acids, and complexes, with tools for visualisation and analysis.
+
+**2. Content |** Atomic coordinates, experimental method (X-ray, cryo-EM, NMR), resolution/validation metrics, **biological assemblies**, ligands/cofactors, binding sites, sequence-to-structure mappings, and annotations on interfaces and dynamics.
+
+**3. Typical Use Cases**
+
+* Find **PDB structures** for a protein target and inspect **ligand binding** or **active sites**.
+* Compare **alternative structures** (different ligands, conformations, mutants, species).
+* Assess **model quality** (resolution, R-factors, MolProbity/validation reports).
+* Map **sequence positions** (variants, PTMs, domain boundaries) onto 3D coordinates.
+* Download structures for **molecular graphics** or downstream analysis.
+
+**4. External Connections |** Integrated with **UniProt** (sequence mapping via SIFTS), **PubChem/ChEMBL** (ligands), **NCBI/Ensembl** (gene/protein), **Reactome/KEGG** (pathways), and literature via PubMed.
+
 
 # Practical
 
-**TP Activity 3**
+### **TP Activity 3**
 
-  - Diazepam & GABA Receptor Structures
+**Diazepam & GABA Receptor Structures**
+
+
+#### **Goal**
+
+* **Explore** and **critically interpret bioinformatics resources** to connect diazepam’s drug target(s) with its protein sequence, structure, and biological context.
+* Use the following two databases:
+
+  * [UniProt](https://www.uniprot.org)
+  * [RCSB PDB](https://www.rcsb.org)
+
+
+#### **How to work**
+
+1. **Search for diazepam** in [DrugBank](https://go.drugbank.com).
+2. **Open the DrugBank entry** and follow the link to the UniProt page of diazepam’s molecular target.
+3. In **UniProt**, explore the entry to find information about the protein sequence, function, and biological relevance. Use the worksheet as a guide.
+4. From UniProt, follow the links to **RCSB PDB** to find available 3D structures of the protein, and examine how these structures help explain its function and drug interactions.
+
+#### Evaluation
+
+* Select **4 facts from each database** that were **surprising** or new to you.
+* For each fact, briefly explain **why** it was surprising or new.
+* Write your findings in a Word document and submit it in the **Tutoria** before the end of class.
+
+
+#### *Hints*
+
+* UniProt entries link directly to PDB and other databases. **Focus** on information that helps you understand how diazepam interacts with its molecular target.
+* **Take your time** to understand the type of information each database provides and be critical of the info shown.
+* **Ask** the tutor if you have any questions.
+* **Discuss** with your colleagues how they interpret the different sources of information, and compare with your ideas.
+* Keep in mind: always use your **critical thinking**.
+
 
 :::

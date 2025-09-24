@@ -214,13 +214,118 @@ Class Details
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Theory</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Practical</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>This class explores two complementary databases: <strong>UniProt</strong> and <strong>RCSB PDB</strong>.</p>
+<p>UniProt focuses on proteins—their sequences, functions, domains, isoforms, variants, and biological context, while RCSB PDB is the central archive of experimentally determined <strong>3D macromolecular structures</strong> and related ligands.</p>
+<p>Together, they show how sequence-level knowledge and structure-level evidence combine to explain protein function and drug interactions. Learning to navigate both is essential for connecting <strong>what a protein is</strong> (UniProt) with <strong>how it looks and works in 3D</strong> (PDB).</p>
+</section>
+<section id="challenges" class="level3">
+<h3 class="anchored" data-anchor-id="challenges">Challenges</h3>
+<p>Using these resources for the first time presents common difficulties:</p>
+<ul>
+<li><strong>Information overload:</strong> both UniProt and PDB are rich and dense; it takes practice to identify what is essential for your question.</li>
+<li><strong>Identifier mapping:</strong> connecting a <strong>UniProt accession</strong> to the correct <strong>PDB structure(s)</strong> can be tricky (isoforms, chain IDs, residue numbering).</li>
+<li><strong>Quality and interpretation:</strong> structures vary by <strong>method</strong> (X-ray, cryo-EM, NMR), <strong>resolution</strong>, and <strong>completeness</strong>; understanding validation metrics is important.</li>
+<li><strong>Navigation structure:</strong> UniProt integrates many cross-references (InterPro, Pfam, Reactome, KEGG, etc.); PDB integrates tools, visualisers, and related databases (EMDB, PDBe-KB).</li>
+<li><strong>Technical terminology:</strong> domains, motifs, PTMs, variants, assemblies, interfaces, and binding sites may be unfamiliar at first.</li>
+<li><strong>Search skills:</strong> choosing effective queries (gene symbol vs UniProt accession; PDB ID vs ligand name) and refining filters is key.</li>
+</ul>
+<blockquote class="blockquote">
+<p>As always: It’s normal to feel a bit overwhelmed at the start. These databases are extensive, and <strong>nobody masters them immediately</strong>. With practice, their structure becomes familiar and you will quickly find what you need. <strong>Do not worry if it feels slow initially</strong>—each search builds confidence, and over time the process becomes natural. By the end of these classes you will feel confident navigating core protein and structure databases.</p>
+</blockquote>
+</section>
+<section id="databases-overview" class="level3">
+<h3 class="anchored" data-anchor-id="databases-overview">Databases overview</h3>
+<p><br></p>
+<section id="uniprot" class="level4">
+<h4 class="anchored" data-anchor-id="uniprot"><strong>UniProt</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/uniprot.png" class="img-fluid figure-img"></p>
+<figcaption>UniProt home page.</figcaption>
+</figure>
+</div>
+<p><strong>URL:</strong> <a href="https://www.uniprot.org">https://www.uniprot.org</a></p>
+<p><strong>1. Purpose |</strong> A comprehensive knowledgebase of protein <strong>sequences</strong> and <strong>functional annotations</strong>.</p>
+<p><strong>2. Content |</strong> Protein names, gene symbols, isoforms, domains/motifs, post-translational modifications (PTMs), subcellular localisation, interaction partners, variants/disease associations, pathways, cross-references, and evidence codes.</p>
+<p><strong>3. Typical Use Cases</strong></p>
+<ul>
+<li>Retrieve a <strong>canonical protein sequence</strong> and known <strong>isoforms</strong>.</li>
+<li>Identify <strong>functional domains/motifs</strong> and <strong>PTMs</strong> relevant to activity or regulation.</li>
+<li>Review <strong>variants</strong> (position, effect, disease links) and map them to the sequence.</li>
+<li>Find <strong>pathway context</strong> (via Reactome/KEGG) and <strong>protein–protein interactions</strong>.</li>
+<li>Jump to <strong>3D structures</strong> and structure coverage via cross-links to PDB.</li>
+</ul>
+<p><strong>4. External Connections |</strong> Cross-linked with <strong>RCSB PDB</strong> (structures), <strong>NCBI</strong>, <strong>Ensembl</strong>, <strong>InterPro</strong> (domains), <strong>Reactome/KEGG</strong> (pathways), <strong>ClinVar/OMIM</strong> (clinical), <strong>ChEMBL/DrugBank</strong> (bioactive compounds/targets), among others.</p>
+<p><br></p>
+</section>
+<section id="rcsb-pdb-protein-data-bank" class="level4">
+<h4 class="anchored" data-anchor-id="rcsb-pdb-protein-data-bank"><strong>RCSB PDB – Protein Data Bank</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/pdb.png" class="img-fluid figure-img"></p>
+<figcaption>RCSB PDB home page.</figcaption>
+</figure>
+</div>
+<p><strong>URL:</strong> <a href="https://www.rcsb.org">https://www.rcsb.org</a></p>
+<p><strong>1. Purpose |</strong> The primary public archive of <strong>experimentally determined 3D structures</strong> of proteins, nucleic acids, and complexes, with tools for visualisation and analysis.</p>
+<p><strong>2. Content |</strong> Atomic coordinates, experimental method (X-ray, cryo-EM, NMR), resolution/validation metrics, <strong>biological assemblies</strong>, ligands/cofactors, binding sites, sequence-to-structure mappings, and annotations on interfaces and dynamics.</p>
+<p><strong>3. Typical Use Cases</strong></p>
+<ul>
+<li>Find <strong>PDB structures</strong> for a protein target and inspect <strong>ligand binding</strong> or <strong>active sites</strong>.</li>
+<li>Compare <strong>alternative structures</strong> (different ligands, conformations, mutants, species).</li>
+<li>Assess <strong>model quality</strong> (resolution, R-factors, MolProbity/validation reports).</li>
+<li>Map <strong>sequence positions</strong> (variants, PTMs, domain boundaries) onto 3D coordinates.</li>
+<li>Download structures for <strong>molecular graphics</strong> or downstream analysis.</li>
+</ul>
+<p><strong>4. External Connections |</strong> Integrated with <strong>UniProt</strong> (sequence mapping via SIFTS), <strong>PubChem/ChEMBL</strong> (ligands), <strong>NCBI/Ensembl</strong> (gene/protein), <strong>Reactome/KEGG</strong> (pathways), and literature via PubMed.</p>
+</section>
+</section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>TP Activity 3</strong></p>
+<section id="tp-activity-3" class="level3">
+<h3 class="anchored" data-anchor-id="tp-activity-3"><strong>TP Activity 3</strong></h3>
+<p><strong>Diazepam &amp; GABA Receptor Structures</strong></p>
+<section id="goal" class="level4">
+<h4 class="anchored" data-anchor-id="goal"><strong>Goal</strong></h4>
 <ul>
-<li>Diazepam &amp; GABA Receptor Structures</li>
+<li><p><strong>Explore</strong> and <strong>critically interpret bioinformatics resources</strong> to connect diazepam’s drug target(s) with its protein sequence, structure, and biological context.</p></li>
+<li><p>Use the following two databases:</p>
+<ul>
+<li><a href="https://www.uniprot.org">UniProt</a></li>
+<li><a href="https://www.rcsb.org">RCSB PDB</a></li>
+</ul></li>
 </ul>
+</section>
+<section id="how-to-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-to-work"><strong>How to work</strong></h4>
+<ol type="1">
+<li><strong>Search for diazepam</strong> in <a href="https://go.drugbank.com">DrugBank</a>.</li>
+<li><strong>Open the DrugBank entry</strong> and follow the link to the UniProt page of diazepam’s molecular target.</li>
+<li>In <strong>UniProt</strong>, explore the entry to find information about the protein sequence, function, and biological relevance. Use the worksheet as a guide.</li>
+<li>From UniProt, follow the links to <strong>RCSB PDB</strong> to find available 3D structures of the protein, and examine how these structures help explain its function and drug interactions.</li>
+</ol>
+</section>
+<section id="evaluation" class="level4">
+<h4 class="anchored" data-anchor-id="evaluation">Evaluation</h4>
+<ul>
+<li>Select <strong>4 facts from each database</strong> that were <strong>surprising</strong> or new to you.</li>
+<li>For each fact, briefly explain <strong>why</strong> it was surprising or new.</li>
+<li>Write your findings in a Word document and submit it in the <strong>Tutoria</strong> before the end of class.</li>
+</ul>
+</section>
+<section id="hints" class="level4">
+<h4 class="anchored" data-anchor-id="hints"><em>Hints</em></h4>
+<ul>
+<li>UniProt entries link directly to PDB and other databases. <strong>Focus</strong> on information that helps you understand how diazepam interacts with its molecular target.</li>
+<li><strong>Take your time</strong> to understand the type of information each database provides and be critical of the info shown.</li>
+<li><strong>Ask</strong> the tutor if you have any questions.</li>
+<li><strong>Discuss</strong> with your colleagues how they interpret the different sources of information, and compare with your ideas.</li>
+<li>Keep in mind: always use your <strong>critical thinking</strong>.</li>
+</ul>
+</section>
+</section>
 </div>
 </div>
 </div>
