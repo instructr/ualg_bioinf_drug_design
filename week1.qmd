@@ -8,6 +8,15 @@ title: "Topic 1 | Introduction to Bioinformatics"
 📖 **Synopsis:** Introduction to Bioinformatics and Biological Databases  
 :::
 
+**Lecture Topics**:
+
+- Definition and scope of bioinformatics.
+- Bioinformatics in drug discovery.
+- Overview of databases per biological data types.
+- Primary and secondary databases.
+- Bioinformatics as an experimental science: search, compare, model, and integrate data.
+
+
 </br>
 
 ::: {.panel-tabset}

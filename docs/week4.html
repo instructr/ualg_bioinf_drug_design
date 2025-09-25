@@ -114,15 +114,15 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./week5.html">
- <span class="dropdown-text">Topic 5 | Pathways and Signalling</span></a>
+ <span class="dropdown-text">Topic 5 | Genomes and Regulation</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./week6.html">
- <span class="dropdown-text">Topic 6 | Genomes and Regulation</span></a>
+ <span class="dropdown-text">Topic 6 | Pathways and Signalling</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./week7.html">
- <span class="dropdown-text">Topic 7 | Integrating Bioinformatics Resources</span></a>
+ <span class="dropdown-text">Integrating information | Bioinformatics Module Final Evaluation</span></a>
   </li>  
     </ul>
   </li>
@@ -193,7 +193,7 @@ Class Details
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>📅 <strong>Date:</strong> 2025<br>
+<p>📅 <strong>Date:</strong> 29/30 September 2025<br>
 📖 <strong>Synopsis:</strong> Exploring databases: ClinVar, OMIM</p>
 </div>
 </div>
@@ -214,13 +214,100 @@ Class Details
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Theory</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Practical</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-
+<section id="introduction" class="level3">
+<h3 class="anchored" data-anchor-id="introduction">Introduction</h3>
+<p>This class explores two important clinical genetics databases: <strong>ClinVar</strong> and <strong>OMIM</strong>.</p>
+<p>ClinVar collects and shares information about the <strong>clinical significance of genetic variants</strong>, while OMIM is a comprehensive catalogue of <strong>human genes and genetic disorders</strong>.</p>
+<p>Together, they help connect <strong>specific variants</strong> with <strong>disease descriptions</strong>, providing complementary views on medical genetics.</p>
+</section>
+<section id="challenges" class="level3">
+<h3 class="anchored" data-anchor-id="challenges">Challenges</h3>
+<ul>
+<li><strong>Complex terminology:</strong> clinical significance terms (e.g., <em>pathogenic</em>, <em>likely benign</em>) and disease inheritance patterns may be unfamiliar.</li>
+<li><strong>Variant mapping:</strong> linking a genetic variant in ClinVar to the correct OMIM disease entry can be confusing.</li>
+<li><strong>Evidence levels:</strong> ClinVar entries vary in strength (single submission vs expert panel review).</li>
+<li><strong>Cross-references:</strong> many links lead to other resources (NCBI Gene, UniProt, PubMed), requiring careful navigation.</li>
+</ul>
+<blockquote class="blockquote">
+<p>It’s normal to feel uncertain at first. With practice, you will learn how to interpret the classification systems and follow cross-links effectively.</p>
+</blockquote>
+</section>
+<section id="databases-overview" class="level3">
+<h3 class="anchored" data-anchor-id="databases-overview">Databases overview</h3>
+<p><br></p>
+<section id="clinvar" class="level4">
+<h4 class="anchored" data-anchor-id="clinvar"><strong>ClinVar</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/clinvar.png" class="img-fluid figure-img"></p>
+<figcaption>ClinVar home page.</figcaption>
+</figure>
+</div>
+<p><strong>URL:</strong> <a href="https://www.ncbi.nlm.nih.gov/clinvar">https://www.ncbi.nlm.nih.gov/clinvar</a></p>
+<p><strong>1. Purpose |</strong> Archive of reported <strong>genetic variants</strong> and their <strong>clinical significance</strong> for human health.</p>
+<p><strong>2. Content |</strong> Variant identifiers, genomic coordinates, clinical classification (pathogenic → benign), associated conditions, evidence levels, submitter details, and supporting references.</p>
+<p><strong>3. Typical Use Cases</strong></p>
+<ul>
+<li>Look up whether a specific variant has been linked to disease.</li>
+<li>Compare classifications across submitters.</li>
+<li>Find references and links to PubMed, Gene, and OMIM.</li>
+</ul>
+<p><strong>4. External Connections |</strong> Cross-linked with <strong>OMIM</strong> (disease descriptions), <strong>NCBI Gene/RefSeq</strong>, <strong>dbSNP</strong>, <strong>UniProt</strong>, and PubMed.</p>
+<p><br></p>
+</section>
+<section id="omim-online-mendelian-inheritance-in-man" class="level4">
+<h4 class="anchored" data-anchor-id="omim-online-mendelian-inheritance-in-man"><strong>OMIM – Online Mendelian Inheritance in Man</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/omim.png" class="img-fluid figure-img"></p>
+<figcaption>OMIM home page.</figcaption>
+</figure>
+</div>
+<p><strong>URL:</strong> <a href="https://www.omim.org">https://www.omim.org</a></p>
+<p><strong>1. Purpose |</strong> Authoritative catalogue of <strong>human genes and genetic disorders</strong>, with curated descriptions of phenotypes and inheritance patterns.</p>
+<p><strong>2. Content |</strong> Gene–disease associations, inheritance modes (dominant, recessive, etc.), clinical synopses, phenotype series, references, and historical notes.</p>
+<p><strong>3. Typical Use Cases</strong></p>
+<ul>
+<li>Find detailed descriptions of diseases linked to a gene.</li>
+<li>Understand inheritance patterns and clinical features.</li>
+<li>Explore curated references to key publications.</li>
+</ul>
+<p><strong>4. External Connections |</strong> Linked with <strong>ClinVar</strong> (variants), <strong>NCBI Gene</strong>, <strong>UniProt</strong>, <strong>PubMed</strong>, and pathway resources such as <strong>KEGG</strong> and <strong>Reactome</strong>.</p>
+</section>
+</section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p><strong>TP Activity 4</strong></p>
+<p><strong>Imatinib &amp; Chromosomal Fusions</strong></p>
+<section id="goal" class="level4">
+<h4 class="anchored" data-anchor-id="goal"><strong>Goal</strong></h4>
 <ul>
-<li>Imatinib &amp; Chromosomal Fusions</li>
+<li><p><strong>Explore</strong> and <strong>critically interpret bioinformatics resources</strong> to connect imatinib’s drug target(s) with its genetic variants, clinical relevance, and disease associations.</p></li>
+<li><p>Use the following two databases:</p>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/clinvar/">ClinVar</a></li>
+<li><a href="https://www.omim.org/">OMIM</a></li>
+</ul></li>
 </ul>
+</section>
+<section id="how-to-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-to-work"><strong>How to work</strong></h4>
+<ol type="1">
+<li><strong>Search for imatinib</strong> in <a href="https://go.drugbank.com">DrugBank</a>.</li>
+<li>In the <em>Indications</em> section, identify the diseases or conditions treated with imatinib. Search these conditions in <strong>OMIM</strong> to explore gene–disease relationships, inheritance patterns, and clinical summaries relevant to imatinib’s targets.</li>
+<li>Return to the DrugBank entry and follow the links to the <strong>gene(s)</strong> associated with imatinib’s molecular targets. Use the <strong>NCBI Gene ID</strong> link to access detailed information about these targets.</li>
+<li>In <strong>NCBI Gene</strong>, navigate to the <em>Variation</em> section and selected some variant links to <strong>ClinVar</strong>.</li>
+<li>In <strong>ClinVar</strong>, explore the gene entries to review reported variants, their clinical significance, and associated conditions.</li>
+</ol>
+</section>
+<section id="evaluation" class="level4">
+<h4 class="anchored" data-anchor-id="evaluation"><strong>Evaluation</strong></h4>
+<ul>
+<li>Select <strong>4 facts from each database (ClinVar and OMIM)</strong> that were <strong>surprising</strong> or new to you.</li>
+<li>For each fact, briefly explain <strong>why</strong> it was surprising or new.</li>
+<li>Write your findings in a Word document and submit it in the <strong>Tutoria</strong> before the end of class.</li>
+</ul>
+</section>
 </div>
 </div>
 </div>

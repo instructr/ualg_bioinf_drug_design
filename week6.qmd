@@ -1,36 +1,38 @@
 ---
-title: "Topic 6 | Genomes and Regulation"
+title: "Topic 6 | Pathways and Signalling"
 ---
 
-::: {.callout-note}
+::: callout-note
 ## Class Details
-📅 **Date:** 2025  
-📖 **Synopsis:** Exploring databases: Ensembl, UCSC Genome Browser  
+
+📅 **Date:** 2025\
+📖 **Synopsis:** Exploring databases: KEGG, Reactome
 :::
 
 **Lecture topics**
 
-  - Exploring receptor variants in genome browsers - Ensembl
-  - Investigating regulatory regions and conservation - UCSC Genome Browser
-  - Comparing genomic representations of receptors - Ensembl / UCSC
+* Exploring GLP-1 signalling pathways - KEGG
+* Mapping metabolic and hormonal regulation into curated cascades - Reactome
+* Comparing complementary pathway visualisations - KEGG / Reactome
 
 **Learning goals**
 
-  - Learn to use genome browsers for receptor data.
-  - Explore regulation and conservation using genome visualisations.
-  - Integrate genomic data into functional context.
+* Learn to navigate pathway maps to locate molecular players.
+* Compare pathway representations across resources.
+* Connect GLP-1 signalling pathways to therapeutic strategies such as semaglutide in the treatment of **type 2 diabetes** and **obesity**.
 
 </br>
 
-::: {.panel-tabset}
+::: panel-tabset
 
 # Theory
 
 
+
 # Practical
 
-**TP Activity 6:**
+**TP Activity 6**
 
-  - EGFR Inhibitors & Resistance Mechanisms
+**Semaglutide & Metabolic Pathways**
 
 :::

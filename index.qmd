@@ -270,30 +270,7 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
   * *Imatinib & Chromosomal Fusions*
 
 
-### Topic 5 \| Pathways and Signalling
-
-**Exploring databases**:
-[KEGG](https://www.genome.jp/kegg),
-[Reactome](https://reactome.org)
-
-* **Lecture topics**
-
-  * Exploring checkpoint signalling pathways — **KEGG**
-  * Mapping DNA damage response into curated cascades — **Reactome**
-  * Comparing complementary pathway visualisations — **KEGG / Reactome**
-
-* **Learning goals**
-
-  * Learn to navigate pathway maps to locate molecular players.
-  * Compare pathway representations across resources.
-  * Connect signalling pathways to therapeutic strategies.
-
-* **TP Activity 5**
-
-  * *Checkpoint Kinase Pathways*
-
-
-### Topic 6 \| Genomes and Regulation
+### Topic 5 \| Genomes and Regulation
 
 **Exploring databases**:
 [Ensembl](https://www.ensembl.org),
@@ -315,36 +292,33 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 
   * *EGFR Inhibitors & Resistance Mechanisms*
 
+### Topic 6 \| Pathways and Signalling
 
-### Topic 7 \| Integrating Bioinformatics Resources
-
-**Recap**:
-[DrugBank](https://go.drugbank.com),
-[NCBI](https://www.ncbi.nlm.nih.gov),
-[UniProt](https://www.uniprot.org),
-[RCSB PDB](https://www.rcsb.org),
-[ClinVar](https://www.ncbi.nlm.nih.gov/clinvar),
-[OMIM](https://www.omim.org),
+**Exploring databases**:
 [KEGG](https://www.genome.jp/kegg),
-[Reactome](https://reactome.org),
-[Ensembl](https://www.ensembl.org),
-[UCSC Genome Browser](https://genome.ucsc.edu)
+[Reactome](https://reactome.org)
 
 * **Lecture topics**
 
-  * Reviewing how drug, protein, variant, and pathway information are connected.
-  * Comparing overlaps and complementary strengths of databases.
-  * Practising integration of multiple resources for a full case study.
+  * Exploring GLP-1 signalling pathways - KEGG
+  * Mapping metabolic and hormonal regulation into curated cascades - Reactome
+  * Comparing complementary pathway visualisations - KEGG / Reactome
+
 
 * **Learning goals**
 
-  * Recap database navigation across drug, protein, variant, and pathway levels.
-  * Learn how to combine resources to answer complex biomedical questions.
-  * Build confidence in selecting the right tool for a given problem.
+  * Learn to navigate pathway maps to locate molecular players.
+  * Compare pathway representations across resources.
+  * Connect GLP-1 signalling pathways to therapeutic strategies such as semaglutide in the treatment of type 2 diabetes and obesity.
 
-* **TP Activity 7**
 
-  * *Semaglutide & Metabolic Pathways (Integration Recap)*
+* **TP Activity 6**
+
+  * *Semaglutide & Metabolic Pathways*
+
+### Integrating information | Bioinformatics Module Final Evaluation
+
+Presentation and discussion of a video report that integrates information from online bioinformatics resources.
 
 
 

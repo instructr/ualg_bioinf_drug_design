@@ -4,7 +4,7 @@ title: "Topic 4 | Variants and Diseases"
 
 ::: {.callout-note}
 ## Class Details
-📅 **Date:** 2025  
+📅 **Date:** 29/30 September 2025  
 📖 **Synopsis:** Exploring databases: ClinVar, OMIM  
 :::
 
@@ -26,11 +26,94 @@ title: "Topic 4 | Variants and Diseases"
 
 # Theory
 
+### Introduction
+
+This class explores two important clinical genetics databases: **ClinVar** and **OMIM**.
+
+ClinVar collects and shares information about the **clinical significance of genetic variants**, while OMIM is a comprehensive catalogue of **human genes and genetic disorders**.
+
+Together, they help connect **specific variants** with **disease descriptions**, providing complementary views on medical genetics.
+
+### Challenges
+
+* **Complex terminology:** clinical significance terms (e.g., *pathogenic*, *likely benign*) and disease inheritance patterns may be unfamiliar.
+* **Variant mapping:** linking a genetic variant in ClinVar to the correct OMIM disease entry can be confusing.
+* **Evidence levels:** ClinVar entries vary in strength (single submission vs expert panel review).
+* **Cross-references:** many links lead to other resources (NCBI Gene, UniProt, PubMed), requiring careful navigation.
+
+> It’s normal to feel uncertain at first. With practice, you will learn how to interpret the classification systems and follow cross-links effectively.
+
+### Databases overview
+
+<br>  
+
+#### **ClinVar**
+
+![ClinVar home page.](figs/clinvar.png)
+
+**URL:** [https://www.ncbi.nlm.nih.gov/clinvar](https://www.ncbi.nlm.nih.gov/clinvar)
+
+**1. Purpose |** Archive of reported **genetic variants** and their **clinical significance** for human health.
+
+**2. Content |** Variant identifiers, genomic coordinates, clinical classification (pathogenic → benign), associated conditions, evidence levels, submitter details, and supporting references.
+
+**3. Typical Use Cases**
+
+* Look up whether a specific variant has been linked to disease.
+* Compare classifications across submitters.
+* Find references and links to PubMed, Gene, and OMIM.
+
+**4. External Connections |** Cross-linked with **OMIM** (disease descriptions), **NCBI Gene/RefSeq**, **dbSNP**, **UniProt**, and PubMed.
+
+<br>  
+
+#### **OMIM – Online Mendelian Inheritance in Man**
+
+![OMIM home page.](figs/omim.png)
+
+**URL:** [https://www.omim.org](https://www.omim.org)
+
+**1. Purpose |** Authoritative catalogue of **human genes and genetic disorders**, with curated descriptions of phenotypes and inheritance patterns.
+
+**2. Content |** Gene–disease associations, inheritance modes (dominant, recessive, etc.), clinical synopses, phenotype series, references, and historical notes.
+
+**3. Typical Use Cases**
+
+* Find detailed descriptions of diseases linked to a gene.
+* Understand inheritance patterns and clinical features.
+* Explore curated references to key publications.
+
+**4. External Connections |** Linked with **ClinVar** (variants), **NCBI Gene**, **UniProt**, **PubMed**, and pathway resources such as **KEGG** and **Reactome**.
+
 
 # Practical
 
 **TP Activity 4**
 
-  - Imatinib & Chromosomal Fusions
+**Imatinib & Chromosomal Fusions**
+
+#### **Goal**
+
+* **Explore** and **critically interpret bioinformatics resources** to connect imatinib’s drug target(s) with its genetic variants, clinical relevance, and disease associations.
+* Use the following two databases:
+
+  * [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
+  * [OMIM](https://www.omim.org/)
+
+#### **How to work**
+
+1. **Search for imatinib** in [DrugBank](https://go.drugbank.com).
+2. In the *Indications* section, identify the diseases or conditions treated with imatinib. Search these conditions in **OMIM** to explore gene–disease relationships, inheritance patterns, and clinical summaries relevant to imatinib’s targets.
+3. Return to the DrugBank entry and follow the links to the **gene(s)** associated with imatinib’s molecular targets. Use the **NCBI Gene ID** link to access detailed information about these targets.
+4. In **NCBI Gene**, navigate to the *Variation* section and selected some variant links to **ClinVar**.
+5. In **ClinVar**, explore the gene entries to review reported variants, their clinical significance, and associated conditions.
+
+
+#### **Evaluation**
+
+* Select **4 facts from each database (ClinVar and OMIM)** that were **surprising** or new to you.
+* For each fact, briefly explain **why** it was surprising or new.
+* Write your findings in a Word document and submit it in the **Tutoria** before the end of class.
+
         
 :::
