@@ -316,10 +316,9 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 
   * *Semaglutide & Metabolic Pathways*
 
-### Integrating information | Bioinformatics Module Final Evaluation
+### Final Evaluation | Integrating Bioinformatics information 
 
-Presentation and discussion of a video report that integrates information from online bioinformatics resources.
-
+Presentation and discussion of the video report prepared by each group, followed by a class discussion, to serve as final evaluation of the bioinformatics module. 
 
 
 :::
