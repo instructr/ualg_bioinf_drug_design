@@ -100,13 +100,98 @@ Together, they help connect **specific variants** with **disease descriptions**,
   * [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
   * [OMIM](https://www.omim.org/)
 
+
 #### **How to work**
 
-1. **Search for imatinib** in [DrugBank](https://go.drugbank.com).
-2. In the *Indications* section, identify the diseases or conditions treated with imatinib. Search these conditions in **OMIM** to explore gene–disease relationships, inheritance patterns, and clinical summaries relevant to imatinib’s targets.
-3. Return to the DrugBank entry and follow the links to the **gene(s)** associated with imatinib’s molecular targets. Use the **NCBI Gene ID** link to access detailed information about these targets.
-4. In **NCBI Gene**, navigate to the *Variation* section and selected some variant links to **ClinVar**.
-5. In **ClinVar**, explore the gene entries to review reported variants, their clinical significance, and associated conditions.
+1. **Search for imatinib** in [DrugBank](https://go.drugbank.com). Briefly review the drug overview.
+
+2. Navigate to the *Pharmacology -> Indication* section and identify the **diseases or conditions treated with imatinib**. Then, go to OMIM and search for **chronic myeloid leukemia**. Explore the gene–disease relationships, inheritance patterns, and clinical summaries relevant to imatinib’s targets.
+
+3. In **OMIM**, explore the **Gene/Locus MIM number** for both the **BCR and ABL1 genes** (links are in the **Phenotype–Gene Relationships** table at the top).
+
+4. On the MIM page for each gene, find the **Variation** section under **External links** in the table on the right. **Choose one gene and click the ClinVar link.**
+
+5. In **ClinVar**, you will find all reported variants for your chosen gene, their clinical significance, and associated conditions. Filter the variants by one type of **Germline classification** and one type of **Molecular consequence** that you find most interesting. Explore these in detail.
+
+
+#### **Notes | About clinical genetics terminology**
+
+**1. How to read genetic coordinates (chromosomal locations)**
+
+* The notation **`9q34.12`** is the cytogenetic band that describes a location on a chromosome. Here’s how to read it step by step:
+
+  * **9** -> Chromosome number. This gene or variant is on chromosome 9.
+  * **q** -> Arm of the chromosome.
+
+    * **p** = short arm (*petit*)
+    * **q** = long arm
+    * So this is on the **long arm of chromosome 9**.
+  * **34.12** -> Band, sub-band, and sub-sub-band number, based on the standard G-banding pattern seen under a microscope.
+
+    * **3** -> Region (counted from the centromere outward)
+    * **4** -> Band within region 3
+    * **.1** -> Sub-band 1
+    * **2** -> Sub-sub-band 2
+
+
+**2. How to read and interpret *variant notation*, using the example `c.763G>A`**.
+
+- **Prefix (`c.`)**
+
+  * **`c.`** = **coding DNA reference sequence**.
+  This indicates that the numbering is relative to the coding DNA sequence (CDS) of a reference transcript.
+  Other common prefixes:
+
+    * **g.** = genomic sequence (genome coordinates)
+    * **m.** = mitochondrial DNA sequence
+    * **n.** = non-coding DNA reference sequence
+    * **r.** = RNA sequence
+    * **p.** = protein sequence
+
+
+- **Position (`763`)**
+
+  * **763** = the nucleotide position within the coding sequence (CDS), counting from the **start codon (ATG)** as position 1.
+  * This means the variant affects the **763rd nucleotide** in the coding sequence.
+
+
+- **Reference Base (`G`)**
+
+  * **G** = the **reference (wild-type) nucleotide** at this position.
+  * This is what is expected in the reference transcript.
+
+- **Variant Base (`A`)**
+
+  * **A** = the **alternate (mutant) nucleotide** that replaces the reference base.
+  * In this case, **G is substituted by A**.
+
+
+- **Type of Variant**
+
+  * **Substitution**: one base has been changed to another.
+  * Full interpretation: **“At coding DNA position 763, guanine (G) is replaced by adenine (A).”**
+
+
+* Examples of Other Notations
+
+  * **`c.763delG`** → Deletion of G at position 763
+  * **`c.763_764insA`** → Insertion of A between positions 763 and 764
+  * **`c.763_765del`** → Deletion of bases 763 to 765
+  * **`c.763+1G>T`** → Substitution at the first base of the **splice donor site** (one base after coding position 763, i.e., in the intron)
+  * **`p.Gly255Asp`** → Protein-level change (glycine at codon 255 replaced by aspartic acid)
+
+
+**3. Advice | How to quickly learn about unknown or forgotten terminology?**
+
+  * Example: Do you know what **GRCh38/hg38** means? It is the version of the human genome assembly.
+  
+    * To learn more, please ask [Perplexity](https://www.perplexity.ai/) the following question: **"Explain briefly the meaning of GRCh38/hg38 in the context of genomics."**
+  
+  * Keep doing the same (using Perplexity or another search engine of your choice) whenever you come across terminology that is unfamiliar to you, or that you would like a quick recap on.
+
+----
+
+> **Reminder:** These classes are about learning to explore large information resources and making the most of them.
 
 
 #### **Evaluation**
