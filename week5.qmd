@@ -26,11 +26,29 @@ title: "Topic 5 | Genomes and Regulation"
 
 # Theory
 
+![](figs/gene_features.png)
+
+
+
 
 # Practical
 
 **TP Activity 5:**
 
 **Exploring the Semaglutide Target - GLP1R in Ensembl**
+
+
+#### **Goal**
+
+  * **Explore** and **critically interpret bioinformatics resources** to connect semaglutide’s drug target *GLP1R* gene with its gene features and annotations.
+
+  * Use the following database:
+  
+    * [Ensembl](https://www.ensembl.org/index.html)
+
+
+#### **How to work**
+
+*TBA*
 
 :::
