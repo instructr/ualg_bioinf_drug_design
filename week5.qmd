@@ -49,6 +49,48 @@ title: "Topic 5 | Genomes and Regulation"
 
 #### **How to work**
 
-*TBA*
+1. **Search for semaglutide** in [DrugBank](https://go.drugbank.com) and skim the drug overview.
 
+2. In the drug page, go to the **Targets** section and open the **UniProt** entry for the human target (GLP1R). 
+
+3. In UniProt, use the **External links** tab and find **Genome annotation databases**. Click the **Ensembl gene** link (the ID that begins with **ENSG**).
+
+   > **About Ensembl IDs**\
+   >
+   > Ensembl identifiers start with **ENS**:\
+   > • **ENSG** = gene (e.g., the GLP1R gene)\
+   > • **ENST** = transcript\
+   > • **ENSP** = protein\
+   > • **ENSE** = exon\
+   > • ...
+
+
+4. In **Ensembl** (gene entry for **GLP1R**), answer:
+
+   1. Where is the *GLP1R* gene located?
+      - Chromosome, genomic coordinates, **genome assembly version**, and strand.
+
+   2. How many **transcripts** are annotated for *GLP1R*, and what are their **Ensembl transcript IDs (ENST)**?
+      - Identify the **canonical** and/or **MANE Select** transcript if shown.
+
+   3. For the **longest protein-coding transcript**, how many **exons** and **introns** does it have?
+
+   4. What are the **coordinates of all exons** for that transcript?
+
+   5. What are the coordinates of the **5′ UTR** and **3′ UTR**?
+
+   6. What are the coordinates of the **Transcription Start Site (TSS)** and the **start codon**?
+
+      > Reminder: the start codon encodes **Methionine (ATG)**.
+      > The **TSS** is the first transcribed base of the transcript and may be **upstream** of the start codon.
+
+   7. What is the **total gene length** in base pairs (bp)?
+
+   8. How would you compute the **total Coding Sequence (CDS) length**?
+
+      > Remember: `feature length = end − start + 1`.\
+      >
+      > Tip: Ensembl coordinates are **1-based, inclusive**; always confirm the strand.
+
+   
 :::
