@@ -270,29 +270,29 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
   * *Imatinib & Chromosomal Fusions*
 
 
-### Topic 5 \| Genomes and Regulation
+### Topic 5 | Genomes and Regulation
 
 **Exploring databases**:
-[Ensembl](https://www.ensembl.org),
-[UCSC Genome Browser](https://genome.ucsc.edu)
+[Ensembl](https://www.ensembl.org)
 
 * **Lecture topics**
 
-  * Exploring receptor variants in genome browsers — **Ensembl**
-  * Investigating regulatory regions and conservation — **UCSC Genome Browser**
-  * Comparing genomic representations of receptors — **Ensembl / UCSC**
+  * Navigating the Ensembl genome browser — **Ensembl**
+  * Exploring the *Glucagon-like peptide 1 receptor (GLP1R)* gene — **Ensembl**
+  * Understanding gene structure (exons, introns, UTRs, CDS) — **Ensembl**
 
 * **Learning goals**
 
-  * Learn to use genome browsers for receptor data.
-  * Explore regulation and conservation using genome visualisations.
-  * Integrate genomic data into functional context.
+  * Learn to locate a gene in a genome browser.
+  * Retrieve basic genomic information such as chromosomal position and gene structure.
+  * Interpret visual representations of genes and transcripts.
 
 * **TP Activity 6**
 
-  * *EGFR Inhibitors & Resistance Mechanisms*
+  * *Exploring the Semaglutide Target - GLP1R in Ensembl*
 
-### Topic 6 \| Pathways and Signalling
+
+### Topic 6 | Pathways and Signalling
 
 **Exploring databases**:
 [KEGG](https://www.genome.jp/kegg),
@@ -300,21 +300,20 @@ Drug ➝ Target ➝ Mechanism ➝ Structure ➝ Pathway ➝ Clinical impact
 
 * **Lecture topics**
 
-  * Exploring GLP-1 signalling pathways - KEGG
-  * Mapping metabolic and hormonal regulation into curated cascades - Reactome
-  * Comparing complementary pathway visualisations - KEGG / Reactome
-
+  * Exploring EGFR signalling pathways — **KEGG**
+  * Mapping growth factor–mediated cascades — **Reactome**
+  * Comparing complementary pathway visualisations — **KEGG / Reactome**
 
 * **Learning goals**
 
-  * Learn to navigate pathway maps to locate molecular players.
-  * Compare pathway representations across resources.
-  * Connect GLP-1 signalling pathways to therapeutic strategies such as semaglutide in the treatment of type 2 diabetes and obesity.
-
+  * Learn to navigate pathway maps to locate molecular participants in signalling.
+  * Compare representations of EGFR signalling across pathway databases.
+  * Connect EGFR pathways to therapeutic strategies such as tyrosine kinase inhibition in cancer treatment.
 
 * **TP Activity 6**
 
-  * *Semaglutide & Metabolic Pathways*
+  * *EGFR Signalling & Targeted Therapies*
+
 
 ### Final Evaluation | Integrating Bioinformatics information 
 

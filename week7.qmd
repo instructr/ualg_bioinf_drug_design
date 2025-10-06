@@ -4,23 +4,125 @@ title: "Integrating information | Bioinformatics Module Final Evaluation"
 
 ::: {.callout-note}
 ## Class Details
-📅 **Date:** 2025  
+📅 **Date:** 20/21 October 2025  
 📖 **Synopsis:** Presentation and discussion of the final video report.   
 :::
 
 
+Presentation and discussion of the video report prepared by each group, followed by a class discussion, to serve as final evaluation of the bioinformatics module.
 
 </br>
 
 ::: {.panel-tabset}
 
-# Video instructions
+# Final Project Guidelines
 
-*TBA*
+
+**Format and Deadlines**
+
+  * **Video submission:** A video of **2–5 minutes** must be uploaded to **Tutoria** by **17 October 2025**.
+  * **In-class presentation:** Each group will present for **3 minutes**, followed by a **5-minute discussion**, on **20 and 21 October 2025**.
+
+
+**Group Work**
+
+  * The project must be completed in **groups of two students**.
+  * Each **drug** can only be selected by **one group** (first come, first served).
+
+
+**Content Requirements**
+
+  * The work must integrate information from **at least five databases**, including:
+
+    * **Mandatory:** [DrugBank](https://go.drugbank.com), [UniProt](https://www.uniprot.org), and [RCSB PDB](https://www.rcsb.org).
+    * **Plus two additional databases** of your choice.
+  
+  * For drugs that have **multiple targets**, choose one that you find interesting and that also has a PDB entry. 
+  If you are unsure which to select, use the **first protein target** (as listed in the *Targets* section of *DrugBank*) **that also appears in the RCSB PDB database**. This will be the protein you explore further in your study.
+
+
+
+> Please note that some drug targets are not human proteins.
+
+
+**List of Drugs**
+
+  * Choose your **drug** for the project from the list provided below.
+  * Use this shared file [**linked here**](https://docs.google.com/spreadsheets/d/1LLLToOTOkrPdjUq_cv-61D0cDZz14UrYThknd_xo6U4/edit?usp=sharing) to make your selection.
+
+  | Drug Name            | DrugBank Entry Link                                                            | Therapeutic Area                  |
+| :------------------- | :----------------------------------------------------------------------------- | :-------------------------------- |
+| **Adalimumab**       | [https://go.drugbank.com/drugs/DB00051](https://go.drugbank.com/drugs/DB00051) | Immunology (Anti-TNF)             |
+| **Colchicine**       | [https://go.drugbank.com/drugs/DB01394](https://go.drugbank.com/drugs/DB01394) | Inflammatory / Immunology         |
+| **Cisplatin**        | [https://go.drugbank.com/drugs/DB00515](https://go.drugbank.com/drugs/DB00515) | Oncology                          |
+| **Methotrexate**     | [https://go.drugbank.com/drugs/DB00563](https://go.drugbank.com/drugs/DB00563) | Oncology / Autoimmune             |
+| **Tamoxifen**        | [https://go.drugbank.com/drugs/DB00675](https://go.drugbank.com/drugs/DB00675) | Oncology (Breast Cancer)          |
+| **Trastuzumab**      | [https://go.drugbank.com/drugs/DB00072](https://go.drugbank.com/drugs/DB00072) | Oncology (Breast Cancer)          |
+| **Amlodipine**       | [https://go.drugbank.com/drugs/DB00381](https://go.drugbank.com/drugs/DB00381) | Cardiovascular                    |
+| **Atorvastatin**     | [https://go.drugbank.com/drugs/DB01076](https://go.drugbank.com/drugs/DB01076) | Cardiovascular                    |
+| **Propranolol**      | [https://go.drugbank.com/drugs/DB00571](https://go.drugbank.com/drugs/DB00571) | Cardiovascular                    |
+| **Warfarin**         | [https://go.drugbank.com/drugs/DB00682](https://go.drugbank.com/drugs/DB00682) | Cardiovascular                    |
+| **Insulin Human**    | [https://go.drugbank.com/drugs/DB00030](https://go.drugbank.com/drugs/DB00030) | Diabetes / Endocrine              |
+| **Metformin**        | [https://go.drugbank.com/drugs/DB00331](https://go.drugbank.com/drugs/DB00331) | Diabetes / Endocrine              |
+| **Prednisone**       | [https://go.drugbank.com/drugs/DB00635](https://go.drugbank.com/drugs/DB00635) | Corticosteroid / Endocrine        |
+| **Levonorgestrel**   | [https://go.drugbank.com/drugs/DB00367](https://go.drugbank.com/drugs/DB00367) | Hormonal / Reproductive           |
+| **Ethinylestradiol** | [https://go.drugbank.com/drugs/DB00977](https://go.drugbank.com/drugs/DB00977) | Hormonal / Reproductive           |
+| **Sildenafil**       | [https://go.drugbank.com/drugs/DB00203](https://go.drugbank.com/drugs/DB00203) | Urology                           |
+| **Fluoxetine**       | [https://go.drugbank.com/drugs/DB00472](https://go.drugbank.com/drugs/DB00472) | Psychiatry (Antidepressant)       |
+| **Haloperidol**      | [https://go.drugbank.com/drugs/DB00502](https://go.drugbank.com/drugs/DB00502) | Psychiatry (Antipsychotic)        |
+| **Methylphenidate**  | [https://go.drugbank.com/drugs/DB00422](https://go.drugbank.com/drugs/DB00422) | Psychiatry / Neurology (ADHD)     |
+| **Levodopa**         | [https://go.drugbank.com/drugs/DB01235](https://go.drugbank.com/drugs/DB01235) | Neurology (Parkinson’s)           |
+| **Pregabalin**       | [https://go.drugbank.com/drugs/DB00230](https://go.drugbank.com/drugs/DB00230) | Neurology (Anticonvulsant / Pain) |
+| **Zolpidem**         | [https://go.drugbank.com/drugs/DB00425](https://go.drugbank.com/drugs/DB00425) | Sleep / Psychiatry                |
+| **Morphine**         | [https://go.drugbank.com/drugs/DB00295](https://go.drugbank.com/drugs/DB00295) | Pain Management                   |
+| **Acetaminophen**    | [https://go.drugbank.com/drugs/DB00316](https://go.drugbank.com/drugs/DB00316) | Pain / Analgesic                  |
+| **Isoniazid**        | [https://go.drugbank.com/drugs/DB00951](https://go.drugbank.com/drugs/DB00951) | Antibacterial (Tuberculosis)      |
+
+
 
 # Evaluation criteria
 
-*TBA*
+### **Evaluation Criteria | Final Project**
+
+To keep a **fair and balanced evaluation scheme**, we will include instructor and peer evaluation, rewarding *clarity*, *teamwork*, and *scientific rigor*.
+
+The final project is graded out of **20 points**, combining **instructor evaluation (15 points)** and **peer evaluation (5 points)**.
+
+> *All group members receive the same grade unless there is clear evidence of unequal contribution.*
+
+
+#### **1. Instructor Evaluation (15 points total)**
+
+| **Category**                                        | **Description**                                                                                                                                                                                 | **Points** |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| **A. Scientific Content (6 pts)**                   | Accuracy and depth of information. Correct use of database resources (DrugBank, UniProt, PDB, +2 chosen). Demonstrates understanding of molecular mechanisms, targets, and therapeutic context. | 0–6        |
+| **B. Integration of Databases (3 pts)**             | Effective combination of data from multiple sources. Proper referencing and data interpretation rather than simple copying.                                                                     | 0–3        |
+| **C. Communication & Clarity (3 pts)**              | Clear, well-organized narrative in both video and oral presentation. Proper scientific terminology, logical flow, and engaging visuals.                                                         | 0–3        |
+| **D. Team Collaboration & Professionalism (3 pts)** | Evidence of balanced contribution, time management, and adherence to submission deadlines.                                                                                                      | 0–3        |
+
+
+
+#### **2. Peer Evaluation (5 points total)**
+
+Each student will anonymously evaluate **two other groups** after the presentations, using the following criteria.
+Average peer scores will contribute up to **5 points** to the group’s final mark.
+
+| **Category**                           | **Description**                                                                  | **Points** |
+| -------------------------------------- | -------------------------------------------------------------------------------- | ---------- |
+| **A. Clarity of Presentation (2 pts)** | Was the presentation easy to follow and visually clear?                          |            |
+| **B. Scientific Interest (2 pts)**     | Did the presentation make you learn or think about something new or interesting? |            |
+| **C. Engagement (1 pt)**               | Did the presenters engage with the audience or respond well to questions?        |            |
+
+*Peer evaluations will be normalized so that all groups are fairly assessed.*
+
+
+#### **Final Grade Calculation**
+
+| Source                | Weight   | Maximum Points |
+| --------------------- | -------- | -------------- |
+| Instructor evaluation | 75%      | 15             |
+| Peer evaluation       | 25%      | 5              |
+| **Total**             | **100%** | **20**         |
 
 
 :::

@@ -4,21 +4,21 @@ title: "Topic 5 | Genomes and Regulation"
 
 ::: {.callout-note}
 ## Class Details
-📅 **Date:** 2025  
-📖 **Synopsis:** Exploring databases: Ensembl, UCSC Genome Browser  
+📅 **Date:** 06/07 October 2025  
+📖 **Synopsis:** Exploring gene structure and annotations using the Ensembl genome browser  
 :::
 
 **Lecture topics**
 
-  - Exploring receptor variants in genome browsers - Ensembl
-  - Investigating regulatory regions and conservation - UCSC Genome Browser
-  - Comparing genomic representations of receptors - Ensembl / UCSC
+  * Navigating the Ensembl genome browser — **Ensembl**
+  * Exploring the *Glucagon-like peptide 1 receptor (GLP1R)* gene — **Ensembl**
+  * Understanding gene structure (exons, introns, UTRs, CDS) — **Ensembl**
 
 **Learning goals**
 
-  - Learn to use genome browsers for receptor data.
-  - Explore regulation and conservation using genome visualisations.
-  - Integrate genomic data into functional context.
+  * Learn to locate a gene in a genome browser.
+  * Retrieve basic genomic information such as chromosomal position and gene structure.
+  * Interpret visual representations of genes and transcripts.
 
 </br>
 
@@ -31,6 +31,6 @@ title: "Topic 5 | Genomes and Regulation"
 
 **TP Activity 5:**
 
-**EGFR Inhibitors & Resistance Mechanisms**
+**Exploring the Semaglutide Target - GLP1R in Ensembl**
 
 :::
