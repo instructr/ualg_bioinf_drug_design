@@ -214,11 +214,79 @@ Class Details
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Theory</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Practical</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-
+<section id="about-reactome-and-kegg" class="level4">
+<h4 class="anchored" data-anchor-id="about-reactome-and-kegg"><strong>About Reactome and KEGG</strong></h4>
+<p><strong>Reactome</strong> and <strong>KEGG</strong> are major pathway databases that help us understand how genes and proteins work together in biological systems.</p>
+<ul>
+<li><p><strong>Reactome</strong> focuses on detailed, expert-curated biological pathways, showing how molecules interact in signaling, metabolism, and disease processes. Each step in a pathway is supported by scientific evidence and linked to external resources such as UniProt and PubMed.</p></li>
+<li><p><strong>KEGG</strong> (Kyoto Encyclopedia of Genes and Genomes) provides a more schematic view of pathways, connecting <strong>genes</strong>, <strong>proteins</strong>, <strong>metabolites</strong>, and <strong>drugs</strong> across species. It is especially strong in illustrating <strong>metabolic and signaling networks</strong> and linking them to <strong>human diseases</strong> and <strong>therapeutic compounds</strong>.</p></li>
+</ul>
+<p>In the context of the pharmaceutical sciences, these databases are essential resources because they show how <strong>molecular targets</strong> (like receptors or enzymes) fit into larger <strong>cellular processes</strong> and <strong>disease mechanisms</strong>.</p>
+<p>They complement other databases such as <strong>DrugBank</strong> (focused on drugs and their targets), <strong>UniProt</strong> (focused on proteins), and <strong>Ensembl</strong>, <strong>ClinVar</strong> or <strong>OMIM</strong> (focused on genes, their variants, and phenotypes/diseases).</p>
+<p>Together, they provide a complete view from <strong>gene → protein → pathway → drug → therapy</strong>, enabling a systems-level understanding of how medicines work and how resistance or side effects may arise.</p>
+</section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p><strong>TP Activity 6</strong></p>
 <p><strong>EGFR Signalling &amp; Targeted Therapies</strong></p>
+<section id="goal" class="level4">
+<h4 class="anchored" data-anchor-id="goal"><strong>Goal</strong></h4>
+<p>By the end of this activity, you should be able to:</p>
+<ul>
+<li><p><strong>Explore</strong> and <strong>critically interpret bioinformatics databases</strong> to connect the drug target <strong>EGFR</strong> gene with its <strong>cellular functions</strong>, <strong>pathway interactions</strong>, and <strong>drugs that act on it</strong>.</p></li>
+<li><p>Use the following databases:</p>
+<ul>
+<li><a href="https://www.genome.jp/kegg">KEGG</a></li>
+<li><a href="https://reactome.org/">Reactome</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="how-to-work" class="level4">
+<h4 class="anchored" data-anchor-id="how-to-work"><strong>How to Work</strong></h4>
+<ol type="1">
+<li><p><strong>Search for “Epidermal Growth Factor Receptor” (EGFR)</strong> in <a href="https://go.drugbank.com">DrugBank</a>.</p>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> Make sure to search under the <strong>Targets</strong> section - <em>not</em> under Drugs (which is the default).</p>
+</blockquote>
+<p>In the <strong>DrugBank</strong> entry, answer the following:</p>
+<ul>
+<li><p>1.1. How many drugs are currently reported in DrugBank to interact with EGFR?</p></li>
+<li><p>1.2. How many of these are inhibitors?</p></li>
+</ul></li>
+<li><p>Find and follow the <strong>UniProt</strong> external link from the DrugBank page. Briefly explore the UniProt entry for EGFR.</p>
+<p>In <strong>UniProt</strong>, answer the following:</p>
+<ul>
+<li><p>2.1. What is the UniProt ID for the protein? How long is the protein?</p></li>
+<li><p>2.2. Is this a well-annotated and reliable entry?</p>
+<ul>
+<li><em>(Hint: check the annotation score and click the info icon to understand what it represents. )</em></li>
+</ul></li>
+<li><p>2.3. In the <em>Genomic coordinates</em> section, on which chromosome and strand is the EGFR gene located? Which genome assembly version is used?</p></li>
+<li><p>2.4. What is the genomic location and how many exons does the <strong>canonical isoform</strong> have?</p></li>
+</ul></li>
+<li><p>In <strong>UniProt</strong>, go to the <strong>External links</strong> tab and find the section <strong>Enzyme and Pathway Databases</strong>. There you will find several <em>Reactome</em> pathway links involving EGFR.</p>
+<p>Follow the link to the pathway <strong>“Signaling by EGFR.”</strong> Explore the pathway and answer the following:</p>
+<ul>
+<li><p>3.1. Write a brief (2-sentence) summary of the EGFR function.</p></li>
+<li><p>3.2. How many molecules (chemical compounds and proteins) are involved in the pathway?</p></li>
+<li><p>3.3. Which gene shows the highest expression across tissues and organs?</p></li>
+<li><p>3.4. Download the pathway diagram as a <strong>high-resolution PNG</strong> file.</p></li>
+<li><p>3.5. Save an image of the <strong>EGFR signaling illustration</strong>.</p></li>
+<li><p>3.6. Find and explore the <strong>Voronoi visualization</strong> of the complete Reactome pathways. Download the image.</p></li>
+</ul></li>
+<li><p>Return to the <strong>UniProt</strong> entry and locate the <strong>KEGG</strong> link under the section <em>Genome Annotation Databases</em>.</p>
+<p>In <strong>KEGG</strong>, answer the following:</p>
+<ul>
+<li><p>4.1. How many <strong>OMIM</strong> entries are linked from the EGFR gene page?</p></li>
+<li><p>4.2. Explore the pathway <strong>“EGFR Tyrosine Kinase Inhibitor Resistance.”</strong> Identify the drugs marked as <strong>tyrosine kinase inhibitors</strong> in this pathway.</p></li>
+<li><p>4.3. Are these drugs also listed in DrugBank?</p>
+<ul>
+<li>What might explain any discrepancy between the number of drugs listed in the two databases?</li>
+<li>Which database do you consider more reliable, and why?</li>
+</ul></li>
+</ul></li>
+</ol>
+</section>
 </div>
 </div>
 </div>
